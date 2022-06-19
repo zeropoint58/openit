@@ -21,6 +21,7 @@ proxies:
   - {name: 🇨🇦 CA 2｜openit.ml, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 3｜openit.ml, server: flb.alinkrelay.com, port: 12000, type: trojan, password: 80114348-eea5-43b3-8705-2da4430d3074, sni: flb.alinkrelay.com, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 Vip1丨加拿大08丨, server: us08.jafiyun.life, port: 21121, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大  40, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
   - {name: 🇨🇳 CN 10｜openit.ml, server: 103.56.62.145, port: 3382, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 11｜openit.ml, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 12｜openit.ml, server: 120.233.186.250, port: 3382, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
@@ -57,6 +58,7 @@ proxies:
   - {name: 🇭🇰 HK 5｜openit.ml, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk01.yiyodns.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 Vip1丨SCLOUD-58-香港丨Trojan丨, server: scloud58.jafiyun.life, port: 22058, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud58.jafiyun.life, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 Vip1丨香港01丨Disney 丨禁轮子相关访问, server: hk01.jafiyun.life, port: 21134, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk01.jafiyun.life}}, udp: true}
+  - {name: 🇭🇰 香港B-限速, server: hkbgp2.jiantian.xyz, port: 34532, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp2.jiantian.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇮🇳 Vip1-A丨印度09丨, server: us09.jafiyun.life, port: 21122, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1｜openit.ml, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp-03.licom.ml, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Vip1丨SCLOUD-50-日本丨Trojan丨, server: scloud50.jafiyun.life, port: 22050, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud50.jafiyun.life, skip-cert-verify: true, udp: true}
@@ -76,6 +78,7 @@ proxies:
   - {name: 🇷🇺 RU 1｜openit.ml, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 2｜openit.ml, server: hkbgp2.jiantian.xyz, port: 34532, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp2.jiantian.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 3｜openit.ml, server: t03.ssrsub.com, port: 18443, type: trojan, password: 57229afb-d4e4-426e-bfdc-18fc1f3267fd, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯  42, server: hkbgp2.jiantian.xyz, port: 34532, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp2.jiantian.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 10｜openit.ml, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-04.licom.ml, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 11｜openit.ml, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-03.licom.ml, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 1｜openit.ml, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
@@ -130,6 +133,7 @@ proxies:
   - {name: 🇺🇸 Vip1丨美国01丨, server: us01.jafiyun.life, port: 21114, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Vip1丨美国02丨, server: us02.jafiyun.life, port: 21115, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Vip1丨美国03丨, server: us03.jafiyun.life, port: 21116, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 16, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47.v2dns.bar}}, udp: true}
   - {name: 🇻🇳 Vip1丨SCLOUD-54-越南丨Trojan丨, server: scloud54.jafiyun.life, port: 22054, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud54.jafiyun.life, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 Proxy
@@ -158,6 +162,7 @@ proxy-groups:
       - 🇨🇦 CA 2｜openit.ml
       - 🇨🇦 CA 3｜openit.ml
       - 🇨🇦 Vip1丨加拿大08丨
+      - 🇨🇦 加拿大  40
       - 🇨🇳 CN 10｜openit.ml
       - 🇨🇳 CN 11｜openit.ml
       - 🇨🇳 CN 12｜openit.ml
@@ -194,6 +199,7 @@ proxy-groups:
       - 🇭🇰 HK 5｜openit.ml
       - 🇭🇰 Vip1丨SCLOUD-58-香港丨Trojan丨
       - 🇭🇰 Vip1丨香港01丨Disney 丨禁轮子相关访问
+      - 🇭🇰 香港B-限速
       - 🇮🇳 Vip1-A丨印度09丨
       - 🇯🇵 JP 1｜openit.ml
       - 🇯🇵 Vip1丨SCLOUD-50-日本丨Trojan丨
@@ -213,6 +219,7 @@ proxy-groups:
       - 🇷🇺 RU 1｜openit.ml
       - 🇷🇺 RU 2｜openit.ml
       - 🇷🇺 RU 3｜openit.ml
+      - 🇷🇺 俄罗斯  42
       - 🇸🇬 SG 10｜openit.ml
       - 🇸🇬 SG 11｜openit.ml
       - 🇸🇬 SG 1｜openit.ml
@@ -267,6 +274,7 @@ proxy-groups:
       - 🇺🇸 Vip1丨美国01丨
       - 🇺🇸 Vip1丨美国02丨
       - 🇺🇸 Vip1丨美国03丨
+      - 🇺🇸 美国CloudFlare公司CDN节点 16
       - 🇻🇳 Vip1丨SCLOUD-54-越南丨Trojan丨
 rules:
  - MATCH,🌐 Proxy
