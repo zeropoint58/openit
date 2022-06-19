@@ -15,9 +15,11 @@ proxies:
   - {name: 🇦🇺 AU 2｜openit.ml, server: kk.2046.gq, port: 4443, type: trojan, password: 9eef43d9-712e-4850-bb7a-12b279a96de5, sni: kk.2046.gq, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 3｜openit.ml, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 4｜openit.ml, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 Vip1丨澳大利亚01丨61, server: au01.jafiyun.life, port: 21161, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 1｜openit.ml, server: 67us01.fans8.xyz, port: 443, type: trojan, password: 6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93, sni: 67us01.fans8.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 2｜openit.ml, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 3｜openit.ml, server: flb.alinkrelay.com, port: 12000, type: trojan, password: 80114348-eea5-43b3-8705-2da4430d3074, sni: flb.alinkrelay.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 Vip1丨加拿大08丨, server: us08.jafiyun.life, port: 21121, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 10｜openit.ml, server: 103.56.62.145, port: 3382, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 11｜openit.ml, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 12｜openit.ml, server: 120.233.186.250, port: 3382, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
@@ -35,18 +37,41 @@ proxies:
   - {name: 🇨🇳 CN 7｜openit.ml, server: 116.129.254.29, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 8｜openit.ml, server: 116.129.254.29, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 9｜openit.ml, server: zh01lv3sgp01.feiguayun.xyz, port: 50031, type: ss, cipher: aes-256-gcm, password: 6f8ebe83-8910-4106-9dc4-18a41cc20ed4, udp: true}
+  - {name: 🇨🇳 Vip1丨SCLOUD-28-台湾丨Trojan丨NETFLIX丨Disney, server: scloud28.jafiyun.life, port: 22028, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud28.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 Vip1丨SCLOUD-29-台湾丨Trojan丨NETFLIX丨Disney, server: scloud29.jafiyun.life, port: 22029, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud29.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 Vip1丨SCLOUD-30-台湾丨Trojan丨NETFLIX丨Disney, server: scloud30.jafiyun.life, port: 22030, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud30.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 Vip1丨SCLOUD-51-台湾丨Trojan丨NETFLIX丨Disney, server: scloud51.jafiyun.life, port: 22051, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud51.jafiyun.life, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 DE 1｜openit.ml, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 Vip1丨德国06丨, server: us06.jafiyun.life, port: 21119, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1｜openit.ml, server: 193.178.210.29, port: 443, type: trojan, password: iKR3Ft, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 1｜openit.ml, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 2｜openit.ml, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 3｜openit.ml, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 Vip1-A丨英国10丨, server: us10.jafiyun.life, port: 21123, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 Vip1丨SCLOUD-56-英国丨Trojan丨, server: scloud56.jafiyun.life, port: 22056, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud56.jafiyun.life, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 1｜openit.ml, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 2｜openit.ml, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 3｜openit.ml, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 4｜openit.ml, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk02.yiyodns.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 5｜openit.ml, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk01.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 Vip1丨SCLOUD-58-香港丨Trojan丨, server: scloud58.jafiyun.life, port: 22058, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud58.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 Vip1丨香港01丨Disney 丨禁轮子相关访问, server: hk01.jafiyun.life, port: 21134, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hk01.jafiyun.life}}, udp: true}
+  - {name: 🇮🇳 Vip1-A丨印度09丨, server: us09.jafiyun.life, port: 21122, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1｜openit.ml, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp-03.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 Vip1丨SCLOUD-50-日本丨Trojan丨, server: scloud50.jafiyun.life, port: 22050, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud50.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 Vip1丨日本01丨, server: jp01.jafiyun.life, port: 21124, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 Vip1丨日本02丨, server: jp02.jafiyun.life, port: 21125, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 Vip1丨日本03丨, server: jp03.jafiyun.life, port: 21126, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 Vip1丨日本04丨27丨Disney 丨youtube评论, server: jp04.jafiyun.life, port: 21127, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 Vip1丨日本05丨32 丨trojan丨, server: jp05.jafiyun.life, port: 21232, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: jp05.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 Vip1丨日本06丨33丨trojan丨, server: jp06.jafiyun.life, port: 21233, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: jp06.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 Vip1丨日本59丨联通优化丨trojan丨, server: jp59.jafiyun.life, port: 22059, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: jp59.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 Vip1丨日本60丨联通优化丨trojan丨, server: jp60.jafiyun.life, port: 22060, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: jp60.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 Vip1丨SCLOUD-52-韩国丨Trojan丨, server: scloud52.jafiyun.life, port: 22052, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud52.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 Vip1丨韩国02丨NETFLIX(韩国区)丨Disney, server: kr02.jafiyun.life, port: 21149, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 MY 1｜openit.ml, server: my02.hmkj55.xyz, port: 54444, type: trojan, password: 1ac27c98-7883-483b-b958-7d6a68b60663, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 Vip1丨荷兰07丨, server: us07.jafiyun.life, port: 21120, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇭 Vip1丨SCLOUD-55-菲律宾丨Trojan丨, server: scloud55.jafiyun.life, port: 22055, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud55.jafiyun.life, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 1｜openit.ml, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 2｜openit.ml, server: hkbgp2.jiantian.xyz, port: 34532, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp2.jiantian.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 3｜openit.ml, server: t03.ssrsub.com, port: 18443, type: trojan, password: 57229afb-d4e4-426e-bfdc-18fc1f3267fd, skip-cert-verify: true, udp: true}
@@ -61,6 +86,11 @@ proxies:
   - {name: 🇸🇬 SG 7｜openit.ml, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, sni: w12.udpgw.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 8｜openit.ml, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 9｜openit.ml, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Vip1丨SCLOUD-53-新加坡丨Trojan丨, server: scloud53.jafiyun.life, port: 22053, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud53.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Vip1丨新加坡01丨, server: sg01.jafiyun.life, port: 21104, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Vip1丨新加坡02丨, server: sg02.jafiyun.life, port: 21105, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Vip1丨新加坡03丨, server: sg03.jafiyun.life, port: 21106, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Vip1丨新加坡04丨, server: sg04.jafiyun.life, port: 21107, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 10｜openit.ml, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 11｜openit.ml, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 12｜openit.ml, server: ocijp.n.optage.moe, port: 44616, type: trojan, password: 80114348-eea5-43b3-8705-2da4430d3074, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
@@ -95,6 +125,11 @@ proxies:
   - {name: 🇺🇸 US 7｜openit.ml, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 8｜openit.ml, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 9｜openit.ml, server: blr.alinkrelay.com, port: 12000, type: trojan, password: 80114348-eea5-43b3-8705-2da4430d3074, sni: blr.alinkrelay.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Vip1丨SCLOUD-57-美国丨Trojan丨, server: scloud57.jafiyun.life, port: 22057, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud57.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Vip1丨美国01丨, server: us01.jafiyun.life, port: 21114, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Vip1丨美国02丨, server: us02.jafiyun.life, port: 21115, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Vip1丨美国03丨, server: us03.jafiyun.life, port: 21116, type: vmess, uuid: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 Vip1丨SCLOUD-54-越南丨Trojan丨, server: scloud54.jafiyun.life, port: 22054, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud54.jafiyun.life, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 Proxy
     type: select
@@ -116,9 +151,11 @@ proxy-groups:
       - 🇦🇺 AU 2｜openit.ml
       - 🇦🇺 AU 3｜openit.ml
       - 🇦🇺 AU 4｜openit.ml
+      - 🇦🇺 Vip1丨澳大利亚01丨61
       - 🇨🇦 CA 1｜openit.ml
       - 🇨🇦 CA 2｜openit.ml
       - 🇨🇦 CA 3｜openit.ml
+      - 🇨🇦 Vip1丨加拿大08丨
       - 🇨🇳 CN 10｜openit.ml
       - 🇨🇳 CN 11｜openit.ml
       - 🇨🇳 CN 12｜openit.ml
@@ -136,18 +173,41 @@ proxy-groups:
       - 🇨🇳 CN 7｜openit.ml
       - 🇨🇳 CN 8｜openit.ml
       - 🇨🇳 CN 9｜openit.ml
+      - 🇨🇳 Vip1丨SCLOUD-28-台湾丨Trojan丨NETFLIX丨Disney
+      - 🇨🇳 Vip1丨SCLOUD-29-台湾丨Trojan丨NETFLIX丨Disney
+      - 🇨🇳 Vip1丨SCLOUD-30-台湾丨Trojan丨NETFLIX丨Disney
+      - 🇨🇳 Vip1丨SCLOUD-51-台湾丨Trojan丨NETFLIX丨Disney
       - 🇩🇪 DE 1｜openit.ml
+      - 🇩🇪 Vip1丨德国06丨
       - 🇫🇷 FR 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
       - 🇬🇧 GB 3｜openit.ml
+      - 🇬🇧 Vip1-A丨英国10丨
+      - 🇬🇧 Vip1丨SCLOUD-56-英国丨Trojan丨
       - 🇭🇰 HK 1｜openit.ml
       - 🇭🇰 HK 2｜openit.ml
       - 🇭🇰 HK 3｜openit.ml
       - 🇭🇰 HK 4｜openit.ml
       - 🇭🇰 HK 5｜openit.ml
+      - 🇭🇰 Vip1丨SCLOUD-58-香港丨Trojan丨
+      - 🇭🇰 Vip1丨香港01丨Disney 丨禁轮子相关访问
+      - 🇮🇳 Vip1-A丨印度09丨
       - 🇯🇵 JP 1｜openit.ml
+      - 🇯🇵 Vip1丨SCLOUD-50-日本丨Trojan丨
+      - 🇯🇵 Vip1丨日本01丨
+      - 🇯🇵 Vip1丨日本02丨
+      - 🇯🇵 Vip1丨日本03丨
+      - 🇯🇵 Vip1丨日本04丨27丨Disney 丨youtube评论
+      - 🇯🇵 Vip1丨日本05丨32 丨trojan丨
+      - 🇯🇵 Vip1丨日本06丨33丨trojan丨
+      - 🇯🇵 Vip1丨日本59丨联通优化丨trojan丨
+      - 🇯🇵 Vip1丨日本60丨联通优化丨trojan丨
+      - 🇰🇷 Vip1丨SCLOUD-52-韩国丨Trojan丨
+      - 🇰🇷 Vip1丨韩国02丨NETFLIX(韩国区)丨Disney
       - 🇲🇾 MY 1｜openit.ml
+      - 🇳🇱 Vip1丨荷兰07丨
+      - 🇵🇭 Vip1丨SCLOUD-55-菲律宾丨Trojan丨
       - 🇷🇺 RU 1｜openit.ml
       - 🇷🇺 RU 2｜openit.ml
       - 🇷🇺 RU 3｜openit.ml
@@ -162,6 +222,11 @@ proxy-groups:
       - 🇸🇬 SG 7｜openit.ml
       - 🇸🇬 SG 8｜openit.ml
       - 🇸🇬 SG 9｜openit.ml
+      - 🇸🇬 Vip1丨SCLOUD-53-新加坡丨Trojan丨
+      - 🇸🇬 Vip1丨新加坡01丨
+      - 🇸🇬 Vip1丨新加坡02丨
+      - 🇸🇬 Vip1丨新加坡03丨
+      - 🇸🇬 Vip1丨新加坡04丨
       - 🇺🇸 US 10｜openit.ml
       - 🇺🇸 US 11｜openit.ml
       - 🇺🇸 US 12｜openit.ml
@@ -196,5 +261,10 @@ proxy-groups:
       - 🇺🇸 US 7｜openit.ml
       - 🇺🇸 US 8｜openit.ml
       - 🇺🇸 US 9｜openit.ml
+      - 🇺🇸 Vip1丨SCLOUD-57-美国丨Trojan丨
+      - 🇺🇸 Vip1丨美国01丨
+      - 🇺🇸 Vip1丨美国02丨
+      - 🇺🇸 Vip1丨美国03丨
+      - 🇻🇳 Vip1丨SCLOUD-54-越南丨Trojan丨
 rules:
  - MATCH,🌐 Proxy
