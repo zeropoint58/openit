@@ -26,7 +26,7 @@ sub: # 注有#的是失效的订阅链接
  # GitLab托管b64订阅链接
   - https://api.sublink.dev/sub?target=clash&url=https://gitlab.com/xlzlucky/bpjd/-/raw/main/freejd #北葵分享qq261619242
  # 机场b64订阅链接
-  - 
+  - https://api.sublink.dev/sub?target=clash&url=https://www.992266.xyz/api/v1/client/subscribe?token=ab825616355b0973e4cdfb659665965f
 # proxypool节点池
  # http开头
   - http://wxshi.top:9090/clash/proxies
