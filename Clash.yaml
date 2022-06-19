@@ -14,13 +14,12 @@ proxies:
   - {name: UA 3 |  openit.ml, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
   - {name: UA 4 |  openit.ml, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
   - {name: UA 5 |  openit.ml, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
-  - {name: unknown 1 | N(-)D openit.ml, server: 5.44.249.43, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: unknown 1 |  openit.ml, server: 5.44.249.43, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
   - {name: unknown 2 |  openit.ml, server: 103.173.255.127, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: unknown 3 |  openit.ml, server: transfer3.gzfxd.xyz, port: 50992, type: trojan, password: 9a992a09-e9b1-3fe1-a822-e79bd80d3874, sni: sg1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: unknown 3 | D openit.ml, server: transfer3.gzfxd.xyz, port: 50992, type: trojan, password: 9a992a09-e9b1-3fe1-a822-e79bd80d3874, sni: sg1.nodegz.top, skip-cert-verify: true, udp: true}
   - {name: unknown 4 | N(-)D openit.ml, server: transfer3.gzfxd.xyz, port: 43215, type: trojan, password: 9a992a09-e9b1-3fe1-a822-e79bd80d3874, sni: nl1.nodegz.top, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 1 | D openit.ml, server: kk.2046.gq, port: 4443, type: trojan, password: 9eef43d9-712e-4850-bb7a-12b279a96de5, sni: kk.2046.gq, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 2 | N(-)D openit.ml, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU 3 | D openit.ml, server: ocikr.n.optage.moe, port: 44600, type: trojan, password: 80114348-eea5-43b3-8705-2da4430d3074, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 1 | D openit.ml, server: 67us01.fans8.xyz, port: 443, type: trojan, password: 6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93, sni: 67us01.fans8.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 2 | N(-)D openit.ml, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 3 | D openit.ml, server: flb.alinkrelay.com, port: 12000, type: trojan, password: 80114348-eea5-43b3-8705-2da4430d3074, sni: flb.alinkrelay.com, skip-cert-verify: true, udp: true}
@@ -33,44 +32,44 @@ proxies:
   - {name: "🇨🇳 CN 14 | {{result}} openit.ml", server: 112.65.53.150, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
   - {name: "🇨🇳 CN 15 | {{result}} openit.ml", server: 183.232.141.114, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: dC5tZS92cG5oYXQ, udp: true}
   - {name: "🇨🇳 CN 16 | {{result}} openit.ml", server: 112.65.53.150, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
-  - {name: 🇨🇳 CN 17 | N(-)D openit.ml, server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 17 |  openit.ml, server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 18 | D openit.ml, server: zh01lv5tw03.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 6f8ebe83-8910-4106-9dc4-18a41cc20ed4, udp: true}
-  - {name: 🇨🇳 CN 19 | N(-)D openit.ml, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 19 |  openit.ml, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
   - {name: "🇨🇳 CN 2 | {{result}} openit.ml", server: 183.232.141.109, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: dC5tZS92cG5oYXQ, udp: true}
   - {name: 🇨🇳 CN 20 | D openit.ml, server: 116.129.254.29, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 21 | D openit.ml, server: 116.129.254.29, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 22 | D openit.ml, server: 116.129.254.29, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 23 | N(-)D openit.ml, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 24 | N(-)D openit.ml, server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 23 |  openit.ml, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 24 |  openit.ml, server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 25 | N(-)D openit.ml, server: hnyd.xxcv.cc, port: 20040, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 26 | D openit.ml, server: hnyd.xxcv.cc, port: 20080, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 27 | N(-)D openit.ml, server: 116.129.253.201, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 28 | N(-)D openit.ml, server: 116.129.253.201, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 29 | N(-)D openit.ml, server: 116.129.253.201, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 27 |  openit.ml, server: 116.129.253.201, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 28 |  openit.ml, server: 116.129.253.201, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 29 |  openit.ml, server: 116.129.253.201, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
   - {name: "🇨🇳 CN 3 | {{result}} openit.ml", server: 183.232.141.109, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: dC5tZS92cG5oYXQ, udp: true}
   - {name: 🇨🇳 CN 30 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 6377, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
-  - {name: 🇨🇳 CN 31 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 3377, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
-  - {name: 🇨🇳 CN 32 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 2222, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
+  - {name: 🇨🇳 CN 31 | D openit.ml, server: rtx.1660.super.as58466.com, port: 3377, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
+  - {name: 🇨🇳 CN 32 | N(-) openit.ml, server: rtx.1660.super.as58466.com, port: 2222, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 33 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 2224, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 34 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 6411, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 35 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 6399, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 36 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 3388, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
-  - {name: 🇨🇳 CN 37 | D openit.ml, server: rtx.1660.super.as58466.com, port: 6644, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
+  - {name: 🇨🇳 CN 37 |  openit.ml, server: rtx.1660.super.as58466.com, port: 6644, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 38 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 3399, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 39 | D openit.ml, server: rtx.1660.super.as58466.com, port: 9922, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: "🇨🇳 CN 4 | {{result}} openit.ml", server: 183.232.141.82, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
   - {name: 🇨🇳 CN 40 |  openit.ml, server: rtx.1660.super.as58466.com, port: 4466, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
-  - {name: 🇨🇳 CN 41 |  openit.ml, server: rtx.1660.super.as58466.com, port: 9911, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
-  - {name: 🇨🇳 CN 42 |  openit.ml, server: 103.56.62.145, port: 3382, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 41 | D openit.ml, server: rtx.1660.super.as58466.com, port: 9911, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
+  - {name: 🇨🇳 CN 42 | D openit.ml, server: 103.56.62.145, port: 3382, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 43 | D openit.ml, server: rtx.1660.super.as58466.com, port: 4455, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 44 |  openit.ml, server: rtx.1660.super.as58466.com, port: 2230, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 45 |  openit.ml, server: rtx.1660.super.as58466.com, port: 6633, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 46 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 3320, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 47 | D openit.ml, server: rtx.1660.super.as58466.com, port: 2238, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
-  - {name: 🇨🇳 CN 48 |  openit.ml, server: rtx.1660.super.as58466.com, port: 6622, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
+  - {name: 🇨🇳 CN 48 | D openit.ml, server: rtx.1660.super.as58466.com, port: 6622, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 49 | D openit.ml, server: rtx.1660.super.as58466.com, port: 3366, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: "🇨🇳 CN 5 | {{result}} openit.ml", server: 183.232.141.82, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
-  - {name: 🇨🇳 CN 50 |  openit.ml, server: rtx.1660.super.as58466.com, port: 2232, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
+  - {name: 🇨🇳 CN 50 | D openit.ml, server: rtx.1660.super.as58466.com, port: 2232, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 51 | D openit.ml, server: rtx.1660.super.as58466.com, port: 2236, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 52 | D openit.ml, server: gy.ziqiyun.xyz, port: 47795, type: ss, cipher: chacha20-ietf-poly1305, password: 59836db8-6e5f-4b8b-aa1e-3963f9d9c923, udp: true}
   - {name: 🇨🇳 CN 53 |  openit.ml, server: rtx.1660.super.as58466.com, port: 9966, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
@@ -83,28 +82,28 @@ proxies:
   - {name: "🇨🇳 CN 6 | {{result}} openit.ml", server: 112.64.98.228, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
   - {name: 🇨🇳 CN 60 | D openit.ml, server: hnyd.xxcv.cc, port: 20030, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 61 |  openit.ml, server: rtx.1660.super.as58466.com, port: 9957, type: ss, cipher: aes-128-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
-  - {name: 🇨🇳 CN 62 | D openit.ml, server: rtx.1660.super.as58466.com, port: 3344, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
+  - {name: 🇨🇳 CN 62 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 3344, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 63 |  openit.ml, server: rtx.1660.super.as58466.com, port: 9956, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 64 |  openit.ml, server: 14.29.124.168, port: 24003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 🇨🇳 CN 65 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 2226, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 66 | N(-)D openit.ml, server: rtx.1660.super.as58466.com, port: 2246, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
-  - {name: 🇨🇳 CN 67 | D openit.ml, server: rtx.1660.super.as58466.com, port: 6619, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
+  - {name: 🇨🇳 CN 67 |  openit.ml, server: rtx.1660.super.as58466.com, port: 6619, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 68 | D openit.ml, server: rtx.1660.super.as58466.com, port: 3340, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 69 | D openit.ml, server: hnyd.xxcv.cc, port: 20130, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: "🇨🇳 CN 7 | {{result}} openit.ml", server: 112.64.98.228, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
   - {name: 🇨🇳 CN 70 | D openit.ml, server: rtx.1660.super.as58466.com, port: 3355, type: ss, cipher: chacha20-ietf-poly1305, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 71 |  openit.ml, server: gzyd2.xxcv.cc, port: 20010, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 72 | ND openit.ml, server: rtx.1660.super.as58466.com, port: 6444, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
+  - {name: 🇨🇳 CN 72 |  openit.ml, server: rtx.1660.super.as58466.com, port: 6444, type: ss, cipher: aes-256-gcm, password: fb33c1a6-ef14-456d-aca8-bf63619b2539, udp: true}
   - {name: 🇨🇳 CN 73 | N(-)D openit.ml, server: hnyd.xxcv.cc, port: 20090, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 74 | N(-)D openit.ml, server: hnyd.xxcv.cc, port: 20100, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 75 | D openit.ml, server: gzyd1.xxcv.cc, port: 20070, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 76 |  openit.ml, server: hnyd.xxcv.cc, port: 20110, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 77 | D openit.ml, server: hnyd.xxcv.cc, port: 20120, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 77 |  openit.ml, server: hnyd.xxcv.cc, port: 20120, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 78 |  openit.ml, server: 116.129.253.134, port: 3385, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 79 | N(-)D openit.ml, server: gzyd2.xxcv.cc, port: 20100, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 79 | N(-) openit.ml, server: gzyd2.xxcv.cc, port: 20100, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: "🇨🇳 CN 8 | {{result}} openit.ml", server: 183.232.141.114, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
-  - {name: 🇨🇳 CN 80 | D openit.ml, server: gzyd2.xxcv.cc, port: 20120, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 81 | D openit.ml, server: gzyd2.xxcv.cc, port: 20130, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 80 |  openit.ml, server: gzyd2.xxcv.cc, port: 20120, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 81 |  openit.ml, server: gzyd2.xxcv.cc, port: 20130, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: "🇨🇳 CN 9 | {{result}} openit.ml", server: 139.226.78.148, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21322:12345678, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
   - {name: 🇩🇪 DE 1 | N(-)D openit.ml, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1 |  openit.ml, server: 193.178.210.29, port: 443, type: trojan, password: iKR3Ft, skip-cert-verify: true, udp: true}
@@ -116,7 +115,8 @@ proxies:
   - {name: 🇭🇰 HK 1 | D openit.ml, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 2 | D openit.ml, server: 210.0.158.220, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 3 | N(-)D openit.ml, server: azgy001.xiba1.xyz, port: 20713, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 4 | N(-)D openit.ml, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 4 | D openit.ml, server: azhk.r.optage.moe, port: 44605, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 5 | N(-)D openit.ml, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1 |  openit.ml, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp-03.licom.ml, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 2 | D openit.ml, server: 203.138.98.199, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 3 | D openit.ml, server: 172.105.255.202, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
@@ -136,30 +136,30 @@ proxies:
   - {name: 🇺🇸 US 10 | N(-)D openit.ml, server: us-12.hmkj9.com, port: 54321, type: trojan, password: 1ac27c98-7883-483b-b958-7d6a68b60663, sni: us-12.hmkj9.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 11 | D openit.ml, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 12 | N(-) openit.ml, server: blr.alinkrelay.com, port: 12000, type: trojan, password: 80114348-eea5-43b3-8705-2da4430d3074, sni: blr.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 13 | N(-)D openit.ml, server: 23.225.77.226, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 13 |  openit.ml, server: 23.225.77.226, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 14 |  openit.ml, server: us1.crunode.top, port: 443, type: trojan, password: ba2cc258-cd36-3b32-917d-49169b6380d1, sni: us1.crunode.top, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 15 | N(-)D openit.ml, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, sni: wireless.starspace.link, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 16 | N(-)D openit.ml, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 17 | D openit.ml, server: 172.104.244.36, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 18 | N(-)D openit.ml, server: ocijp.n.optage.moe, port: 44616, type: trojan, password: 80114348-eea5-43b3-8705-2da4430d3074, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 19 | N(-) openit.ml, server: 23.225.77.192, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2 |  openit.ml, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2 | N(-)D openit.ml, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree1.jiantian.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 20 | D openit.ml, server: 3.35.156.0, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 21 | D openit.ml, server: azhk.r.optage.moe, port: 44605, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 22 | D openit.ml, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 23 | N(-)D openit.ml, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 24 | N(-)D openit.ml, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 25 | N(-)D openit.ml, server: 198.200.51.219, port: 26969, type: trojan, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 26 | ND openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 27 | D openit.ml, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 28 | N(-)D openit.ml, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 29 | D openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 21 | D openit.ml, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 22 | N(-)D openit.ml, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 23 | N(-)D openit.ml, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 24 | N(-)D openit.ml, server: 198.200.51.219, port: 26969, type: trojan, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 25 | ND openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 26 | D openit.ml, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 27 | N(-)D openit.ml, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 28 | D openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 29 | ND openit.ml, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 3 | D openit.ml, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 30 | ND openit.ml, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 31 | N(-) openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 32 | ND openit.ml, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 33 | N(-) openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 34 | N(-)D openit.ml, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 30 | N(-) openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 31 | ND openit.ml, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 32 | N(-) openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 33 | N(-)D openit.ml, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 34 | N(-)D openit.ml, server: ocikr.n.optage.moe, port: 44600, type: trojan, password: 80114348-eea5-43b3-8705-2da4430d3074, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 35 | ND openit.ml, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 36 | N(-)D openit.ml, server: mc.vpshax.ml, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7e01146, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 37 |  openit.ml, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 46956, type: trojan, password: 8619878a-3677-4c2d-aca5-55dbd765825f, skip-cert-verify: true, udp: true}
@@ -167,7 +167,7 @@ proxies:
   - {name: 🇺🇸 US 5 |  openit.ml, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 6 | N(-)D openit.ml, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 7 | ND openit.ml, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8 | ND openit.ml, server: us-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: us-01.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 8 | N(-)D openit.ml, server: us-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: us-01.licom.ml, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 9 | ND openit.ml, server: ss2.2046.gq, port: 4443, type: trojan, password: 9eef43d9-712e-4850-bb7a-12b279a96de5, sni: ss2.2046.gq, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
@@ -184,13 +184,12 @@ proxy-groups:
       - UA 3 |  openit.ml
       - UA 4 |  openit.ml
       - UA 5 |  openit.ml
-      - unknown 1 | N(-)D openit.ml
+      - unknown 1 |  openit.ml
       - unknown 2 |  openit.ml
-      - unknown 3 |  openit.ml
+      - unknown 3 | D openit.ml
       - unknown 4 | N(-)D openit.ml
       - 🇦🇺 AU 1 | D openit.ml
       - 🇦🇺 AU 2 | N(-)D openit.ml
-      - 🇦🇺 AU 3 | D openit.ml
       - 🇨🇦 CA 1 | D openit.ml
       - 🇨🇦 CA 2 | N(-)D openit.ml
       - 🇨🇦 CA 3 | D openit.ml
@@ -203,44 +202,44 @@ proxy-groups:
       - 🇨🇳 CN 14 | {{result}} openit.ml
       - 🇨🇳 CN 15 | {{result}} openit.ml
       - 🇨🇳 CN 16 | {{result}} openit.ml
-      - 🇨🇳 CN 17 | N(-)D openit.ml
+      - 🇨🇳 CN 17 |  openit.ml
       - 🇨🇳 CN 18 | D openit.ml
-      - 🇨🇳 CN 19 | N(-)D openit.ml
+      - 🇨🇳 CN 19 |  openit.ml
       - 🇨🇳 CN 2 | {{result}} openit.ml
       - 🇨🇳 CN 20 | D openit.ml
       - 🇨🇳 CN 21 | D openit.ml
       - 🇨🇳 CN 22 | D openit.ml
-      - 🇨🇳 CN 23 | N(-)D openit.ml
-      - 🇨🇳 CN 24 | N(-)D openit.ml
+      - 🇨🇳 CN 23 |  openit.ml
+      - 🇨🇳 CN 24 |  openit.ml
       - 🇨🇳 CN 25 | N(-)D openit.ml
       - 🇨🇳 CN 26 | D openit.ml
-      - 🇨🇳 CN 27 | N(-)D openit.ml
-      - 🇨🇳 CN 28 | N(-)D openit.ml
-      - 🇨🇳 CN 29 | N(-)D openit.ml
+      - 🇨🇳 CN 27 |  openit.ml
+      - 🇨🇳 CN 28 |  openit.ml
+      - 🇨🇳 CN 29 |  openit.ml
       - 🇨🇳 CN 3 | {{result}} openit.ml
       - 🇨🇳 CN 30 | N(-)D openit.ml
-      - 🇨🇳 CN 31 | N(-)D openit.ml
-      - 🇨🇳 CN 32 | N(-)D openit.ml
+      - 🇨🇳 CN 31 | D openit.ml
+      - 🇨🇳 CN 32 | N(-) openit.ml
       - 🇨🇳 CN 33 | N(-)D openit.ml
       - 🇨🇳 CN 34 | N(-)D openit.ml
       - 🇨🇳 CN 35 | N(-)D openit.ml
       - 🇨🇳 CN 36 | N(-)D openit.ml
-      - 🇨🇳 CN 37 | D openit.ml
+      - 🇨🇳 CN 37 |  openit.ml
       - 🇨🇳 CN 38 | N(-)D openit.ml
       - 🇨🇳 CN 39 | D openit.ml
       - 🇨🇳 CN 4 | {{result}} openit.ml
       - 🇨🇳 CN 40 |  openit.ml
-      - 🇨🇳 CN 41 |  openit.ml
-      - 🇨🇳 CN 42 |  openit.ml
+      - 🇨🇳 CN 41 | D openit.ml
+      - 🇨🇳 CN 42 | D openit.ml
       - 🇨🇳 CN 43 | D openit.ml
       - 🇨🇳 CN 44 |  openit.ml
       - 🇨🇳 CN 45 |  openit.ml
       - 🇨🇳 CN 46 | N(-)D openit.ml
       - 🇨🇳 CN 47 | D openit.ml
-      - 🇨🇳 CN 48 |  openit.ml
+      - 🇨🇳 CN 48 | D openit.ml
       - 🇨🇳 CN 49 | D openit.ml
       - 🇨🇳 CN 5 | {{result}} openit.ml
-      - 🇨🇳 CN 50 |  openit.ml
+      - 🇨🇳 CN 50 | D openit.ml
       - 🇨🇳 CN 51 | D openit.ml
       - 🇨🇳 CN 52 | D openit.ml
       - 🇨🇳 CN 53 |  openit.ml
@@ -253,28 +252,28 @@ proxy-groups:
       - 🇨🇳 CN 6 | {{result}} openit.ml
       - 🇨🇳 CN 60 | D openit.ml
       - 🇨🇳 CN 61 |  openit.ml
-      - 🇨🇳 CN 62 | D openit.ml
+      - 🇨🇳 CN 62 | N(-)D openit.ml
       - 🇨🇳 CN 63 |  openit.ml
       - 🇨🇳 CN 64 |  openit.ml
       - 🇨🇳 CN 65 | N(-)D openit.ml
       - 🇨🇳 CN 66 | N(-)D openit.ml
-      - 🇨🇳 CN 67 | D openit.ml
+      - 🇨🇳 CN 67 |  openit.ml
       - 🇨🇳 CN 68 | D openit.ml
       - 🇨🇳 CN 69 | D openit.ml
       - 🇨🇳 CN 7 | {{result}} openit.ml
       - 🇨🇳 CN 70 | D openit.ml
       - 🇨🇳 CN 71 |  openit.ml
-      - 🇨🇳 CN 72 | ND openit.ml
+      - 🇨🇳 CN 72 |  openit.ml
       - 🇨🇳 CN 73 | N(-)D openit.ml
       - 🇨🇳 CN 74 | N(-)D openit.ml
       - 🇨🇳 CN 75 | D openit.ml
       - 🇨🇳 CN 76 |  openit.ml
-      - 🇨🇳 CN 77 | D openit.ml
+      - 🇨🇳 CN 77 |  openit.ml
       - 🇨🇳 CN 78 |  openit.ml
-      - 🇨🇳 CN 79 | N(-)D openit.ml
+      - 🇨🇳 CN 79 | N(-) openit.ml
       - 🇨🇳 CN 8 | {{result}} openit.ml
-      - 🇨🇳 CN 80 | D openit.ml
-      - 🇨🇳 CN 81 | D openit.ml
+      - 🇨🇳 CN 80 |  openit.ml
+      - 🇨🇳 CN 81 |  openit.ml
       - 🇨🇳 CN 9 | {{result}} openit.ml
       - 🇩🇪 DE 1 | N(-)D openit.ml
       - 🇫🇷 FR 1 |  openit.ml
@@ -286,7 +285,8 @@ proxy-groups:
       - 🇭🇰 HK 1 | D openit.ml
       - 🇭🇰 HK 2 | D openit.ml
       - 🇭🇰 HK 3 | N(-)D openit.ml
-      - 🇭🇰 HK 4 | N(-)D openit.ml
+      - 🇭🇰 HK 4 | D openit.ml
+      - 🇭🇰 HK 5 | N(-)D openit.ml
       - 🇯🇵 JP 1 |  openit.ml
       - 🇯🇵 JP 2 | D openit.ml
       - 🇯🇵 JP 3 | D openit.ml
@@ -306,29 +306,29 @@ proxy-groups:
       - 🇺🇸 US 10 | N(-)D openit.ml
       - 🇺🇸 US 11 | D openit.ml
       - 🇺🇸 US 12 | N(-) openit.ml
-      - 🇺🇸 US 13 | N(-)D openit.ml
+      - 🇺🇸 US 13 |  openit.ml
       - 🇺🇸 US 14 |  openit.ml
       - 🇺🇸 US 15 | N(-)D openit.ml
       - 🇺🇸 US 16 | N(-)D openit.ml
       - 🇺🇸 US 17 | D openit.ml
       - 🇺🇸 US 18 | N(-)D openit.ml
       - 🇺🇸 US 19 | N(-) openit.ml
-      - 🇺🇸 US 2 |  openit.ml
+      - 🇺🇸 US 2 | N(-)D openit.ml
       - 🇺🇸 US 20 | D openit.ml
       - 🇺🇸 US 21 | D openit.ml
-      - 🇺🇸 US 22 | D openit.ml
+      - 🇺🇸 US 22 | N(-)D openit.ml
       - 🇺🇸 US 23 | N(-)D openit.ml
       - 🇺🇸 US 24 | N(-)D openit.ml
-      - 🇺🇸 US 25 | N(-)D openit.ml
-      - 🇺🇸 US 26 | ND openit.ml
-      - 🇺🇸 US 27 | D openit.ml
-      - 🇺🇸 US 28 | N(-)D openit.ml
-      - 🇺🇸 US 29 | D openit.ml
+      - 🇺🇸 US 25 | ND openit.ml
+      - 🇺🇸 US 26 | D openit.ml
+      - 🇺🇸 US 27 | N(-)D openit.ml
+      - 🇺🇸 US 28 | D openit.ml
+      - 🇺🇸 US 29 | ND openit.ml
       - 🇺🇸 US 3 | D openit.ml
-      - 🇺🇸 US 30 | ND openit.ml
-      - 🇺🇸 US 31 | N(-) openit.ml
-      - 🇺🇸 US 32 | ND openit.ml
-      - 🇺🇸 US 33 | N(-) openit.ml
+      - 🇺🇸 US 30 | N(-) openit.ml
+      - 🇺🇸 US 31 | ND openit.ml
+      - 🇺🇸 US 32 | N(-) openit.ml
+      - 🇺🇸 US 33 | N(-)D openit.ml
       - 🇺🇸 US 34 | N(-)D openit.ml
       - 🇺🇸 US 35 | ND openit.ml
       - 🇺🇸 US 36 | N(-)D openit.ml
@@ -337,7 +337,7 @@ proxy-groups:
       - 🇺🇸 US 5 |  openit.ml
       - 🇺🇸 US 6 | N(-)D openit.ml
       - 🇺🇸 US 7 | ND openit.ml
-      - 🇺🇸 US 8 | ND openit.ml
+      - 🇺🇸 US 8 | N(-)D openit.ml
       - 🇺🇸 US 9 | ND openit.ml
   - name: 💡 自动选择
     type: url-test
@@ -354,13 +354,12 @@ proxy-groups:
       - UA 3 |  openit.ml
       - UA 4 |  openit.ml
       - UA 5 |  openit.ml
-      - unknown 1 | N(-)D openit.ml
+      - unknown 1 |  openit.ml
       - unknown 2 |  openit.ml
-      - unknown 3 |  openit.ml
+      - unknown 3 | D openit.ml
       - unknown 4 | N(-)D openit.ml
       - 🇦🇺 AU 1 | D openit.ml
       - 🇦🇺 AU 2 | N(-)D openit.ml
-      - 🇦🇺 AU 3 | D openit.ml
       - 🇨🇦 CA 1 | D openit.ml
       - 🇨🇦 CA 2 | N(-)D openit.ml
       - 🇨🇦 CA 3 | D openit.ml
@@ -373,44 +372,44 @@ proxy-groups:
       - 🇨🇳 CN 14 | {{result}} openit.ml
       - 🇨🇳 CN 15 | {{result}} openit.ml
       - 🇨🇳 CN 16 | {{result}} openit.ml
-      - 🇨🇳 CN 17 | N(-)D openit.ml
+      - 🇨🇳 CN 17 |  openit.ml
       - 🇨🇳 CN 18 | D openit.ml
-      - 🇨🇳 CN 19 | N(-)D openit.ml
+      - 🇨🇳 CN 19 |  openit.ml
       - 🇨🇳 CN 2 | {{result}} openit.ml
       - 🇨🇳 CN 20 | D openit.ml
       - 🇨🇳 CN 21 | D openit.ml
       - 🇨🇳 CN 22 | D openit.ml
-      - 🇨🇳 CN 23 | N(-)D openit.ml
-      - 🇨🇳 CN 24 | N(-)D openit.ml
+      - 🇨🇳 CN 23 |  openit.ml
+      - 🇨🇳 CN 24 |  openit.ml
       - 🇨🇳 CN 25 | N(-)D openit.ml
       - 🇨🇳 CN 26 | D openit.ml
-      - 🇨🇳 CN 27 | N(-)D openit.ml
-      - 🇨🇳 CN 28 | N(-)D openit.ml
-      - 🇨🇳 CN 29 | N(-)D openit.ml
+      - 🇨🇳 CN 27 |  openit.ml
+      - 🇨🇳 CN 28 |  openit.ml
+      - 🇨🇳 CN 29 |  openit.ml
       - 🇨🇳 CN 3 | {{result}} openit.ml
       - 🇨🇳 CN 30 | N(-)D openit.ml
-      - 🇨🇳 CN 31 | N(-)D openit.ml
-      - 🇨🇳 CN 32 | N(-)D openit.ml
+      - 🇨🇳 CN 31 | D openit.ml
+      - 🇨🇳 CN 32 | N(-) openit.ml
       - 🇨🇳 CN 33 | N(-)D openit.ml
       - 🇨🇳 CN 34 | N(-)D openit.ml
       - 🇨🇳 CN 35 | N(-)D openit.ml
       - 🇨🇳 CN 36 | N(-)D openit.ml
-      - 🇨🇳 CN 37 | D openit.ml
+      - 🇨🇳 CN 37 |  openit.ml
       - 🇨🇳 CN 38 | N(-)D openit.ml
       - 🇨🇳 CN 39 | D openit.ml
       - 🇨🇳 CN 4 | {{result}} openit.ml
       - 🇨🇳 CN 40 |  openit.ml
-      - 🇨🇳 CN 41 |  openit.ml
-      - 🇨🇳 CN 42 |  openit.ml
+      - 🇨🇳 CN 41 | D openit.ml
+      - 🇨🇳 CN 42 | D openit.ml
       - 🇨🇳 CN 43 | D openit.ml
       - 🇨🇳 CN 44 |  openit.ml
       - 🇨🇳 CN 45 |  openit.ml
       - 🇨🇳 CN 46 | N(-)D openit.ml
       - 🇨🇳 CN 47 | D openit.ml
-      - 🇨🇳 CN 48 |  openit.ml
+      - 🇨🇳 CN 48 | D openit.ml
       - 🇨🇳 CN 49 | D openit.ml
       - 🇨🇳 CN 5 | {{result}} openit.ml
-      - 🇨🇳 CN 50 |  openit.ml
+      - 🇨🇳 CN 50 | D openit.ml
       - 🇨🇳 CN 51 | D openit.ml
       - 🇨🇳 CN 52 | D openit.ml
       - 🇨🇳 CN 53 |  openit.ml
@@ -423,28 +422,28 @@ proxy-groups:
       - 🇨🇳 CN 6 | {{result}} openit.ml
       - 🇨🇳 CN 60 | D openit.ml
       - 🇨🇳 CN 61 |  openit.ml
-      - 🇨🇳 CN 62 | D openit.ml
+      - 🇨🇳 CN 62 | N(-)D openit.ml
       - 🇨🇳 CN 63 |  openit.ml
       - 🇨🇳 CN 64 |  openit.ml
       - 🇨🇳 CN 65 | N(-)D openit.ml
       - 🇨🇳 CN 66 | N(-)D openit.ml
-      - 🇨🇳 CN 67 | D openit.ml
+      - 🇨🇳 CN 67 |  openit.ml
       - 🇨🇳 CN 68 | D openit.ml
       - 🇨🇳 CN 69 | D openit.ml
       - 🇨🇳 CN 7 | {{result}} openit.ml
       - 🇨🇳 CN 70 | D openit.ml
       - 🇨🇳 CN 71 |  openit.ml
-      - 🇨🇳 CN 72 | ND openit.ml
+      - 🇨🇳 CN 72 |  openit.ml
       - 🇨🇳 CN 73 | N(-)D openit.ml
       - 🇨🇳 CN 74 | N(-)D openit.ml
       - 🇨🇳 CN 75 | D openit.ml
       - 🇨🇳 CN 76 |  openit.ml
-      - 🇨🇳 CN 77 | D openit.ml
+      - 🇨🇳 CN 77 |  openit.ml
       - 🇨🇳 CN 78 |  openit.ml
-      - 🇨🇳 CN 79 | N(-)D openit.ml
+      - 🇨🇳 CN 79 | N(-) openit.ml
       - 🇨🇳 CN 8 | {{result}} openit.ml
-      - 🇨🇳 CN 80 | D openit.ml
-      - 🇨🇳 CN 81 | D openit.ml
+      - 🇨🇳 CN 80 |  openit.ml
+      - 🇨🇳 CN 81 |  openit.ml
       - 🇨🇳 CN 9 | {{result}} openit.ml
       - 🇩🇪 DE 1 | N(-)D openit.ml
       - 🇫🇷 FR 1 |  openit.ml
@@ -456,7 +455,8 @@ proxy-groups:
       - 🇭🇰 HK 1 | D openit.ml
       - 🇭🇰 HK 2 | D openit.ml
       - 🇭🇰 HK 3 | N(-)D openit.ml
-      - 🇭🇰 HK 4 | N(-)D openit.ml
+      - 🇭🇰 HK 4 | D openit.ml
+      - 🇭🇰 HK 5 | N(-)D openit.ml
       - 🇯🇵 JP 1 |  openit.ml
       - 🇯🇵 JP 2 | D openit.ml
       - 🇯🇵 JP 3 | D openit.ml
@@ -476,29 +476,29 @@ proxy-groups:
       - 🇺🇸 US 10 | N(-)D openit.ml
       - 🇺🇸 US 11 | D openit.ml
       - 🇺🇸 US 12 | N(-) openit.ml
-      - 🇺🇸 US 13 | N(-)D openit.ml
+      - 🇺🇸 US 13 |  openit.ml
       - 🇺🇸 US 14 |  openit.ml
       - 🇺🇸 US 15 | N(-)D openit.ml
       - 🇺🇸 US 16 | N(-)D openit.ml
       - 🇺🇸 US 17 | D openit.ml
       - 🇺🇸 US 18 | N(-)D openit.ml
       - 🇺🇸 US 19 | N(-) openit.ml
-      - 🇺🇸 US 2 |  openit.ml
+      - 🇺🇸 US 2 | N(-)D openit.ml
       - 🇺🇸 US 20 | D openit.ml
       - 🇺🇸 US 21 | D openit.ml
-      - 🇺🇸 US 22 | D openit.ml
+      - 🇺🇸 US 22 | N(-)D openit.ml
       - 🇺🇸 US 23 | N(-)D openit.ml
       - 🇺🇸 US 24 | N(-)D openit.ml
-      - 🇺🇸 US 25 | N(-)D openit.ml
-      - 🇺🇸 US 26 | ND openit.ml
-      - 🇺🇸 US 27 | D openit.ml
-      - 🇺🇸 US 28 | N(-)D openit.ml
-      - 🇺🇸 US 29 | D openit.ml
+      - 🇺🇸 US 25 | ND openit.ml
+      - 🇺🇸 US 26 | D openit.ml
+      - 🇺🇸 US 27 | N(-)D openit.ml
+      - 🇺🇸 US 28 | D openit.ml
+      - 🇺🇸 US 29 | ND openit.ml
       - 🇺🇸 US 3 | D openit.ml
-      - 🇺🇸 US 30 | ND openit.ml
-      - 🇺🇸 US 31 | N(-) openit.ml
-      - 🇺🇸 US 32 | ND openit.ml
-      - 🇺🇸 US 33 | N(-) openit.ml
+      - 🇺🇸 US 30 | N(-) openit.ml
+      - 🇺🇸 US 31 | ND openit.ml
+      - 🇺🇸 US 32 | N(-) openit.ml
+      - 🇺🇸 US 33 | N(-)D openit.ml
       - 🇺🇸 US 34 | N(-)D openit.ml
       - 🇺🇸 US 35 | ND openit.ml
       - 🇺🇸 US 36 | N(-)D openit.ml
@@ -507,7 +507,7 @@ proxy-groups:
       - 🇺🇸 US 5 |  openit.ml
       - 🇺🇸 US 6 | N(-)D openit.ml
       - 🇺🇸 US 7 | ND openit.ml
-      - 🇺🇸 US 8 | ND openit.ml
+      - 🇺🇸 US 8 | N(-)D openit.ml
       - 🇺🇸 US 9 | ND openit.ml
   - name: 🇭🇰 香港节点
     type: url-test
@@ -518,7 +518,8 @@ proxy-groups:
       - 🇭🇰 HK 1 | D openit.ml
       - 🇭🇰 HK 2 | D openit.ml
       - 🇭🇰 HK 3 | N(-)D openit.ml
-      - 🇭🇰 HK 4 | N(-)D openit.ml
+      - 🇭🇰 HK 4 | D openit.ml
+      - 🇭🇰 HK 5 | N(-)D openit.ml
   - name: 🇯🇵 日本节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -538,29 +539,29 @@ proxy-groups:
       - 🇺🇸 US 10 | N(-)D openit.ml
       - 🇺🇸 US 11 | D openit.ml
       - 🇺🇸 US 12 | N(-) openit.ml
-      - 🇺🇸 US 13 | N(-)D openit.ml
+      - 🇺🇸 US 13 |  openit.ml
       - 🇺🇸 US 14 |  openit.ml
       - 🇺🇸 US 15 | N(-)D openit.ml
       - 🇺🇸 US 16 | N(-)D openit.ml
       - 🇺🇸 US 17 | D openit.ml
       - 🇺🇸 US 18 | N(-)D openit.ml
       - 🇺🇸 US 19 | N(-) openit.ml
-      - 🇺🇸 US 2 |  openit.ml
+      - 🇺🇸 US 2 | N(-)D openit.ml
       - 🇺🇸 US 20 | D openit.ml
       - 🇺🇸 US 21 | D openit.ml
-      - 🇺🇸 US 22 | D openit.ml
+      - 🇺🇸 US 22 | N(-)D openit.ml
       - 🇺🇸 US 23 | N(-)D openit.ml
       - 🇺🇸 US 24 | N(-)D openit.ml
-      - 🇺🇸 US 25 | N(-)D openit.ml
-      - 🇺🇸 US 26 | ND openit.ml
-      - 🇺🇸 US 27 | D openit.ml
-      - 🇺🇸 US 28 | N(-)D openit.ml
-      - 🇺🇸 US 29 | D openit.ml
+      - 🇺🇸 US 25 | ND openit.ml
+      - 🇺🇸 US 26 | D openit.ml
+      - 🇺🇸 US 27 | N(-)D openit.ml
+      - 🇺🇸 US 28 | D openit.ml
+      - 🇺🇸 US 29 | ND openit.ml
       - 🇺🇸 US 3 | D openit.ml
-      - 🇺🇸 US 30 | ND openit.ml
-      - 🇺🇸 US 31 | N(-) openit.ml
-      - 🇺🇸 US 32 | ND openit.ml
-      - 🇺🇸 US 33 | N(-) openit.ml
+      - 🇺🇸 US 30 | N(-) openit.ml
+      - 🇺🇸 US 31 | ND openit.ml
+      - 🇺🇸 US 32 | N(-) openit.ml
+      - 🇺🇸 US 33 | N(-)D openit.ml
       - 🇺🇸 US 34 | N(-)D openit.ml
       - 🇺🇸 US 35 | ND openit.ml
       - 🇺🇸 US 36 | N(-)D openit.ml
@@ -569,7 +570,7 @@ proxy-groups:
       - 🇺🇸 US 5 |  openit.ml
       - 🇺🇸 US 6 | N(-)D openit.ml
       - 🇺🇸 US 7 | ND openit.ml
-      - 🇺🇸 US 8 | ND openit.ml
+      - 🇺🇸 US 8 | N(-)D openit.ml
       - 🇺🇸 US 9 | ND openit.ml
   - name: 🇹🇼 台湾节点
     type: url-test
@@ -607,7 +608,6 @@ proxy-groups:
       - TR 1 | N(-)D openit.ml
       - 🇦🇺 AU 1 | D openit.ml
       - 🇦🇺 AU 2 | N(-)D openit.ml
-      - 🇦🇺 AU 3 | D openit.ml
       - 🇨🇦 CA 1 | D openit.ml
       - 🇨🇦 CA 2 | N(-)D openit.ml
       - 🇨🇦 CA 3 | D openit.ml
@@ -624,7 +624,6 @@ proxy-groups:
     proxies:
       - SE 1 | N(-)D openit.ml
       - TR 1 | N(-)D openit.ml
-      - unknown 1 | N(-)D openit.ml
       - unknown 4 | N(-)D openit.ml
       - 🇦🇺 AU 2 | N(-)D openit.ml
       - 🇨🇦 CA 2 | N(-)D openit.ml
@@ -636,44 +635,44 @@ proxy-groups:
       - 🇨🇳 CN 14 | {{result}} openit.ml
       - 🇨🇳 CN 15 | {{result}} openit.ml
       - 🇨🇳 CN 16 | {{result}} openit.ml
-      - 🇨🇳 CN 17 | N(-)D openit.ml
+      - 🇨🇳 CN 17 |  openit.ml
       - 🇨🇳 CN 18 | D openit.ml
-      - 🇨🇳 CN 19 | N(-)D openit.ml
+      - 🇨🇳 CN 19 |  openit.ml
       - 🇨🇳 CN 2 | {{result}} openit.ml
       - 🇨🇳 CN 20 | D openit.ml
       - 🇨🇳 CN 21 | D openit.ml
       - 🇨🇳 CN 22 | D openit.ml
-      - 🇨🇳 CN 23 | N(-)D openit.ml
-      - 🇨🇳 CN 24 | N(-)D openit.ml
+      - 🇨🇳 CN 23 |  openit.ml
+      - 🇨🇳 CN 24 |  openit.ml
       - 🇨🇳 CN 25 | N(-)D openit.ml
       - 🇨🇳 CN 26 | D openit.ml
-      - 🇨🇳 CN 27 | N(-)D openit.ml
-      - 🇨🇳 CN 28 | N(-)D openit.ml
-      - 🇨🇳 CN 29 | N(-)D openit.ml
+      - 🇨🇳 CN 27 |  openit.ml
+      - 🇨🇳 CN 28 |  openit.ml
+      - 🇨🇳 CN 29 |  openit.ml
       - 🇨🇳 CN 3 | {{result}} openit.ml
       - 🇨🇳 CN 30 | N(-)D openit.ml
-      - 🇨🇳 CN 31 | N(-)D openit.ml
-      - 🇨🇳 CN 32 | N(-)D openit.ml
+      - 🇨🇳 CN 31 | D openit.ml
+      - 🇨🇳 CN 32 | N(-) openit.ml
       - 🇨🇳 CN 33 | N(-)D openit.ml
       - 🇨🇳 CN 34 | N(-)D openit.ml
       - 🇨🇳 CN 35 | N(-)D openit.ml
       - 🇨🇳 CN 36 | N(-)D openit.ml
-      - 🇨🇳 CN 37 | D openit.ml
+      - 🇨🇳 CN 37 |  openit.ml
       - 🇨🇳 CN 38 | N(-)D openit.ml
       - 🇨🇳 CN 39 | D openit.ml
       - 🇨🇳 CN 4 | {{result}} openit.ml
       - 🇨🇳 CN 40 |  openit.ml
-      - 🇨🇳 CN 41 |  openit.ml
-      - 🇨🇳 CN 42 |  openit.ml
+      - 🇨🇳 CN 41 | D openit.ml
+      - 🇨🇳 CN 42 | D openit.ml
       - 🇨🇳 CN 43 | D openit.ml
       - 🇨🇳 CN 44 |  openit.ml
       - 🇨🇳 CN 45 |  openit.ml
       - 🇨🇳 CN 46 | N(-)D openit.ml
       - 🇨🇳 CN 47 | D openit.ml
-      - 🇨🇳 CN 48 |  openit.ml
+      - 🇨🇳 CN 48 | D openit.ml
       - 🇨🇳 CN 49 | D openit.ml
       - 🇨🇳 CN 5 | {{result}} openit.ml
-      - 🇨🇳 CN 50 |  openit.ml
+      - 🇨🇳 CN 50 | D openit.ml
       - 🇨🇳 CN 51 | D openit.ml
       - 🇨🇳 CN 52 | D openit.ml
       - 🇨🇳 CN 53 |  openit.ml
@@ -686,34 +685,34 @@ proxy-groups:
       - 🇨🇳 CN 6 | {{result}} openit.ml
       - 🇨🇳 CN 60 | D openit.ml
       - 🇨🇳 CN 61 |  openit.ml
-      - 🇨🇳 CN 62 | D openit.ml
+      - 🇨🇳 CN 62 | N(-)D openit.ml
       - 🇨🇳 CN 63 |  openit.ml
       - 🇨🇳 CN 64 |  openit.ml
       - 🇨🇳 CN 65 | N(-)D openit.ml
       - 🇨🇳 CN 66 | N(-)D openit.ml
-      - 🇨🇳 CN 67 | D openit.ml
+      - 🇨🇳 CN 67 |  openit.ml
       - 🇨🇳 CN 68 | D openit.ml
       - 🇨🇳 CN 69 | D openit.ml
       - 🇨🇳 CN 7 | {{result}} openit.ml
       - 🇨🇳 CN 70 | D openit.ml
       - 🇨🇳 CN 71 |  openit.ml
-      - 🇨🇳 CN 72 | ND openit.ml
+      - 🇨🇳 CN 72 |  openit.ml
       - 🇨🇳 CN 73 | N(-)D openit.ml
       - 🇨🇳 CN 74 | N(-)D openit.ml
       - 🇨🇳 CN 75 | D openit.ml
       - 🇨🇳 CN 76 |  openit.ml
-      - 🇨🇳 CN 77 | D openit.ml
+      - 🇨🇳 CN 77 |  openit.ml
       - 🇨🇳 CN 78 |  openit.ml
-      - 🇨🇳 CN 79 | N(-)D openit.ml
+      - 🇨🇳 CN 79 | N(-) openit.ml
       - 🇨🇳 CN 8 | {{result}} openit.ml
-      - 🇨🇳 CN 80 | D openit.ml
-      - 🇨🇳 CN 81 | D openit.ml
+      - 🇨🇳 CN 80 |  openit.ml
+      - 🇨🇳 CN 81 |  openit.ml
       - 🇨🇳 CN 9 | {{result}} openit.ml
       - 🇩🇪 DE 1 | N(-)D openit.ml
       - 🇬🇧 GB 1 | N(-)D openit.ml
       - 🇬🇧 GB 2 | N(-)D openit.ml
       - 🇭🇰 HK 3 | N(-)D openit.ml
-      - 🇭🇰 HK 4 | N(-)D openit.ml
+      - 🇭🇰 HK 5 | N(-)D openit.ml
       - 🇳🇱 NL 1 | D openit.ml
       - 🇸🇬 SG 1 | N(-)D openit.ml
       - 🇸🇬 SG 3 | N(-)D openit.ml
@@ -724,68 +723,63 @@ proxy-groups:
       - 🇺🇸 US 1 | N(-)D openit.ml
       - 🇺🇸 US 10 | N(-)D openit.ml
       - 🇺🇸 US 12 | N(-) openit.ml
-      - 🇺🇸 US 13 | N(-)D openit.ml
       - 🇺🇸 US 15 | N(-)D openit.ml
       - 🇺🇸 US 16 | N(-)D openit.ml
       - 🇺🇸 US 18 | N(-)D openit.ml
       - 🇺🇸 US 19 | N(-) openit.ml
+      - 🇺🇸 US 2 | N(-)D openit.ml
+      - 🇺🇸 US 22 | N(-)D openit.ml
       - 🇺🇸 US 23 | N(-)D openit.ml
       - 🇺🇸 US 24 | N(-)D openit.ml
-      - 🇺🇸 US 25 | N(-)D openit.ml
-      - 🇺🇸 US 26 | ND openit.ml
-      - 🇺🇸 US 28 | N(-)D openit.ml
-      - 🇺🇸 US 30 | ND openit.ml
-      - 🇺🇸 US 31 | N(-) openit.ml
-      - 🇺🇸 US 32 | ND openit.ml
-      - 🇺🇸 US 33 | N(-) openit.ml
+      - 🇺🇸 US 25 | ND openit.ml
+      - 🇺🇸 US 27 | N(-)D openit.ml
+      - 🇺🇸 US 29 | ND openit.ml
+      - 🇺🇸 US 30 | N(-) openit.ml
+      - 🇺🇸 US 31 | ND openit.ml
+      - 🇺🇸 US 32 | N(-) openit.ml
+      - 🇺🇸 US 33 | N(-)D openit.ml
       - 🇺🇸 US 34 | N(-)D openit.ml
       - 🇺🇸 US 35 | ND openit.ml
       - 🇺🇸 US 36 | N(-)D openit.ml
       - 🇺🇸 US 6 | N(-)D openit.ml
       - 🇺🇸 US 7 | ND openit.ml
-      - 🇺🇸 US 8 | ND openit.ml
+      - 🇺🇸 US 8 | N(-)D openit.ml
       - 🇺🇸 US 9 | ND openit.ml
   - name: 🎄 Disney+解锁
     type: select
     proxies:
       - SE 1 | N(-)D openit.ml
       - TR 1 | N(-)D openit.ml
-      - unknown 1 | N(-)D openit.ml
+      - unknown 3 | D openit.ml
       - unknown 4 | N(-)D openit.ml
       - 🇦🇺 AU 1 | D openit.ml
       - 🇦🇺 AU 2 | N(-)D openit.ml
-      - 🇦🇺 AU 3 | D openit.ml
       - 🇨🇦 CA 1 | D openit.ml
       - 🇨🇦 CA 2 | N(-)D openit.ml
       - 🇨🇦 CA 3 | D openit.ml
       - 🇨🇦 CA 4 | D openit.ml
-      - 🇨🇳 CN 17 | N(-)D openit.ml
       - 🇨🇳 CN 18 | D openit.ml
-      - 🇨🇳 CN 19 | N(-)D openit.ml
       - 🇨🇳 CN 20 | D openit.ml
       - 🇨🇳 CN 21 | D openit.ml
       - 🇨🇳 CN 22 | D openit.ml
-      - 🇨🇳 CN 23 | N(-)D openit.ml
-      - 🇨🇳 CN 24 | N(-)D openit.ml
       - 🇨🇳 CN 25 | N(-)D openit.ml
       - 🇨🇳 CN 26 | D openit.ml
-      - 🇨🇳 CN 27 | N(-)D openit.ml
-      - 🇨🇳 CN 28 | N(-)D openit.ml
-      - 🇨🇳 CN 29 | N(-)D openit.ml
       - 🇨🇳 CN 30 | N(-)D openit.ml
-      - 🇨🇳 CN 31 | N(-)D openit.ml
-      - 🇨🇳 CN 32 | N(-)D openit.ml
+      - 🇨🇳 CN 31 | D openit.ml
       - 🇨🇳 CN 33 | N(-)D openit.ml
       - 🇨🇳 CN 34 | N(-)D openit.ml
       - 🇨🇳 CN 35 | N(-)D openit.ml
       - 🇨🇳 CN 36 | N(-)D openit.ml
-      - 🇨🇳 CN 37 | D openit.ml
       - 🇨🇳 CN 38 | N(-)D openit.ml
       - 🇨🇳 CN 39 | D openit.ml
+      - 🇨🇳 CN 41 | D openit.ml
+      - 🇨🇳 CN 42 | D openit.ml
       - 🇨🇳 CN 43 | D openit.ml
       - 🇨🇳 CN 46 | N(-)D openit.ml
       - 🇨🇳 CN 47 | D openit.ml
+      - 🇨🇳 CN 48 | D openit.ml
       - 🇨🇳 CN 49 | D openit.ml
+      - 🇨🇳 CN 50 | D openit.ml
       - 🇨🇳 CN 51 | D openit.ml
       - 🇨🇳 CN 52 | D openit.ml
       - 🇨🇳 CN 55 | ND openit.ml
@@ -793,21 +787,15 @@ proxy-groups:
       - 🇨🇳 CN 57 | ND openit.ml
       - 🇨🇳 CN 58 | D openit.ml
       - 🇨🇳 CN 60 | D openit.ml
-      - 🇨🇳 CN 62 | D openit.ml
+      - 🇨🇳 CN 62 | N(-)D openit.ml
       - 🇨🇳 CN 65 | N(-)D openit.ml
       - 🇨🇳 CN 66 | N(-)D openit.ml
-      - 🇨🇳 CN 67 | D openit.ml
       - 🇨🇳 CN 68 | D openit.ml
       - 🇨🇳 CN 69 | D openit.ml
       - 🇨🇳 CN 70 | D openit.ml
-      - 🇨🇳 CN 72 | ND openit.ml
       - 🇨🇳 CN 73 | N(-)D openit.ml
       - 🇨🇳 CN 74 | N(-)D openit.ml
       - 🇨🇳 CN 75 | D openit.ml
-      - 🇨🇳 CN 77 | D openit.ml
-      - 🇨🇳 CN 79 | N(-)D openit.ml
-      - 🇨🇳 CN 80 | D openit.ml
-      - 🇨🇳 CN 81 | D openit.ml
       - 🇩🇪 DE 1 | N(-)D openit.ml
       - 🇬🇧 GB 1 | N(-)D openit.ml
       - 🇬🇧 GB 2 | N(-)D openit.ml
@@ -817,7 +805,8 @@ proxy-groups:
       - 🇭🇰 HK 1 | D openit.ml
       - 🇭🇰 HK 2 | D openit.ml
       - 🇭🇰 HK 3 | N(-)D openit.ml
-      - 🇭🇰 HK 4 | N(-)D openit.ml
+      - 🇭🇰 HK 4 | D openit.ml
+      - 🇭🇰 HK 5 | N(-)D openit.ml
       - 🇯🇵 JP 2 | D openit.ml
       - 🇯🇵 JP 3 | D openit.ml
       - 🇳🇱 NL 1 | D openit.ml
@@ -831,30 +820,30 @@ proxy-groups:
       - 🇺🇸 US 1 | N(-)D openit.ml
       - 🇺🇸 US 10 | N(-)D openit.ml
       - 🇺🇸 US 11 | D openit.ml
-      - 🇺🇸 US 13 | N(-)D openit.ml
       - 🇺🇸 US 15 | N(-)D openit.ml
       - 🇺🇸 US 16 | N(-)D openit.ml
       - 🇺🇸 US 17 | D openit.ml
       - 🇺🇸 US 18 | N(-)D openit.ml
+      - 🇺🇸 US 2 | N(-)D openit.ml
       - 🇺🇸 US 20 | D openit.ml
       - 🇺🇸 US 21 | D openit.ml
-      - 🇺🇸 US 22 | D openit.ml
+      - 🇺🇸 US 22 | N(-)D openit.ml
       - 🇺🇸 US 23 | N(-)D openit.ml
       - 🇺🇸 US 24 | N(-)D openit.ml
-      - 🇺🇸 US 25 | N(-)D openit.ml
-      - 🇺🇸 US 26 | ND openit.ml
-      - 🇺🇸 US 27 | D openit.ml
-      - 🇺🇸 US 28 | N(-)D openit.ml
-      - 🇺🇸 US 29 | D openit.ml
+      - 🇺🇸 US 25 | ND openit.ml
+      - 🇺🇸 US 26 | D openit.ml
+      - 🇺🇸 US 27 | N(-)D openit.ml
+      - 🇺🇸 US 28 | D openit.ml
+      - 🇺🇸 US 29 | ND openit.ml
       - 🇺🇸 US 3 | D openit.ml
-      - 🇺🇸 US 30 | ND openit.ml
-      - 🇺🇸 US 32 | ND openit.ml
+      - 🇺🇸 US 31 | ND openit.ml
+      - 🇺🇸 US 33 | N(-)D openit.ml
       - 🇺🇸 US 34 | N(-)D openit.ml
       - 🇺🇸 US 35 | ND openit.ml
       - 🇺🇸 US 36 | N(-)D openit.ml
       - 🇺🇸 US 6 | N(-)D openit.ml
       - 🇺🇸 US 7 | ND openit.ml
-      - 🇺🇸 US 8 | ND openit.ml
+      - 🇺🇸 US 8 | N(-)D openit.ml
       - 🇺🇸 US 9 | ND openit.ml
   - name: 🎄 B站港澳台解锁
     type: select
