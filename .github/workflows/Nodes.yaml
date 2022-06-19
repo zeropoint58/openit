@@ -36,7 +36,7 @@ jobs:
 
   rr-job: #input./utils/clashcheck/check.yaml
     name: Remove & Remark
-    #needs: cs-job
+    needs: cs-job
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -63,9 +63,9 @@ jobs:
          npm start #output./utils/rm/output
     - name: url & https & check
       run: | #input./utils/rm/url ./url ./.github/url.sh ./1 ./2 ./3
-         rm ./utils/rm/rm1 ./utils/rm/rm2 ./utils/rm/out ./utils/rm/config.yml
+         rm ./utils/rm/rm1 ./utils/rm/rm2 ./utils/rm/out ./utils/rm/config.yml #清理垃圾
          #input./utils/rm/output
-         mv ./utils/rm/output ./url ########################output./url
+         mv ./utils/rm/output ./url #output./url
          #input./url
          base64 ./url > ./utils/pool/check -w 0 #output./utils/pool/check
          #input./.github/url.sh
