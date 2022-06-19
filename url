@@ -1,99 +1,164 @@
 trojan://ca4596fb9bc63cf2@5.44.249.43:3389?allowInsecure=1#unknown 1 | N(-)D openit.ml
-trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:54670?allowInsecure=0&sni=ch1.nodegz.top#unknown 2 |  openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@103.173.255.127:28443?allowInsecure=1&sni=huayun.xyz#unknown 3 |  openit.ml
-trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443?allowInsecure=1#🇦🇺AU 1 |  openit.ml
-trojan://9eef43d9-712e-4850-bb7a-12b279a96de5@kk.2046.gq:4443?allowInsecure=1&sni=kk.2046.gq#🇦🇺AU 2 | D openit.ml
-trojan://c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26@jgwxn2.gaox.ml:443?allowInsecure=1#🇦🇺AU 3 | N(-)D openit.ml
-trojan://d0f96d3c-c518-3af9-bcbd-34b3743b7e34@kh1.nodegz.top:443?allowInsecure=1#🇧🇩BD 1 |  openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@103.173.255.127:28443?allowInsecure=1&sni=huayun.xyz#unknown 2 |  openit.ml
+trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:50992?allowInsecure=1&sni=sg1.nodegz.top#unknown 3 |  openit.ml
+trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:43215?allowInsecure=1&sni=nl1.nodegz.top#unknown 4 | N(-)D openit.ml
+trojan://9eef43d9-712e-4850-bb7a-12b279a96de5@kk.2046.gq:4443?allowInsecure=1&sni=kk.2046.gq#🇦🇺AU 1 | D openit.ml
+trojan://c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26@jgwxn2.gaox.ml:443?allowInsecure=1#🇦🇺AU 2 | N(-)D openit.ml
+trojan://80114348-eea5-43b3-8705-2da4430d3074@ocikr.n.optage.moe:44600?allowInsecure=1&sni=cdn.qchwnd.moe#🇦🇺AU 3 | D openit.ml
 trojan://6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93@67us01.fans8.xyz:443?allowInsecure=0&sni=67us01.fans8.xyz#🇨🇦CA 1 | D openit.ml
-trojan://80114348-eea5-43b3-8705-2da4430d3074@flb.alinkrelay.com:12000?allowInsecure=1&sni=flb.alinkrelay.com#🇨🇦CA 2 | D openit.ml
-ssr://MTgzLjIzMi4xNDEuMTA5OjU2MjphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPThKK0hxUENmaDdORFRpQXhJSHdnZTN0eVpYTjFiSFI5ZlNCdmNHVnVhWFF1Yld3PSZvYmZzcGFyYW09WkVNMWRGcFRPVEpqUnpWdldWaFImcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
+trojan://6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93@67tw01.fans8.xyz:443?allowInsecure=0&sni=67tw01.fans8.xyz#🇨🇦CA 2 | N(-)D openit.ml
+trojan://80114348-eea5-43b3-8705-2da4430d3074@flb.alinkrelay.com:12000?allowInsecure=0&sni=flb.alinkrelay.com#🇨🇦CA 3 | D openit.ml
+trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-sg01.yiyodns.xyz:443?allowInsecure=1#🇨🇦CA 4 | D openit.ml
+ssr://Y25nemNtLmR1cmFrZXIueHl6OjU2MjphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPThKK0hxUENmaDdORFRpQXhJSHdnZTN0eVpYTjFiSFI5ZlNCdmNHVnVhWFF1Yld3PSZvYmZzcGFyYW09JnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
 ssr://MTgzLjIzMi4xNDEuMTA5OjU2MTphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPThKK0hxUENmaDdORFRpQXlJSHdnZTN0eVpYTjFiSFI5ZlNCdmNHVnVhWFF1Yld3PSZvYmZzcGFyYW09WkVNMWRGcFRPVEpqUnpWdldWaFImcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
-ssr://MTEyLjY0Ljk4LjIyODo1NjA6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF6SUh3Z2UzdHlaWE4xYkhSOWZTQnZjR1Z1YVhRdWJXdz0mb2Jmc3BhcmFtPVpFTTFkRnBUT1RKalJ6VnZXVmhSJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
-ssr://MTEyLjY0Ljk4LjIyODo1NjE6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUEwSUh3Z2UzdHlaWE4xYkhSOWZTQnZjR1Z1YVhRdWJXdz0mb2Jmc3BhcmFtPVpFTTFkRnBUT1RKalJ6VnZXVmhSJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1OTgzNmRiOC02ZTVmLTRiOGItYWExZS0zOTYzZjlkOWM5MjM@gy.ziqiyun.xyz:47795#🇨🇳CN 5 | D openit.ml
-ssr://MTM5LjIyNi43OC4xNDg6NTYxOmF1dGhfYWVzMTI4X21kNTpjaGFjaGEyMC1pZXRmOnBsYWluOmJXSnNZVzVyTVhCdmNuUS8/Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9OEorSHFQQ2ZoN05EVGlBMklId2dlM3R5WlhOMWJIUjlmU0J2Y0dWdWFYUXViV3c9Jm9iZnNwYXJhbT1aRU0xZEZwVE9USmpSelZ2V1ZoUiZwcm90b3BhcmFtPU1qRXpNakk2TVRJek5EVTJOemc=
-ssr://MTgzLjIzMi4xNDEuMTE0OjU2MTphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPThKK0hxUENmaDdORFRpQTNJSHdnZTN0eVpYTjFiSFI5ZlNCdmNHVnVhWFF1Yld3PSZvYmZzcGFyYW09WkVNMWRGcFRPVEpqUnpWdldWaFImcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
-ssr://MTgzLjIzMi4xNDEuMTE0OjU2MjphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPThKK0hxUENmaDdORFRpQTRJSHdnZTN0eVpYTjFiSFI5ZlNCdmNHVnVhWFF1Yld3PSZvYmZzcGFyYW09WkVNMWRGcFRPVEpqUnpWdldWaFImcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
-ssr://MTgzLjIzMi4xNDEuMTE0OjU2MzphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPThKK0hxUENmaDdORFRpQTVJSHdnZTN0eVpYTjFiSFI5ZlNCdmNHVnVhWFF1Yld3PSZvYmZzcGFyYW09WkVNMWRGcFRPVEpqUnpWdldWaFImcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
-ssr://MTgzLjIzMi4xNDEuODI6NTYxOmF1dGhfYWVzMTI4X21kNTpjaGFjaGEyMC1pZXRmOnBsYWluOmJXSnNZVzVyTVhCdmNuUS8/Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9OEorSHFQQ2ZoN05EVGlBeE1DQjhJSHQ3Y21WemRXeDBmWDBnYjNCbGJtbDBMbTFzJm9iZnNwYXJhbT1Xa1ZOTVdSR2NGUlBWRXBxVW5wV2RsZFdhRkkmcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
-ssr://MTEyLjY1LjUzLjE1MDo1NjM6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TVNCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVpFTTFkRnBUT1RKalJ6VnZXVmhSJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
-ssr://MTEyLjY1LjUzLjE1MDo1NjA6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TWlCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVpFTTFkRnBUT1RKalJ6VnZXVmhSJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
-ssr://MTEyLjY1LjUzLjE1MDo1NjI6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TXlCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVpFTTFkRnBUT1RKalJ6VnZXVmhSJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
-trojan://d66013c645b93c5c@116.129.254.47:3389?allowInsecure=1#🇨🇳CN 14 | N(-)D openit.ml
-ssr://MTEyLjY1LjUzLjE1MDo1NjE6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TlNCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVpFTTFkRnBUT1RKalJ6VnZXVmhSJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
-ssr://MTM5LjIyNi43OC4xNDg6NTYyOmF1dGhfYWVzMTI4X21kNTpjaGFjaGEyMC1pZXRmOnBsYWluOmJXSnNZVzVyTVhCdmNuUS8/Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9OEorSHFQQ2ZoN05EVGlBeE5pQjhJSHQ3Y21WemRXeDBmWDBnYjNCbGJtbDBMbTFzJm9iZnNwYXJhbT1aRU0xZEZwVE9USmpSelZ2V1ZoUiZwcm90b3BhcmFtPU1qRXpNakk2TVRJek5EVTJOemc=
-trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer.gzfxd.xyz:10116?allowInsecure=0&sni=nl1.nodegz.top#🇨🇳CN 17 | N(-)D openit.ml
-trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:43215?allowInsecure=0&sni=nl1.nodegz.top#🇨🇳CN 18 | N(-)D openit.ml
-trojan://a170b44c2dfac9e6@116.129.253.201:3389?allowInsecure=1#🇨🇳CN 19 |  openit.ml
-trojan://ca4596fb9bc63cf2@116.129.254.47:3389?allowInsecure=1#🇨🇳CN 20 | N(-)D openit.ml
-trojan://d66013c645b93c5c@116.129.254.29:3389?allowInsecure=1#🇨🇳CN 21 | D openit.ml
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkOTc1ZDE2Ni1mMmI3LTQwNzItYTMxYS1lZGJlNWMwOTcwMTE@gy.ziqiyun.xyz:45436#🇨🇳CN 22 | N(-)D openit.ml
-trojan://c3c448da2363a6f7@116.129.254.47:3389?allowInsecure=1#🇨🇳CN 23 | N(-)D openit.ml
-trojan://ca4596fb9bc63cf2@103.56.60.235:3385?allowInsecure=1#🇨🇳CN 24 |  openit.ml
-trojan://d66013c645b93c5c@103.56.62.145:3385?allowInsecure=1#🇨🇳CN 25 |  openit.ml
-trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@shcu.alinkrelay.com:44605?allowInsecure=1&sni=cdn.qchwnd.moe#🇨🇳CN 26 | D openit.ml
-trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@shcu.alinkrelay.com:44608?allowInsecure=1&sni=tw.node.qchwnd.moe#🇨🇳CN 27 | D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20120?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 28 |  openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20100?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 29 | D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20090?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 30 | N(-)D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20110?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 31 |  openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20130?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 32 | D openit.ml
+ssr://MTgzLjIzMi4xNDEuMTA5OjU2MDphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPThKK0hxUENmaDdORFRpQXpJSHdnZTN0eVpYTjFiSFI5ZlNCdmNHVnVhWFF1Yld3PSZvYmZzcGFyYW09WkVNMWRGcFRPVEpqUnpWdldWaFImcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
+ssr://MTgzLjIzMi4xNDEuODI6NTYxOmF1dGhfYWVzMTI4X21kNTpjaGFjaGEyMC1pZXRmOnBsYWluOmJXSnNZVzVyTVhCdmNuUS8/Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9OEorSHFQQ2ZoN05EVGlBMElId2dlM3R5WlhOMWJIUjlmU0J2Y0dWdWFYUXViV3c9Jm9iZnNwYXJhbT1Xa1ZOTVdSR2NGUlBWRXBxVW5wV2RsZFdhRkkmcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
+ssr://MTgzLjIzMi4xNDEuODI6NTYyOmF1dGhfYWVzMTI4X21kNTpjaGFjaGEyMC1pZXRmOnBsYWluOmJXSnNZVzVyTVhCdmNuUS8/Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9OEorSHFQQ2ZoN05EVGlBMUlId2dlM3R5WlhOMWJIUjlmU0J2Y0dWdWFYUXViV3c9Jm9iZnNwYXJhbT1Xa1ZOTVdSR2NGUlBWRXBxVW5wV2RsZFdhRkkmcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
+ssr://MTEyLjY0Ljk4LjIyODo1NjE6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUEySUh3Z2UzdHlaWE4xYkhSOWZTQnZjR1Z1YVhRdWJXdz0mb2Jmc3BhcmFtPVdrVk5NV1JHY0ZSUFZFcHFVbnBXZGxkV2FGSSZwcm90b3BhcmFtPU1qRXpNakk2TVRJek5EVTJOemc=
+ssr://MTEyLjY0Ljk4LjIyODo1NjA6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUEzSUh3Z2UzdHlaWE4xYkhSOWZTQnZjR1Z1YVhRdWJXdz0mb2Jmc3BhcmFtPVdrVk5NV1JHY0ZSUFZFcHFVbnBXZGxkV2FGSSZwcm90b3BhcmFtPU1qRXpNakk2TVRJek5EVTJOemc=
+ssr://MTgzLjIzMi4xNDEuMTE0OjU2MTphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPThKK0hxUENmaDdORFRpQTRJSHdnZTN0eVpYTjFiSFI5ZlNCdmNHVnVhWFF1Yld3PSZvYmZzcGFyYW09V2tWTk1XUkdjRlJQVkVwcVVucFdkbGRXYUZJJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
+ssr://MTM5LjIyNi43OC4xNDg6NTYyOmF1dGhfYWVzMTI4X21kNTpjaGFjaGEyMC1pZXRmOnBsYWluOmJXSnNZVzVyTVhCdmNuUS8/Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9OEorSHFQQ2ZoN05EVGlBNUlId2dlM3R5WlhOMWJIUjlmU0J2Y0dWdWFYUXViV3c9Jm9iZnNwYXJhbT1Xa1ZOTVdSR2NGUlBWRXBxVW5wV2RsZFdhRkkmcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
+ssr://MTgzLjIzMi4xNDEuMTE0OjU2MzphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPThKK0hxUENmaDdORFRpQXhNQ0I4SUh0N2NtVnpkV3gwZlgwZ2IzQmxibWwwTG0xcyZvYmZzcGFyYW09V2tWTk1XUkdjRlJQVkVwcVVucFdkbGRXYUZJJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
+ssr://MTEyLjY1LjUzLjE1MDo1NjI6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TVNCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVdrVk5NV1JHY0ZSUFZFcHFVbnBXZGxkV2FGSSZwcm90b3BhcmFtPU1qRXpNakk2TVRJek5EVTJOemc=
+ssr://MTM5LjIyNi43OC4xNDg6NTYxOmF1dGhfYWVzMTI4X21kNTpjaGFjaGEyMC1pZXRmOnBsYWluOmJXSnNZVzVyTVhCdmNuUS8/Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9OEorSHFQQ2ZoN05EVGlBeE1pQjhJSHQ3Y21WemRXeDBmWDBnYjNCbGJtbDBMbTFzJm9iZnNwYXJhbT1Xa1ZOTVdSR2NGUlBWRXBxVW5wV2RsZFdhRkkmcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
+ssr://MTEyLjY1LjUzLjE1MDo1NjM6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TXlCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVdrVk5NV1JHY0ZSUFZFcHFVbnBXZGxkV2FGSSZwcm90b3BhcmFtPU1qRXpNakk2TVRJek5EVTJOemc=
+ssr://MTEyLjY1LjUzLjE1MDo1NjE6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TkNCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVdrVk5NV1JHY0ZSUFZFcHFVbnBXZGxkV2FGSSZwcm90b3BhcmFtPU1qRXpNakk2TVRJek5EVTJOemc=
+ssr://MTgzLjIzMi4xNDEuMTE0OjU2MjphdXRoX2FlczEyOF9tZDU6Y2hhY2hhMjAtaWV0ZjpwbGFpbjpiV0pzWVc1ck1YQnZjblEvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPThKK0hxUENmaDdORFRpQXhOU0I4SUh0N2NtVnpkV3gwZlgwZ2IzQmxibWwwTG0xcyZvYmZzcGFyYW09WkVNMWRGcFRPVEpqUnpWdldWaFImcHJvdG9wYXJhbT1NakV6TWpJNk1USXpORFUyTnpn
+ssr://MTEyLjY1LjUzLjE1MDo1NjA6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TmlCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVdrVk5NV1JHY0ZSUFZFcHFVbnBXZGxkV2FGSSZwcm90b3BhcmFtPU1qRXpNakk2TVRJek5EVTJOemc=
+trojan://9a27800ca7b52ee0@116.129.253.130:3389?allowInsecure=1#🇨🇳CN 17 | N(-)D openit.ml
+ss://YWVzLTI1Ni1nY206NmY4ZWJlODMtODkxMC00MTA2LTlkYzQtMThhNDFjYzIwZWQ0@zh01lv5tw03.feiguayun.xyz:31187#🇨🇳CN 18 | D openit.ml
+trojan://e37c6d7efa845d60@116.129.253.130:3389?allowInsecure=1#🇨🇳CN 19 | N(-)D openit.ml
+trojan://ca4596fb9bc63cf2@116.129.254.29:3389?allowInsecure=1#🇨🇳CN 20 | D openit.ml
+trojan://9a27800ca7b52ee0@116.129.254.29:3389?allowInsecure=1#🇨🇳CN 21 | D openit.ml
+trojan://d66013c645b93c5c@116.129.254.29:3389?allowInsecure=1#🇨🇳CN 22 | D openit.ml
+trojan://f6f2072a2e4cfc91@116.129.253.130:3389?allowInsecure=1#🇨🇳CN 23 | N(-)D openit.ml
+trojan://a170b44c2dfac9e6@116.129.253.201:3389?allowInsecure=1#🇨🇳CN 24 | N(-)D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20040?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 25 | N(-)D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20080?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 26 | D openit.ml
+trojan://c3c448da2363a6f7@116.129.253.201:3389?allowInsecure=1#🇨🇳CN 27 | N(-)D openit.ml
+trojan://ca911d30af65ef1b@116.129.253.201:3389?allowInsecure=1#🇨🇳CN 28 | N(-)D openit.ml
+trojan://9029864a78d29a43@116.129.253.201:3389?allowInsecure=1#🇨🇳CN 29 | N(-)D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:6377#🇨🇳CN 30 | N(-)D openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:3377#🇨🇳CN 31 | N(-)D openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:2222#🇨🇳CN 32 | N(-)D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:2224#🇨🇳CN 33 | N(-)D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:6411#🇨🇳CN 34 | N(-)D openit.ml
+ss://YWVzLTEyOC1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:6399#🇨🇳CN 35 | N(-)D openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:3388#🇨🇳CN 36 | N(-)D openit.ml
+ss://YWVzLTEyOC1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:6644#🇨🇳CN 37 | D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:3399#🇨🇳CN 38 | N(-)D openit.ml
+ss://YWVzLTEyOC1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:9922#🇨🇳CN 39 | D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:4466#🇨🇳CN 40 |  openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:9911#🇨🇳CN 41 |  openit.ml
+trojan://ca4596fb9bc63cf2@103.56.62.145:3382?allowInsecure=1#🇨🇳CN 42 |  openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:4455#🇨🇳CN 43 | D openit.ml
+ss://YWVzLTEyOC1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:2230#🇨🇳CN 44 |  openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:6633#🇨🇳CN 45 |  openit.ml
+ss://YWVzLTEyOC1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:3320#🇨🇳CN 46 | N(-)D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:2238#🇨🇳CN 47 | D openit.ml
+ss://YWVzLTEyOC1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:6622#🇨🇳CN 48 |  openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:3366#🇨🇳CN 49 | D openit.ml
+ss://YWVzLTEyOC1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:2232#🇨🇳CN 50 |  openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:2236#🇨🇳CN 51 | D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1OTgzNmRiOC02ZTVmLTRiOGItYWExZS0zOTYzZjlkOWM5MjM@gy.ziqiyun.xyz:47795#🇨🇳CN 52 | D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:9966#🇨🇳CN 53 |  openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:2242#🇨🇳CN 54 |  openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:2240#🇨🇳CN 55 | ND openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:9123#🇨🇳CN 56 | ND openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:6666#🇨🇳CN 57 | ND openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:9988#🇨🇳CN 58 | D openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:4397#🇨🇳CN 59 |  openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20030?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 60 | D openit.ml
+ss://YWVzLTEyOC1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:9957#🇨🇳CN 61 |  openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:3344#🇨🇳CN 62 | D openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:9956#🇨🇳CN 63 |  openit.ml
+ss://YWVzLTEyOC1jZmI6UWF6RWRjVGdiMTU5QCQq@14.29.124.168:24003#🇨🇳CN 64 |  openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:2226#🇨🇳CN 65 | N(-)D openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:2246#🇨🇳CN 66 | N(-)D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:6619#🇨🇳CN 67 | D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:3340#🇨🇳CN 68 | D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20130?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 69 | D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjMzYzFhNi1lZjE0LTQ1NmQtYWNhOC1iZjYzNjE5YjI1Mzk@rtx.1660.super.as58466.com:3355#🇨🇳CN 70 | D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20010?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 71 |  openit.ml
+ss://YWVzLTI1Ni1nY206ZmIzM2MxYTYtZWYxNC00NTZkLWFjYTgtYmY2MzYxOWIyNTM5@rtx.1660.super.as58466.com:6444#🇨🇳CN 72 | ND openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20090?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 73 | N(-)D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20100?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 74 | N(-)D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd1.xxcv.cc:20070?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 75 | D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20110?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 76 |  openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20120?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 77 | D openit.ml
+trojan://d66013c645b93c5c@116.129.253.134:3385?allowInsecure=1#🇨🇳CN 78 |  openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20100?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 79 | N(-)D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20120?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 80 | D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20130?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 81 | D openit.ml
 trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?allowInsecure=1#🇨🇿CZ 1 |  openit.ml
 trojan://3gLlCYBipVwr6Y5F@v2cross.com.02.v2ce.com:443?allowInsecure=1#🇨🇿CZ 2 |  openit.ml
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340?allowInsecure=1#🇩🇪DE 1 | N(-)D openit.ml
 trojan://iKR3Ft@193.178.210.29:443?allowInsecure=1#🇫🇷FR 1 |  openit.ml
-trojan://02e653c9-7c93-46a9-999d-11834bd0c577@jgwld1.gaox.ml:443?allowInsecure=1#🇬🇧GB 1 | N(-)D openit.ml
-trojan://d7fd8aaa-4581-4281-80aa-4b63e5e1f157@jgwld2.gaox.ml:443?allowInsecure=1#🇬🇧GB 2 | N(-)D openit.ml
+trojan://d7fd8aaa-4581-4281-80aa-4b63e5e1f157@jgwld2.gaox.ml:443?allowInsecure=1#🇬🇧GB 1 | N(-)D openit.ml
+trojan://02e653c9-7c93-46a9-999d-11834bd0c577@jgwld1.gaox.ml:443?allowInsecure=1#🇬🇧GB 2 | N(-)D openit.ml
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@144.24.69.60:28443?allowInsecure=1&sni=huayun.xyz#🇬🇧GB 3 | D openit.ml
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@144.24.77.154:28443?allowInsecure=1&sni=huayun.xyz#🇬🇧GB 4 | D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@144.24.90.94:28443?allowInsecure=1&sni=huayun.xyz#🇬🇧GB 5 | N(-)D openit.ml
-trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@jgwcc1.gaox.ml:443?allowInsecure=1#🇬🇧GB 6 | D openit.ml
+trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@jgwcc1.gaox.ml:443?allowInsecure=1#🇬🇧GB 5 | D openit.ml
 trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-hk01.yiyodns.xyz:443?allowInsecure=1#🇭🇰HK 1 | D openit.ml
-trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20713?allowInsecure=0&sni=ssl.ssl12.xyz#🇭🇰HK 2 | N(-)D openit.ml
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-hk02.yiyodns.xyz:443?allowInsecure=1#🇭🇰HK 3 | N(-)D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@164.70.68.67:28443?allowInsecure=1&sni=huayun.xyz#🇯🇵JP 1 | D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@172.105.255.202:28443?allowInsecure=1&sni=huayun.xyz#🇯🇵JP 2 | D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@118.107.57.227:28443?allowInsecure=1&sni=huayun.xyz#🇰🇷KR 1 | N(-)D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@210.0.158.220:28443?allowInsecure=1&sni=huayun.xyz#🇭🇰HK 2 | D openit.ml
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20713?allowInsecure=0&sni=ssl.ssl12.xyz#🇭🇰HK 3 | N(-)D openit.ml
+trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-hk02.yiyodns.xyz:443?allowInsecure=1#🇭🇰HK 4 | N(-)D openit.ml
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@jp-03.licom.ml:8443?allowInsecure=0&sni=jp-03.licom.ml#🇯🇵JP 1 |  openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@203.138.98.199:28443?allowInsecure=1&sni=huayun.xyz#🇯🇵JP 2 | D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@172.105.255.202:28443?allowInsecure=1&sni=huayun.xyz#🇯🇵JP 3 | D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@5.181.4.104:28443?allowInsecure=1&sni=huayun.xyz#🇳🇱NL 1 | D openit.ml
+trojan://9eef43d9-712e-4850-bb7a-12b279a96de5@ru.2046.gq:4443?allowInsecure=1#🇷🇺RU 1 |  openit.ml
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@141.147.191.85:28443?allowInsecure=1&sni=huayun.xyz#🇸🇪SE 1 | N(-)D openit.ml
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hazz.win:12340?allowInsecure=1#🇸🇬SG 1 | N(-)D openit.ml
-trojan://16877c70-e7b8-11ec-99f2-1239d0255272@w13.udpgw.com:443?allowInsecure=0&sni=w13.udpgw.com#🇸🇬SG 2 | N(-)D openit.ml
-trojan://f64e69c0-e7b7-11ec-ab81-1239d0255272@w11.udpgw.com:443?allowInsecure=0&sni=w11.udpgw.com#🇸🇬SG 3 | N(-)D openit.ml
-trojan://08964210-e7b8-11ec-95aa-1239d0255272@w12.udpgw.com:443?allowInsecure=0&sni=w12.udpgw.com#🇸🇬SG 4 | N(-)D openit.ml
-trojan://sharecentre@sg.sharecentrepro.tk:443?allowInsecure=1#🇸🇬SG 5 | N(-)D openit.ml
-trojan://affae2e0-e84b-11ec-b09f-1239d0255272@trojan1.udpgw.com:443?allowInsecure=1#🇸🇬SG 6 | N(-)D openit.ml
+trojan://6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93@613hk.fans8.xyz:443?allowInsecure=0&sni=613hk.fans8.xyz#🇸🇬SG 2 | D openit.ml
+trojan://16877c70-e7b8-11ec-99f2-1239d0255272@w13.udpgw.com:443?allowInsecure=0&sni=w13.udpgw.com#🇸🇬SG 3 | N(-)D openit.ml
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@sg-02.licom.ml:8443?allowInsecure=0&sni=sg-02.licom.ml#🇸🇬SG 4 |  openit.ml
+trojan://f64e69c0-e7b7-11ec-ab81-1239d0255272@w11.udpgw.com:443?allowInsecure=0&sni=w11.udpgw.com#🇸🇬SG 5 | N(-)D openit.ml
+trojan://08964210-e7b8-11ec-95aa-1239d0255272@w12.udpgw.com:443?allowInsecure=0&sni=w12.udpgw.com#🇸🇬SG 6 | N(-)D openit.ml
+trojan://affae2e0-e84b-11ec-b09f-1239d0255272@trojan1.udpgw.com:443?allowInsecure=1#🇸🇬SG 7 | N(-)D openit.ml
+trojan://sharecentre@sg.sharecentrepro.tk:443?allowInsecure=1#🇸🇬SG 8 | N(-)D openit.ml
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@sg-03.licom.ml:8443?allowInsecure=1&sni=sg-03.licom.ml#🇸🇬SG 9 |  openit.ml
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@sg-04.licom.ml:8443?allowInsecure=1&sni=sg-04.licom.ml#🇸🇬SG 10 |  openit.ml
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@45.11.185.151:28443?allowInsecure=1&sni=huayun.xyz#🇹🇷TR 1 | N(-)D openit.ml
 trojan://ZD4dLSBXiMrmzdLd@v2cross.com.03.v2ce.com:443?allowInsecure=1#🇺🇦UA 1 |  openit.ml
-trojan://vGWCNNfBHwSY6m6M@v2cross.com.04.v2ce.com:443?allowInsecure=1#🇺🇦UA 2 |  openit.ml
-trojan://5y8y3CwxRVYhyfSY@ce.rutracker-cn.com:443?allowInsecure=1#🇺🇦UA 3 |  openit.ml
-trojan://kGrwqmB1nEKUsDwE@v2cross.com.05.v2ce.com:443?allowInsecure=1#🇺🇦UA 4 |  openit.ml
-trojan://HTrovQkamDxNfaD5@cz5.v2ce.com:443?allowInsecure=1#🇺🇦UA 5 |  openit.ml
-trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443?allowInsecure=1#🇺🇸US 1 | D openit.ml
-trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?allowInsecure=1#🇺🇸US 2 | N(-)D openit.ml
-trojan://1ac27c98-7883-483b-b958-7d6a68b60663@us-12.hmkj9.com:54321?allowInsecure=0&sni=us-12.hmkj9.com#🇺🇸US 3 | N(-)D openit.ml
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?allowInsecure=0&sni=tj-us02.yiyodns.xyz#🇺🇸US 4 | ND openit.ml
-trojan://8d2d5953-d649-4034-94f2-72f2df2623da@jgwdb3.gaox.ml:443?allowInsecure=1#🇺🇸US 5 | D openit.ml
+trojan://5y8y3CwxRVYhyfSY@ce.rutracker-cn.com:443?allowInsecure=1#🇺🇦UA 2 |  openit.ml
+trojan://kGrwqmB1nEKUsDwE@v2cross.com.05.v2ce.com:443?allowInsecure=1#🇺🇦UA 3 |  openit.ml
+trojan://HTrovQkamDxNfaD5@cz5.v2ce.com:443?allowInsecure=1#🇺🇦UA 4 |  openit.ml
+trojan://vGWCNNfBHwSY6m6M@v2cross.com.04.v2ce.com:443?allowInsecure=1#🇺🇦UA 5 |  openit.ml
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?allowInsecure=1#🇺🇸US 1 | N(-)D openit.ml
+trojan://7cb64c49-2ce5-4fa6-9b79-9c02eb54735c@usfree1.jiantian.xyz:23425?allowInsecure=1&sni=usfree1.jiantian.xyz#🇺🇸US 2 |  openit.ml
+trojan://8d2d5953-d649-4034-94f2-72f2df2623da@jgwdb3.gaox.ml:443?allowInsecure=1#🇺🇸US 3 | D openit.ml
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?allowInsecure=1#🇺🇸US 4 |  openit.ml
+trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443?allowInsecure=1#🇺🇸US 5 |  openit.ml
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s1.hazz.win:12340?allowInsecure=1#🇺🇸US 6 | N(-)D openit.ml
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-sg02.yiyodns.xyz:443?allowInsecure=0&sni=tj-sg02.yiyodns.xyz#🇺🇸US 7 | D openit.ml
-trojan://9eef43d9-712e-4850-bb7a-12b279a96de5@ss2.2046.gq:4443?allowInsecure=1&sni=ss2.2046.gq#🇺🇸US 8 | ND openit.ml
-trojan://4ZPDeqJ6g766UKDJ@silicon.starspace.link:443?allowInsecure=1#🇺🇸US 9 | N(-)D openit.ml
-trojan://5HfENR8nt2PR8reH@rooms.starspace.link:443?allowInsecure=1#🇺🇸US 10 | N(-)D openit.ml
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@lsj02.wangxd.life:3052?allowInsecure=1#🇺🇸US 11 | N(-)D openit.ml
-trojan://151dada5-c12e-4eb3-940e-d93f365f8a4a@198.200.51.219:26969?allowInsecure=1#🇺🇸US 12 | N(-)D openit.ml
-trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?allowInsecure=1#🇺🇸US 13 | ND openit.ml
-trojan://sharecentre@ussc.scsevers.cf:443?allowInsecure=1#🇺🇸US 14 | D openit.ml
-trojan://ukMzuFSmIXDvgW0h@cd.rutracker-cn.com:443?allowInsecure=1#🇺🇸US 15 | N(-)D openit.ml
-trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@fhcamd2.gaox.ml:443?allowInsecure=1#🇺🇸US 16 | ND openit.ml
+trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?allowInsecure=0&sni=tj-us02.yiyodns.xyz#🇺🇸US 7 | ND openit.ml
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@us-01.licom.ml:8443?allowInsecure=0&sni=us-01.licom.ml#🇺🇸US 8 | ND openit.ml
+trojan://9eef43d9-712e-4850-bb7a-12b279a96de5@ss2.2046.gq:4443?allowInsecure=1&sni=ss2.2046.gq#🇺🇸US 9 | ND openit.ml
+trojan://1ac27c98-7883-483b-b958-7d6a68b60663@us-12.hmkj9.com:54321?allowInsecure=0&sni=us-12.hmkj9.com#🇺🇸US 10 | N(-)D openit.ml
+trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-sg02.yiyodns.xyz:443?allowInsecure=0&sni=tj-sg02.yiyodns.xyz#🇺🇸US 11 | D openit.ml
+trojan://80114348-eea5-43b3-8705-2da4430d3074@blr.alinkrelay.com:12000?allowInsecure=0&sni=blr.alinkrelay.com#🇺🇸US 12 | N(-) openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@23.225.77.226:28443?allowInsecure=1&sni=huayun.xyz#🇺🇸US 13 | N(-)D openit.ml
+trojan://ba2cc258-cd36-3b32-917d-49169b6380d1@us1.crunode.top:443?allowInsecure=1&sni=us1.crunode.top#🇺🇸US 14 |  openit.ml
+trojan://5LN8SGTqxk336nFg@wireless.starspace.link:443?allowInsecure=0&sni=wireless.starspace.link#🇺🇸US 15 | N(-)D openit.ml
+trojan://4ZPDeqJ6g766UKDJ@silicon.starspace.link:443?allowInsecure=1#🇺🇸US 16 | N(-)D openit.ml
 trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@172.104.244.36:28443?allowInsecure=1&sni=huayun.xyz#🇺🇸US 17 | D openit.ml
-trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml:443?allowInsecure=1#🇺🇸US 18 | ND openit.ml
-trojan://80114348-eea5-43b3-8705-2da4430d3074@ocijp.n.optage.moe:44616?allowInsecure=1&sni=cdn.qchwnd.moe#🇺🇸US 19 | N(-)D openit.ml
-trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr05.wangxd.life:3052?allowInsecure=1#🇺🇸US 20 | D openit.ml
-trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443?allowInsecure=1&sni=jgwdb4.gaox.ml#🇺🇸US 21 | D openit.ml
-trojan://W8gVbKNAZlFzgGPn@storage.starspace.link:443?allowInsecure=1#🇺🇸US 22 | N(-)D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@3.35.156.0:28443?allowInsecure=1&sni=huayun.xyz#🇺🇸US 23 | D openit.ml
-trojan://48ac743a-2d49-4191-b804-0c7fa7e01146@mc.vpshax.ml:443?allowInsecure=1#🇺🇸US 24 | N(-)D openit.ml
-trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us01.yiyodns.xyz:443?allowInsecure=1#🇺🇸US 25 | ND openit.ml
-trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?allowInsecure=1#🇺🇸US 26 | N(-) openit.ml
-trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@azhk.r.optage.moe:44605?allowInsecure=1#🇺🇸US 27 | D openit.ml
-trojan://80114348-eea5-43b3-8705-2da4430d3074@ocikr.n.optage.moe:44600?allowInsecure=1&sni=cdn.qchwnd.moe#🇺🇸US 28 | N(-)D openit.ml
-trojan://80114348-eea5-43b3-8705-2da4430d3074@blr.alinkrelay.com:12000?allowInsecure=1&sni=blr.alinkrelay.com#🇺🇸US 29 | N(-) openit.ml
+trojan://80114348-eea5-43b3-8705-2da4430d3074@ocijp.n.optage.moe:44616?allowInsecure=1&sni=cdn.qchwnd.moe#🇺🇸US 18 | N(-)D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@23.225.77.192:28443?allowInsecure=1&sni=huayun.xyz#🇺🇸US 19 | N(-) openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@3.35.156.0:28443?allowInsecure=1&sni=huayun.xyz#🇺🇸US 20 | D openit.ml
+trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@azhk.r.optage.moe:44605?allowInsecure=1&sni=cdn.qchwnd.moe#🇺🇸US 21 | D openit.ml
+trojan://9c822f05-cfdc-479a-9534-60f3d4127435@jgwcc2.gaox.ml:443?allowInsecure=1#🇺🇸US 22 | D openit.ml
+trojan://5HfENR8nt2PR8reH@rooms.starspace.link:443?allowInsecure=1#🇺🇸US 23 | N(-)D openit.ml
+trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@lsj02.wangxd.life:3052?allowInsecure=1#🇺🇸US 24 | N(-)D openit.ml
+trojan://151dada5-c12e-4eb3-940e-d93f365f8a4a@198.200.51.219:26969?allowInsecure=1#🇺🇸US 25 | N(-)D openit.ml
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?allowInsecure=1#🇺🇸US 26 | ND openit.ml
+trojan://sharecentre@ussc.scsevers.cf:443?allowInsecure=1#🇺🇸US 27 | D openit.ml
+trojan://ukMzuFSmIXDvgW0h@cd.rutracker-cn.com:443?allowInsecure=1#🇺🇸US 28 | N(-)D openit.ml
+trojan://3a2c0c6c-9ee5-c05f-c951-fcd73831983e@kr05.wangxd.life:3052?allowInsecure=1#🇺🇸US 29 | D openit.ml
+trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@fhcamd2.gaox.ml:443?allowInsecure=1#🇺🇸US 30 | ND openit.ml
+trojan://54080134-2cba-4535-8599-95650bd9aa54@jgwhdlb2.gaox.ml:443?allowInsecure=1#🇺🇸US 31 | N(-) openit.ml
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml:443?allowInsecure=1#🇺🇸US 32 | ND openit.ml
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?allowInsecure=1#🇺🇸US 33 | N(-) openit.ml
+trojan://W8gVbKNAZlFzgGPn@storage.starspace.link:443?allowInsecure=1#🇺🇸US 34 | N(-)D openit.ml
+trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us01.yiyodns.xyz:443?allowInsecure=1#🇺🇸US 35 | ND openit.ml
+trojan://48ac743a-2d49-4191-b804-0c7fa7e01146@mc.vpshax.ml:443?allowInsecure=1#🇺🇸US 36 | N(-)D openit.ml
+trojan://8619878a-3677-4c2d-aca5-55dbd765825f@bai-piao-wang-zhe-iplc12.98848.xyz:46956?allowInsecure=1#🇺🇸US 37 |  openit.ml
