@@ -1,11 +1,9 @@
 trojan://ca4596fb9bc63cf2@5.44.249.43:3389?allowInsecure=1#unknown 1 | N(-)D openit.ml
-trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:54670?allowInsecure=0&sni=ch1.nodegz.top#unknown 2 | N(-) openit.ml
-trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:43215?allowInsecure=0&sni=nl1.nodegz.top#unknown 3 | N(-)D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@103.173.255.127:28443?allowInsecure=1&sni=huayun.xyz#unknown 4 |  openit.ml
-trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443?allowInsecure=1#🇦🇺AU 1 | N(-) openit.ml
+trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:54670?allowInsecure=0&sni=ch1.nodegz.top#unknown 2 |  openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@103.173.255.127:28443?allowInsecure=1&sni=huayun.xyz#unknown 3 |  openit.ml
+trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@jgwxn3.gaox.ml:443?allowInsecure=1#🇦🇺AU 1 |  openit.ml
 trojan://9eef43d9-712e-4850-bb7a-12b279a96de5@kk.2046.gq:4443?allowInsecure=1&sni=kk.2046.gq#🇦🇺AU 2 | D openit.ml
 trojan://c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26@jgwxn2.gaox.ml:443?allowInsecure=1#🇦🇺AU 3 | N(-)D openit.ml
-trojan://80114348-eea5-43b3-8705-2da4430d3074@ocikr.n.optage.moe:44600?allowInsecure=1&sni=cdn.qchwnd.moe#🇦🇺AU 4 | D openit.ml
 trojan://d0f96d3c-c518-3af9-bcbd-34b3743b7e34@kh1.nodegz.top:443?allowInsecure=1#🇧🇩BD 1 |  openit.ml
 trojan://6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93@67us01.fans8.xyz:443?allowInsecure=0&sni=67us01.fans8.xyz#🇨🇦CA 1 | D openit.ml
 trojan://80114348-eea5-43b3-8705-2da4430d3074@flb.alinkrelay.com:12000?allowInsecure=1&sni=flb.alinkrelay.com#🇨🇦CA 2 | D openit.ml
@@ -22,24 +20,25 @@ ssr://MTgzLjIzMi4xNDEuODI6NTYxOmF1dGhfYWVzMTI4X21kNTpjaGFjaGEyMC1pZXRmOnBsYWluOm
 ssr://MTEyLjY1LjUzLjE1MDo1NjM6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TVNCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVpFTTFkRnBUT1RKalJ6VnZXVmhSJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
 ssr://MTEyLjY1LjUzLjE1MDo1NjA6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TWlCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVpFTTFkRnBUT1RKalJ6VnZXVmhSJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
 ssr://MTEyLjY1LjUzLjE1MDo1NjI6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TXlCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVpFTTFkRnBUT1RKalJ6VnZXVmhSJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
-trojan://d66013c645b93c5c@116.129.254.47:3389?allowInsecure=1#🇨🇳CN 14 |  openit.ml
+trojan://d66013c645b93c5c@116.129.254.47:3389?allowInsecure=1#🇨🇳CN 14 | N(-)D openit.ml
 ssr://MTEyLjY1LjUzLjE1MDo1NjE6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6cGxhaW46YldKc1lXNXJNWEJ2Y25RLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz04SitIcVBDZmg3TkRUaUF4TlNCOElIdDdjbVZ6ZFd4MGZYMGdiM0JsYm1sMExtMXMmb2Jmc3BhcmFtPVpFTTFkRnBUT1RKalJ6VnZXVmhSJnByb3RvcGFyYW09TWpFek1qSTZNVEl6TkRVMk56Zw==
 ssr://MTM5LjIyNi43OC4xNDg6NTYyOmF1dGhfYWVzMTI4X21kNTpjaGFjaGEyMC1pZXRmOnBsYWluOmJXSnNZVzVyTVhCdmNuUS8/Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9OEorSHFQQ2ZoN05EVGlBeE5pQjhJSHQ3Y21WemRXeDBmWDBnYjNCbGJtbDBMbTFzJm9iZnNwYXJhbT1aRU0xZEZwVE9USmpSelZ2V1ZoUiZwcm90b3BhcmFtPU1qRXpNakk2TVRJek5EVTJOemc=
 trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer.gzfxd.xyz:10116?allowInsecure=0&sni=nl1.nodegz.top#🇨🇳CN 17 | N(-)D openit.ml
-trojan://a170b44c2dfac9e6@116.129.253.201:3389?allowInsecure=1#🇨🇳CN 18 | N(-)D openit.ml
-trojan://ca4596fb9bc63cf2@116.129.254.47:3389?allowInsecure=1#🇨🇳CN 19 |  openit.ml
-trojan://d66013c645b93c5c@116.129.254.29:3389?allowInsecure=1#🇨🇳CN 20 |  openit.ml
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkOTc1ZDE2Ni1mMmI3LTQwNzItYTMxYS1lZGJlNWMwOTcwMTE@gy.ziqiyun.xyz:45436#🇨🇳CN 21 | N(-)D openit.ml
-trojan://c3c448da2363a6f7@116.129.254.47:3389?allowInsecure=1#🇨🇳CN 22 |  openit.ml
-trojan://ca4596fb9bc63cf2@103.56.60.235:3385?allowInsecure=1#🇨🇳CN 23 | N(-)D openit.ml
-trojan://d66013c645b93c5c@103.56.62.145:3385?allowInsecure=1#🇨🇳CN 24 |  openit.ml
-trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@shcu.alinkrelay.com:44605?allowInsecure=1&sni=cdn.qchwnd.moe#🇨🇳CN 25 | D openit.ml
-trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@shcu.alinkrelay.com:44608?allowInsecure=1&sni=tw.node.qchwnd.moe#🇨🇳CN 26 | D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20120?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 27 | D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20100?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 28 | D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20090?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 29 | N(-)D openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20110?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 30 |  openit.ml
-trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20130?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 31 | D openit.ml
+trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:43215?allowInsecure=0&sni=nl1.nodegz.top#🇨🇳CN 18 | N(-)D openit.ml
+trojan://a170b44c2dfac9e6@116.129.253.201:3389?allowInsecure=1#🇨🇳CN 19 |  openit.ml
+trojan://ca4596fb9bc63cf2@116.129.254.47:3389?allowInsecure=1#🇨🇳CN 20 | N(-)D openit.ml
+trojan://d66013c645b93c5c@116.129.254.29:3389?allowInsecure=1#🇨🇳CN 21 | D openit.ml
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkOTc1ZDE2Ni1mMmI3LTQwNzItYTMxYS1lZGJlNWMwOTcwMTE@gy.ziqiyun.xyz:45436#🇨🇳CN 22 | N(-)D openit.ml
+trojan://c3c448da2363a6f7@116.129.254.47:3389?allowInsecure=1#🇨🇳CN 23 | N(-)D openit.ml
+trojan://ca4596fb9bc63cf2@103.56.60.235:3385?allowInsecure=1#🇨🇳CN 24 |  openit.ml
+trojan://d66013c645b93c5c@103.56.62.145:3385?allowInsecure=1#🇨🇳CN 25 |  openit.ml
+trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@shcu.alinkrelay.com:44605?allowInsecure=1&sni=cdn.qchwnd.moe#🇨🇳CN 26 | D openit.ml
+trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@shcu.alinkrelay.com:44608?allowInsecure=1&sni=tw.node.qchwnd.moe#🇨🇳CN 27 | D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20120?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 28 |  openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20100?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 29 | D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20090?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 30 | N(-)D openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@gzyd2.xxcv.cc:20110?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 31 |  openit.ml
+trojan://6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4@hnyd.xxcv.cc:20130?allowInsecure=1&sni=huayun.xyz#🇨🇳CN 32 | D openit.ml
 trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?allowInsecure=1#🇨🇿CZ 1 |  openit.ml
 trojan://3gLlCYBipVwr6Y5F@v2cross.com.02.v2ce.com:443?allowInsecure=1#🇨🇿CZ 2 |  openit.ml
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340?allowInsecure=1#🇩🇪DE 1 | N(-)D openit.ml
@@ -69,7 +68,7 @@ trojan://vGWCNNfBHwSY6m6M@v2cross.com.04.v2ce.com:443?allowInsecure=1#🇺🇦UA
 trojan://5y8y3CwxRVYhyfSY@ce.rutracker-cn.com:443?allowInsecure=1#🇺🇦UA 3 |  openit.ml
 trojan://kGrwqmB1nEKUsDwE@v2cross.com.05.v2ce.com:443?allowInsecure=1#🇺🇦UA 4 |  openit.ml
 trojan://HTrovQkamDxNfaD5@cz5.v2ce.com:443?allowInsecure=1#🇺🇦UA 5 |  openit.ml
-trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443?allowInsecure=1#🇺🇸US 1 | ND openit.ml
+trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443?allowInsecure=1#🇺🇸US 1 | D openit.ml
 trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?allowInsecure=1#🇺🇸US 2 | N(-)D openit.ml
 trojan://1ac27c98-7883-483b-b958-7d6a68b60663@us-12.hmkj9.com:54321?allowInsecure=0&sni=us-12.hmkj9.com#🇺🇸US 3 | N(-)D openit.ml
 trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?allowInsecure=0&sni=tj-us02.yiyodns.xyz#🇺🇸US 4 | ND openit.ml
@@ -96,4 +95,5 @@ trojan://48ac743a-2d49-4191-b804-0c7fa7e01146@mc.vpshax.ml:443?allowInsecure=1#�
 trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us01.yiyodns.xyz:443?allowInsecure=1#🇺🇸US 25 | ND openit.ml
 trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?allowInsecure=1#🇺🇸US 26 | N(-) openit.ml
 trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@azhk.r.optage.moe:44605?allowInsecure=1#🇺🇸US 27 | D openit.ml
-trojan://80114348-eea5-43b3-8705-2da4430d3074@blr.alinkrelay.com:12000?allowInsecure=1&sni=blr.alinkrelay.com#🇺🇸US 28 | N(-) openit.ml
+trojan://80114348-eea5-43b3-8705-2da4430d3074@ocikr.n.optage.moe:44600?allowInsecure=1&sni=cdn.qchwnd.moe#🇺🇸US 28 | N(-)D openit.ml
+trojan://80114348-eea5-43b3-8705-2da4430d3074@blr.alinkrelay.com:12000?allowInsecure=1&sni=blr.alinkrelay.com#🇺🇸US 29 | N(-) openit.ml
