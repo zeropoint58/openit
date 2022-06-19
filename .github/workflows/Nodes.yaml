@@ -63,7 +63,7 @@ jobs:
          npm start #output./utils/rm/output
     - name: url & https & check
       run: | #input./utils/rm/url ./url ./.github/url.sh ./1 ./2 ./3
-         rm ./utils/rm/rm1 ./utils/rm/rm2
+         rm ./utils/rm/rm1 ./utils/rm/rm2 ./utils/rm/out ./utils/rm/config.yml
          #input./utils/rm/output
          mv ./utils/rm/output ./url ########################output./url
          #input./url
