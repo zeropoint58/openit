@@ -1,4 +1,5 @@
 proxies:
+  - {name: "", server: kirakirasevennine.com, port: 443, type: vmess, uuid: 67068812-0f6c-437e-ab13-f480f23bf004, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9f21/, headers: {Host: kirakirasevennine.com}}, udp: true}
   - {name: CZ 1｜openit.ml, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
   - {name: CZ 2｜openit.ml, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: true, udp: true}
   - {name: LT 1｜openit.ml, server: 45.137.97.205, port: 58000, type: trojan, password: b2bee5c6-5a07-481e-ac2e-e57ca07bad82, sni: fmus2.shanjun.me, skip-cert-verify: true, udp: true}
@@ -135,6 +136,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - ""
       - CZ 1｜openit.ml
       - CZ 2｜openit.ml
       - LT 1｜openit.ml
