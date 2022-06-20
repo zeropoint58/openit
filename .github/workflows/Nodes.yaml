@@ -5,7 +5,7 @@ on:
     - cron: '*/22 8-14 * * *'  #下午4:00 - 下午10:00
     - cron: '*/52 14-21 * * *' #下午10:00 - 次日凌晨5:00
     - cron: '*/22 21-23 * * *' #次日凌晨5:00 - 次日上午8:00
-  workflow_dispatch:
+  workflow_dispatch: #手动调试按钮
 
 jobs:
   cs-job: #input./utils/pool/config.yaml ./utils/clashcheck/config.yaml
