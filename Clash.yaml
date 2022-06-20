@@ -406,59 +406,6 @@ proxy-groups:
       - 🇬🇧 GB 3｜openit.ml
       - 🇬🇧 GB 4｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
-  - name: 🎄 Netflix解锁
-    type: select
-    proxies:
-      - 🇨🇳 CN 10｜openit.ml
-      - 🇨🇳 CN 11｜openit.ml
-      - 🇨🇳 CN 12｜openit.ml
-      - 🇨🇳 CN 13｜openit.ml
-      - 🇨🇳 CN 14｜openit.ml
-      - 🇨🇳 CN 15｜openit.ml
-      - 🇨🇳 CN 16｜openit.ml
-      - 🇨🇳 CN 17｜openit.ml
-      - 🇨🇳 CN 18｜openit.ml
-      - 🇨🇳 CN 19｜openit.ml
-      - 🇨🇳 CN 1｜openit.ml
-      - 🇨🇳 CN 20｜openit.ml
-      - 🇨🇳 CN 21｜openit.ml
-      - 🇨🇳 CN 22｜openit.ml
-      - 🇨🇳 CN 23｜openit.ml
-      - 🇨🇳 CN 24｜openit.ml
-      - 🇨🇳 CN 25｜openit.ml
-      - 🇨🇳 CN 26｜openit.ml
-      - 🇨🇳 CN 27｜openit.ml
-      - 🇨🇳 CN 28｜openit.ml
-      - 🇨🇳 CN 29｜openit.ml
-      - 🇨🇳 CN 2｜openit.ml
-      - 🇨🇳 CN 30｜openit.ml
-      - 🇨🇳 CN 31｜openit.ml
-      - 🇨🇳 CN 32｜openit.ml
-      - 🇨🇳 CN 33｜openit.ml
-      - 🇨🇳 CN 34｜openit.ml
-      - 🇨🇳 CN 3｜openit.ml
-      - 🇨🇳 CN 4｜openit.ml
-      - 🇨🇳 CN 5｜openit.ml
-      - 🇨🇳 CN 6｜openit.ml
-      - 🇨🇳 CN 7｜openit.ml
-      - 🇨🇳 CN 8｜openit.ml
-      - 🇨🇳 CN 9｜openit.ml
-      - 🇳🇱 NL 1｜openit.ml
-  - name: 🎄 Disney+解锁
-    type: select
-    proxies:
-      - BD 1｜openit.ml
-      - BD 2｜openit.ml
-      - 🇩🇪 DE 1｜openit.ml
-  - name: 🎄 B站港澳台解锁
-    type: select
-    proxies:
-      - BD 1｜openit.ml
-      - BD 2｜openit.ml
-      - 🇬🇧 GB 1｜openit.ml
-      - 🇬🇧 GB 2｜openit.ml
-      - 🇬🇧 GB 3｜openit.ml
-      - 🇬🇧 GB 4｜openit.ml
   - name: 👉 国内网站
     type: select
     proxies:
@@ -579,7 +526,6 @@ proxy-groups:
   - name: 🎬 NETFLIX
     type: select
     proxies:
-      - 🎄 Netflix解锁
       - 🌐 节点选择
       - 💡 自动选择
       - ☁️ 全球直连
@@ -593,7 +539,6 @@ proxy-groups:
   - name: 🎬 Disney+
     type: select
     proxies:
-      - 🎄 Disney+解锁
       - 🌐 节点选择
       - 💡 自动选择
       - ☁️ 全球直连
@@ -673,7 +618,6 @@ proxy-groups:
     type: select
     proxies:
       - ☁️ 全球直连
-      - 🎄 B站港澳台解锁
       - 🌐 节点选择
       - 💡 自动选择
       - 🇭🇰 香港节点
