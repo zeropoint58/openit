@@ -13,7 +13,6 @@ sub: # 注有#的是失效的订阅链接
 # GitLab托管clash订阅链接
   - https://gitlab.com/api/v4/projects/35506148/repository/files/data%2Fclash%2Fgeneral.yaml/raw?ref=main&private_token=glpat-JmxhQF1Pta__KamyyKqV #https://t.me/univstar
 # 机场clash订阅链接
-  - 
 # subconverter订阅转换b642clash订阅链接
  # 自有域名b64订阅链接
  # GitHub托管b64订阅链接
