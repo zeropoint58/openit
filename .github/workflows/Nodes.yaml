@@ -102,27 +102,27 @@ jobs:
          rm ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
     - run: ./.github/update-repo.sh || true   #output./long ./Clash.yaml
 
-  long:
+  long: #jsdelivr CDN同步
     needs: et-job
     runs-on: ubuntu-latest
     steps:
     - name: CDN
       run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/long
-  HTTPS:
+  HTTPS: #jsdelivr CDN同步
     needs: et-job
     runs-on: ubuntu-latest
     steps:
     - name: CDN
       run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/https
-  Clash:
+  Clash: #jsdelivr CDN同步
     needs: et-job
     runs-on: ubuntu-latest
     steps:
     - name: CDN
       run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/Clash.yaml
-  Quanx:
+  Quanx: #jsdelivr CDN同步
     needs: et-job
     runs-on: ubuntu-latest
     steps:
     - name: CDN
-      run: true #curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/Quanx.conf
+      run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/Quanx.conf
