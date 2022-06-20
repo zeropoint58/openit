@@ -1,4 +1,3 @@
-sub://aHR0cHM6Ly9zdWJzY3JpYmUuZm55dW4uY3lvdS9hcGkvdjEvY2xpZW50L3N1YnNjcmliZT90b2tlbj0yZjViNTE0OTQ1ODQwMWYyYWYxODkwYmVjMzMyYTgyMA
 vmess://YXV0bzphMzMyMmQzMi01MmNjLTRhZmItYTEwMi0xM2ZjYTZiN2EzOGZAYmdwLnpob25nemh1YW4uZm55dW4uY3lvdTo0NDM?remarks=%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%E6%B4%9B%E6%9D%89%E7%9F%B6%20%7C%20BGP%E4%B8%AD%E8%BD%AC%20%7C%200.5%E5%80%8D%E7%8E%87&obfsParam=uslos.fnyun.cyou&obfs=websocket&tls=1&alterId=0
 vmess://YXV0bzphMzMyMmQzMi01MmNjLTRhZmItYTEwMi0xM2ZjYTZiN2EzOGZAYmdwLnpob25nemh1YW4uZm55dW4uY3lvdTo0NDM?remarks=%F0%9F%87%B8%F0%9F%87%B0%20%E6%96%AF%E6%B4%9B%E4%BC%90%E5%85%8B%20%7C%20BGP%E4%B8%AD%E8%BD%AC%20%7C%200.5%E5%80%8D%E7%8E%87&obfsParam=sk.fnyun.cyou&obfs=websocket&tls=1&alterId=0
 vmess://YXV0bzphMzMyMmQzMi01MmNjLTRhZmItYTEwMi0xM2ZjYTZiN2EzOGZAYmdwLnpob25nemh1YW4uZm55dW4uY3lvdTo0NDM?remarks=%F0%9F%87%A7%F0%9F%87%AC%20%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%20%7C%20BGP%E4%B8%AD%E8%BD%AC%20%7C%200.5%E5%80%8D%E7%8E%87&obfsParam=bg.fnyun.cyou&obfs=websocket&tls=1&alterId=0
@@ -35,7 +34,6 @@ vmess://YXV0bzphMzMyMmQzMi01MmNjLTRhZmItYTEwMi0xM2ZjYTZiN2EzOGZAY3Quemhvbmd6aHVh
 vmess://YXV0bzphMzMyMmQzMi01MmNjLTRhZmItYTEwMi0xM2ZjYTZiN2EzOGZAY3Uuemhvbmd6aHVhbi5mbnl1bi5jeW91OjQ0Mw?remarks=%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AFNF%20%7C%20%E6%96%B0%E4%B8%8A%E9%AB%98%E9%80%9F%E2%91%A1%20%7C%201%E5%80%8D%E7%8E%87&obfsParam=hk.nf.fnyun.cyou&obfs=websocket&tls=1&alterId=0
 vmess://YXV0bzphMzMyMmQzMi01MmNjLTRhZmItYTEwMi0xM2ZjYTZiN2EzOGZAY20uemhvbmd6aHVhbi5mbnl1bi5jeW91OjQ0Mw?remarks=%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AFNF%20%7C%20%E6%96%B0%E4%B8%8A%E9%AB%98%E9%80%9F%E2%91%A0%20%7C%201%E5%80%8D%E7%8E%87&obfsParam=hk.nf.fnyun.cyou&obfs=websocket&tls=1&alterId=0
 vmess://YXV0bzphMzMyMmQzMi01MmNjLTRhZmItYTEwMi0xM2ZjYTZiN2EzOGZAY3Uuemhvbmd6aHVhbi5mbnl1bi5jeW91OjQ0Mw?remarks=%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88%20%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E4%B8%8B%E8%AE%A2%E9%98%85TG%E9%A2%91%E9%81%93@fnyun&obfsParam=fr1.fnyun.cyou&obfs=websocket&tls=1&alterId=0
-
 trojan://51da3d49-5fee-4ae6-bf1b-2c16ac41c764@103.173.255.21:28000?allowInsecure=0&sni=huayun.xyz#unknown 1｜openit.ml
 trojan://51da3d49-5fee-4ae6-bf1b-2c16ac41c764@103.173.255.228:28000?allowInsecure=0&sni=huayun.xyz#unknown 2｜openit.ml
 trojan://51da3d49-5fee-4ae6-bf1b-2c16ac41c764@103.173.155.72:28000?allowInsecure=1&sni=huayun.xyz#unknown 3｜openit.ml
