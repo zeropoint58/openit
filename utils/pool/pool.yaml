@@ -1,318 +1,171 @@
 proxies:
-  - {name: 1游戏加速-超高倍率-非游戏勿选X15, server: iplc.myuuusss.com, port: 20847, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 2游戏加速-超高倍率-非游戏勿选X15, server: iplc2.myuuusss.com, port: 15900, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 3游戏加速-超高倍率-非游戏勿选X15, server: iplc.myuuusss.com, port: 11221, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 4游戏加速-超高倍率-非游戏勿选X15, server: iplc.myuuusss.com, port: 11006, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
   - {name: BG 1｜openit.ml, server: fr.n.optage.moe, port: 44612, type: trojan, password: 3ece2cd7-076d-4e9f-8a23-e7d9b4e3f62e, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: CZ 1｜openit.ml, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
-  - {name: CZ 2｜openit.ml, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: true, udp: true}
-  - {name: TW2-BGP-HiNit-观影推荐线路, server: cdn2.myuuusss.com, port: 20111, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: UA 1｜openit.ml, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
-  - {name: UA 2｜openit.ml, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
+  - {name: CZ 1｜openit.ml, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: true, udp: true}
+  - {name: CZ 2｜openit.ml, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
+  - {name: UA 1｜openit.ml, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
+  - {name: UA 2｜openit.ml, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
   - {name: UA 3｜openit.ml, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
-  - {name: UA 4｜openit.ml, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
-  - {name: UA 5｜openit.ml, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
-  - {name: US1-BGP-独享G口, server: cdn2.myuuusss.com, port: 32001, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn2.myuuusss.com}}, udp: true}
-  - {name: unknown 1｜openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: unknown 2｜openit.ml, server: 5.44.249.43, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: unknown 3｜openit.ml, server: zf.i809.ml, port: 25565, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
-  - {name: unknown 4｜openit.ml, server: hungjintang.ml, port: 443, type: trojan, password: 214fa552-218f-48c8-aa13-3274588fc131, sni: hungjintang.ml, skip-cert-verify: true, udp: true}
-  - {name: 备用|防止失联线路, server: back.myuuusss.com, port: 443, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: back.myuuusss.com}}, udp: true}
-  - {name: 🇦🇷 阿根廷-BGP-steam加速, server: cdn2.myuuusss.com, port: 30093, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇦🇺 AU 001, server: aulin001.xmrth-node.xyz, port: 15647, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: UA 4｜openit.ml, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
+  - {name: UA 5｜openit.ml, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 1｜openit.ml, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU 2｜openit.ml, server: kk.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, sni: kk.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 001, server: calin001.xmrth-node.xyz, port: 15572, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇦 CA 1｜openit.ml, server: zt6.godseven.xyz, port: 2096, type: trojan, password: 8fe9d7b3-e209-4477-bb2c-7903c33eb54f, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 2｜openit.ml, server: flb.alinkrelay.com, port: 12000, type: trojan, password: 2a65c21b-5e04-4fb2-86d8-53cc1f456dfb, sni: flb.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 10｜openit.ml, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 11｜openit.ml, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 12｜openit.ml, server: 116.129.254.47, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 13｜openit.ml, server: 116.129.253.201, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 14｜openit.ml, server: 116.129.253.201, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 15｜openit.ml, server: yqy31128.cdn-china.net, port: 31128, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: ZGF0YS5iaWxpYmlsaS5jb20vZDdkN2QxNzA1NjU5, udp: true}
-  - {name: 🇨🇳 CN 16｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11180, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 17｜openit.ml, server: yqy17122.cdn-china.net, port: 17122, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: ZGF0YS5iaWxpYmlsaS5jb20vZDdkN2QxNzA1NjU5, udp: true}
-  - {name: 🇨🇳 CN 18｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11266, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 19｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11128, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 1｜openit.ml, server: yqy33225.cdn-china.net, port: 33225, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
-  - {name: 🇨🇳 CN 20｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11112, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 21｜openit.ml, server: yqy31225.cdn-china.net, port: 31225, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: ZGF0YS5iaWxpYmlsaS5jb20vZDdkN2QxNzA1NjU5, udp: true}
-  - {name: 🇨🇳 CN 22｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11221, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 23｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11174, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 24｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11227, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 25｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11182, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 26｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11261, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 27｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11136, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 28｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11129, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 29｜openit.ml, server: yqy72028.cdn-china.net, port: 52028, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
-  - {name: 🇨🇳 CN 2｜openit.ml, server: yqy1214221.cdn-china.net, port: 14221, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
-  - {name: 🇨🇳 CN 30｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11225, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 31｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11271, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 32｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11258, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 33｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11117, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 34｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11206, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 35｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11159, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 36｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11263, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 37｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11116, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 38｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11264, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 39｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11200, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 3｜openit.ml, server: yqy31226.cdn-china.net, port: 31226, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: ZGF0YS5iaWxpYmlsaS5jb20vZDdkN2QxNzA1NjU5, udp: true}
-  - {name: 🇨🇳 CN 40｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11257, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 41｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11199, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 42｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11251, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 43｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11267, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 44｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11245, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 45｜openit.ml, server: 103.56.62.145, port: 3382, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 4｜openit.ml, server: yqy32128.cdn-china.net, port: 32128, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
-  - {name: 🇨🇳 CN 5｜openit.ml, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 6｜openit.ml, server: yqy37225.cdn-china.net, port: 37225, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
-  - {name: 🇨🇳 CN 7｜openit.ml, server: yqy1116221.cdn-china.net, port: 16221, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
-  - {name: 🇨🇳 CN 8｜openit.ml, server: 116.129.254.29, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 9｜openit.ml, server: 116.129.254.29, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW 1, server: tw1.xmrth-node.xyz, port: 15660, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: 🇨🇳 CN 10｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11173, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 11｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11225, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 12｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11112, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 13｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11266, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 14｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11227, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 15｜openit.ml, server: yqy37225.cdn-china.net, port: 37225, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
+  - {name: 🇨🇳 CN 16｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11263, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 17｜openit.ml, server: yqy1214221.cdn-china.net, port: 14221, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
+  - {name: 🇨🇳 CN 18｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11118, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 19｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11116, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1｜openit.ml, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 20｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11174, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 21｜openit.ml, server: yqy32128.cdn-china.net, port: 32128, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
+  - {name: 🇨🇳 CN 22｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11254, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 23｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11180, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 24｜openit.ml, server: cdn1.myuuusss.com, port: 30031, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 🇨🇳 CN 25｜openit.ml, server: gzyd2.xxcv.cc, port: 30010, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 26｜openit.ml, server: gzyd2.xxcv.cc, port: 30130, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 27｜openit.ml, server: gzyd1.xxcv.cc, port: 30130, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 28｜openit.ml, server: gdzjhk01.tttflix.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 🇨🇳 CN 29｜openit.ml, server: hnyd.xxcv.cc, port: 30130, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 2｜openit.ml, server: yqy31128.cdn-china.net, port: 31128, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: ZGF0YS5iaWxpYmlsaS5jb20vZDdkN2QxNzA1NjU5, udp: true}
+  - {name: 🇨🇳 CN 30｜openit.ml, server: hnyd.xxcv.cc, port: 30120, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 31｜openit.ml, server: eduall.buzzline.org, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 🇨🇳 CN 32｜openit.ml, server: cmonline02.duraker.xyz, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 🇨🇳 CN 33｜openit.ml, server: 116.129.253.187, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 34｜openit.ml, server: eduall.buzzline.org, port: 613, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 🇨🇳 CN 35｜openit.ml, server: eduall.buzzline.org, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 🇨🇳 CN 36｜openit.ml, server: eduall.buzzline.org, port: 614, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 🇨🇳 CN 37｜openit.ml, server: yqy36321.cdn-china.net, port: 36321, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: ZGF0YS5iaWxpYmlsaS5jb20vZDdkN2QxNzA1NjU5, udp: true}
+  - {name: 🇨🇳 CN 38｜openit.ml, server: eduall.buzzline.org, port: 612, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 🇨🇳 CN 39｜openit.ml, server: ahyd.jiantian.xyz, port: 12042, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 3｜openit.ml, server: yqy31128.cdn-china.net, port: 31128, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
+  - {name: 🇨🇳 CN 40｜openit.ml, server: ahyd.jiantian.xyz, port: 25772, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 41｜openit.ml, server: ahyd.jiantian.xyz, port: 19139, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 42｜openit.ml, server: ahyd.jiantian.xyz, port: 23297, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 43｜openit.ml, server: ahyd.jiantian.xyz, port: 16939, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 44｜openit.ml, server: cmonline02.duraker.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 🇨🇳 CN 45｜openit.ml, server: ahyd.jiantian.xyz, port: 48814, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 46｜openit.ml, server: ahyd.jiantian.xyz, port: 37481, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 47｜openit.ml, server: eduall.buzzline.org, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 🇨🇳 CN 48｜openit.ml, server: ahyd.jiantian.xyz, port: 50975, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 49｜openit.ml, server: ahyd.jiantian.xyz, port: 52799, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 4｜openit.ml, server: yqy72028.cdn-china.net, port: 52028, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
+  - {name: 🇨🇳 CN 50｜openit.ml, server: ahyd.jiantian.xyz, port: 51471, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 51｜openit.ml, server: ahyd.jiantian.xyz, port: 55729, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 52｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11126, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 53｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11149, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 54｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11177, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 55｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11175, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 56｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11153, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 57｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11204, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 58｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11252, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 59｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11226, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 5｜openit.ml, server: yqy36324.cdn-china.net, port: 36324, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
+  - {name: 🇨🇳 CN 60｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11205, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 61｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11155, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 6｜openit.ml, server: yqy17122.cdn-china.net, port: 17122, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: ZGF0YS5iaWxpYmlsaS5jb20vZDdkN2QxNzA1NjU5, udp: true}
+  - {name: 🇨🇳 CN 7｜openit.ml, server: yqy1116221.cdn-china.net, port: 16221, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: ZGF0YS5iaWxpYmlsaS5jb20vZDdkN2QxNzA1NjU5, udp: true}
+  - {name: 🇨🇳 CN 8｜openit.ml, server: gz-cm1-kl.hinetwork.tw, port: 11261, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 9｜openit.ml, server: gz-cm-kl.hinetwork.tw, port: 11136, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 TW 1｜openit.ml, server: tw.n.optage.moe, port: 44608, type: trojan, password: 3ece2cd7-076d-4e9f-8a23-e7d9b4e3f62e, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW 2, server: tw2.xmrth-node.xyz, port: 16018, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 TW 2｜openit.ml, server: tj-tw01.yiyodns.xyz, port: 443, type: trojan, password: 8c160526-9900-3a00-ad06-08ac76357b02, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW A 1, server: hkaz1.xmrth-node.xyz, port: 16074, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 TW A 2, server: hkaz2.xmrth-node.xyz, port: 14017, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 TW B 1, server: jpaz1.xmrth-node.xyz, port: 14065, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 TW B 2, server: jpaz2.xmrth-node.xyz, port: 13240, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 TW-BGP-HiNit-观影推荐线路, server: cdn2.myuuusss.com, port: 20011, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇨🇳 台湾01, server: cm.awslcn.cc, port: 25233, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇨🇳 台湾02, server: cm1.awslcn.cc, port: 25233, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
-  - {name: 🇨🇳 台湾03, server: cu.awslcn.cc, port: 25233, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇨🇳 台湾①, server: cu.awslcn.cc, port: 25232, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇨🇳 台湾②, server: cm.awslcn.cc, port: 25232, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇨🇳 台湾③, server: cm1.awslcn.cc, port: 25232, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
-  - {name: 🇩🇪 DE 001, server: delin001.xmrth-node.xyz, port: 15560, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇩🇪 DE 1｜openit.ml, server: qt39.godseven.xyz, port: 443, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 DE 2｜openit.ml, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国, server: cu.awslcn.cc, port: 25241, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇩🇪 德国01, server: cm.awslcn.cc, port: 25241, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
+  - {name: 🇨🇳 台湾, server: 61.220.179.25, port: 443, type: ss, cipher: aes-256-gcm, password: 7e8cf62e17ca, udp: true}
+  - {name: 🇨🇳 台湾 09, server: 118.163.91.77, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8770be4e722a, udp: true}
+  - {name: 🇨🇳 台湾01, server: 103.177.32.66, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 53873d1e6161, udp: true}
+  - {name: 🇨🇳 台湾02, server: 60.251.66.117, port: 443, type: ss, cipher: aes-256-gcm, password: ce565b1fe125, udp: true}
+  - {name: 🇨🇳 台湾03, server: 59.125.98.29, port: 443, type: ss, cipher: aes-256-gcm, password: 301c9d6c6e14, udp: true}
+  - {name: 🇨🇳 台湾04, server: 210.71.190.104, port: 443, type: ss, cipher: aes-256-gcm, password: 4618413f9a07, udp: true}
+  - {name: 🇨🇳 台湾05, server: 118.163.91.78, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 299eaaada2f2, udp: true}
+  - {name: 🇨🇳 台湾06, server: 59.125.98.30, port: 443, type: ss, cipher: aes-256-gcm, password: be0c0bd0c146, udp: true}
+  - {name: 🇨🇳 台湾07, server: 210.71.190.103, port: 443, type: ss, cipher: aes-256-gcm, password: b5f28639cd68, udp: true}
+  - {name: 🇨🇳 台湾08, server: 61.220.179.26, port: 4433, type: ss, cipher: aes-256-gcm, password: 03378e208106, udp: true}
+  - {name: 🇨🇳 台湾10, server: 61.220.191.237, port: 443, type: ss, cipher: aes-256-gcm, password: 45f98047b87c, udp: true}
+  - {name: 🇨🇳 台湾11, server: 60.251.66.118, port: 443, type: ss, cipher: aes-256-gcm, password: 46c027d028b4, udp: true}
+  - {name: 🇨🇳 台湾12, server: 103.177.32.138, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 3a341f21b591, udp: true}
+  - {name: 🇩🇪 DE 1｜openit.ml, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE 2｜openit.ml, server: qt39.godseven.xyz, port: 443, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 1｜openit.ml, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 2｜openit.ml, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 3｜openit.ml, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 4｜openit.ml, server: t.uk1.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 5｜openit.ml, server: t.uk3.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 UK 001, server: uklin001.xmrth-node.xyz, port: 15856, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇬🇧 UK 002, server: ukaws002.xmrth-node.xyz, port: 10292, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇬🇧 英国, server: cu.awslcn.cc, port: 25240, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇭🇰 H5-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 30042, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn1.myuuusss.com}}, udp: true}
-  - {name: 🇭🇰 HK 001, server: hkaz001.xmrth-node.xyz, port: 16063, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 002, server: hkaz002.xmrth-node.xyz, port: 15909, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 003, server: hkaz003.xmrth-node.xyz, port: 15910, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 004, server: hkaz004.xmrth-node.xyz, port: 15911, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 005, server: hkaz005.xmrth-node.xyz, port: 15891, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 006, server: hkaz006.xmrth-node.xyz, port: 15886, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 007, server: hkaz007.xmrth-node.xyz, port: 15637, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 008, server: hkaz008.xmrth-node.xyz, port: 15897, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 009, server: hkaz009.xmrth-node.xyz, port: 16075, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 010, server: hkaz010.xmrth-node.xyz, port: 15964, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 101, server: hkaz1.xmrth-node.xyz, port: 16076, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 102, server: hkaz2.xmrth-node.xyz, port: 16077, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 103, server: hkaz3.xmrth-node.xyz, port: 16078, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 104, server: hkaz4.xmrth-node.xyz, port: 15866, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 105, server: hkaz5.xmrth-node.xyz, port: 15904, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 106, server: hkaz6.xmrth-node.xyz, port: 15905, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 107, server: hkaz7.xmrth-node.xyz, port: 15882, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 1｜openit.ml, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 201, server: hgc1.xmrth-node.xyz, port: 16067, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 2｜openit.ml, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 3｜openit.ml, server: hk.n.optage.moe, port: 44601, type: trojan, password: 3ece2cd7-076d-4e9f-8a23-e7d9b4e3f62e, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 4｜openit.ml, server: fk.i809.ml, port: 11111, type: trojan, password: 8fe9d7b3-e209-4477-bb2c-7903c33eb54f, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 5｜openit.ml, server: fk.i809.ml, port: 52087, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK1-BGP-HKT-禁google, server: cdn2.myuuusss.com, port: 21111, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇭🇰 HK1-IEPL-HKT-禁google-X2, server: cdn1.myuuusss.com, port: 20007, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇭🇰 HK2-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 30041, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇭🇰 HK3-BGP-HGC, server: cdn2.myuuusss.com, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇭🇰 HK3-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 30031, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇭🇰 HK4-BGP-HGC, server: cdn2.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn2.myuuusss.com}}, udp: true}
-  - {name: 🇭🇰 HK4-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn1.myuuusss.com}}, udp: true}
-  - {name: 🇭🇰 HK5-BGP-HGC, server: cdn2.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn2.myuuusss.com}}, udp: true}
-  - {name: 🇭🇰 HK6-IEPL-HKT-X2, server: cdn1.myuuusss.com, port: 20222, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn1.myuuusss.com}}, udp: true}
-  - {name: 🇭🇰 香港01, server: cm.awslcn.cc, port: 25242, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇭🇰 香港02, server: cm1.awslcn.cc, port: 25242, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
-  - {name: 🇭🇰 香港03, server: cu.awslcn.cc, port: 25223, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇭🇰 香港04, server: cm.awslcn.cc, port: 25223, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇭🇰 香港①, server: cm.awslcn.cc, port: 25234, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇭🇰 香港②, server: cu.awslcn.cc, port: 25234, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇮🇳 IN A 001, server: hkaz1.xmrth-node.xyz, port: 16066, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 IN A 002, server: hkaz2.xmrth-node.xyz, port: 15912, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 IN A 003, server: hkaz3.xmrth-node.xyz, port: 14390, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 IN B 001, server: jpaz1.xmrth-node.xyz, port: 11032, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 IN B 002, server: jpaz2.xmrth-node.xyz, port: 15933, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 IN B 003, server: jpaz3.xmrth-node.xyz, port: 15943, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 印度01, server: cm.awslcn.cc, port: 25216, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇮🇳 印度02, server: cu.awslcn.cc, port: 25216, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇯🇵 JP 001, server: jpaws001.xmrth-node.xyz, port: 15347, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 002, server: jpaws002.xmrth-node.xyz, port: 15665, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 003, server: jplin003.xmrth-node.xyz, port: 15901, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 004, server: jplin004.xmrth-node.xyz, port: 16034, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 005, server: jplin005.xmrth-node.xyz, port: 15698, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 006, server: jpaws006.xmrth-node.xyz, port: 15863, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 101, server: jpaz1.xmrth-node.xyz, port: 15624, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 102, server: jpaz2.xmrth-node.xyz, port: 14025, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 103, server: jpaz3.xmrth-node.xyz, port: 15945, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 104, server: jpaz4.xmrth-node.xyz, port: 15879, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 105, server: jpaz5.xmrth-node.xyz, port: 15414, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 106, server: jpaz6.xmrth-node.xyz, port: 15418, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 1｜openit.ml, server: jp60.jafiyun.life, port: 22060, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: jp60.jafiyun.life, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 2｜openit.ml, server: sg0601.fans8.xyz, port: 443, type: trojan, password: eea69c69-9989-4576-8b60-f6476e694bd7, sni: sg0601.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 3｜openit.ml, server: t.uk1.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 4｜openit.ml, server: t.uk3.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 5｜openit.ml, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 1｜openit.ml, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 2｜openit.ml, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 3｜openit.ml, server: fk.i809.ml, port: 11111, type: trojan, password: 8fe9d7b3-e209-4477-bb2c-7903c33eb54f, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 4｜openit.ml, server: fk.i809.ml, port: 52087, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港01, server: 182.237.0.3, port: 443, type: ss, cipher: aes-256-gcm, password: f1cfcd3cda46, udp: true}
+  - {name: 🇭🇰 香港02, server: 182.237.0.5, port: 443, type: ss, cipher: aes-256-gcm, password: c9a180d07e57, udp: true}
+  - {name: 🇭🇰 香港03, server: 182.237.3.13, port: 443, type: ss, cipher: aes-256-gcm, password: 1268d165aa1a, udp: true}
+  - {name: 🇭🇰 香港04, server: 210.56.62.183, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 82a162db0ea8, udp: true}
+  - {name: 🇯🇵 JP 1｜openit.ml, server: 164.70.68.67, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 2｜openit.ml, server: 203.138.98.199, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 3｜openit.ml, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP B 001, server: jpaz1.xmrth-node.xyz, port: 11178, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 002, server: jpaz2.xmrth-node.xyz, port: 15888, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 003, server: jpaz3.xmrth-node.xyz, port: 15944, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 004, server: jpaz4.xmrth-node.xyz, port: 15421, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 005, server: jpaz5.xmrth-node.xyz, port: 13870, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 006, server: jpaz6.xmrth-node.xyz, port: 13871, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP-BGP, server: cdn2.myuuusss.com, port: 20021, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇯🇵 日本05, server: cu.awslcn.cc, port: 25237, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇯🇵 日本06, server: cm.awslcn.cc, port: 25237, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇯🇵 日本07, server: cm.awslcn.cc, port: 25220, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇯🇵 日本08, server: cu.awslcn.cc, port: 25220, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇯🇵 日本①, server: cm.awslcn.cc, port: 25219, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇯🇵 日本②, server: cu.awslcn.cc, port: 25219, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇰🇷 KR 001, server: kraws001.xmrth-node.xyz, port: 15859, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 002, server: kraws002.xmrth-node.xyz, port: 15868, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 003, server: kraws003.xmrth-node.xyz, port: 15861, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 004, server: kraws004.xmrth-node.xyz, port: 15975, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 005, server: kraws005.xmrth-node.xyz, port: 16079, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 006, server: kraws006.xmrth-node.xyz, port: 15949, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 007, server: kraws007.xmrth-node.xyz, port: 15659, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 001, server: hkaz1.xmrth-node.xyz, port: 16072, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 002, server: hkaz2.xmrth-node.xyz, port: 15655, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 003, server: hkaz3.xmrth-node.xyz, port: 13738, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 004, server: hkaz4.xmrth-node.xyz, port: 15379, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 005, server: hkaz5.xmrth-node.xyz, port: 15843, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 006, server: hkaz6.xmrth-node.xyz, port: 15907, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 007, server: hkaz7.xmrth-node.xyz, port: 15908, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 韩国01, server: cm.awslcn.cc, port: 25218, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇰🇷 韩国03, server: cm1.awslcn.cc, port: 25218, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
-  - {name: 🇲🇾 马来01, server: cm.awslcn.cc, port: 25228, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇲🇾 马来02, server: cu.awslcn.cc, port: 25228, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇳🇱 NL 1｜openit.ml, server: ch1.nodegz.top, port: 443, type: trojan, password: 1fa8243f-39db-38c3-a1c5-8c582c6857ac, sni: ch1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL(荷兰)-BGP, server: cdn2.myuuusss.com, port: 20098, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇷🇺 RU 1｜openit.ml, server: us1.nodegz.top, port: 443, type: trojan, password: 440055a3-7c84-3cb3-9b7a-a974a66e9b98, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 2｜openit.ml, server: hkbgp2.jiantian.xyz, port: 34532, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 3｜openit.ml, server: t03.ssrsub.com, port: 18443, type: trojan, password: 57229afb-d4e4-426e-bfdc-18fc1f3267fd, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RUS-BGP, server: cdn2.myuuusss.com, port: 30033, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇷🇺 俄罗斯①, server: cm.awslcn.cc, port: 25230, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇸🇬 *请开启自动更新订阅* *无法使用请更新订阅*, server: 8.8.8.8, port: 443, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 001, server: sgaws001.xmrth-node.xyz, port: 15967, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 002, server: sgaws002.xmrth-node.xyz, port: 15903, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 003, server: sgaws003.xmrth-node.xyz, port: 15645, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 004, server: sgaws004.xmrth-node.xyz, port: 14415, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 005, server: sgaws005.xmrth-node.xyz, port: 16013, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 006, server: sgaws006.xmrth-node.xyz, port: 14510, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 007, server: sgaws007.xmrth-node.xyz, port: 15892, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 1｜openit.ml, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 2｜openit.ml, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 3｜openit.ml, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 4｜openit.ml, server: w13.udpgw.com, port: 443, type: trojan, password: 16877c70-e7b8-11ec-99f2-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 5｜openit.ml, server: t.sin4.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 6｜openit.ml, server: t.sin3.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG A 001, server: hkaz1.xmrth-node.xyz, port: 16073, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 002, server: hkaz2.xmrth-node.xyz, port: 15437, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 003, server: hkaz3.xmrth-node.xyz, port: 14389, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 004, server: hkaz4.xmrth-node.xyz, port: 15380, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 005, server: hkaz5.xmrth-node.xyz, port: 15839, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 006, server: hkaz6.xmrth-node.xyz, port: 13890, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 007, server: hkaz7.xmrth-node.xyz, port: 15906, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG(新加坡)-BGP-流媒体解锁, server: cdn2.myuuusss.com, port: 32022, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇸🇬 新加坡01, server: cm.awslcn.cc, port: 25225, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇸🇬 新加坡02, server: cm1.awslcn.cc, port: 25225, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
-  - {name: 🇺🇸 US 001, server: inap001.xmrth-node.xyz, port: 15658, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 002, server: inap002.xmrth-node.xyz, port: 15667, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 003, server: inap003.xmrth-node.xyz, port: 11565, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 004, server: inap004.xmrth-node.xyz, port: 15671, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 005, server: inap005.xmrth-node.xyz, port: 15555, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 006, server: inap006.xmrth-node.xyz, port: 11865, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 007, server: inap007.xmrth-node.xyz, port: 15567, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 008, server: inap008.xmrth-node.xyz, port: 12265, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 10｜openit.ml, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11｜openit.ml, server: us2.nodegz.top, port: 443, type: trojan, password: 440055a3-7c84-3cb3-9b7a-a974a66e9b98, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 12｜openit.ml, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 13｜openit.ml, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 14｜openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 15｜openit.ml, server: 198.200.51.219, port: 26969, type: trojan, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 16｜openit.ml, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 17｜openit.ml, server: usfree2.jiantian.xyz, port: 32453, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree2.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 18｜openit.ml, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 19｜openit.ml, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1｜openit.ml, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 20｜openit.ml, server: blr.alinkrelay.com, port: 12000, type: trojan, password: 2a65c21b-5e04-4fb2-86d8-53cc1f456dfb, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 21｜openit.ml, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 22｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 23｜openit.ml, server: zf.i809.ml, port: 45687, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 24｜openit.ml, server: zf.i809.ml, port: 32196, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 25｜openit.ml, server: pf.i809.ml, port: 12087, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 26｜openit.ml, server: ss2.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, sni: ss2.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 27｜openit.ml, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: f0de3134-aef4-45b5-a135-3a82321bbac6, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 28｜openit.ml, server: ocijp.n.optage.moe, port: 44616, type: trojan, password: 2a65c21b-5e04-4fb2-86d8-53cc1f456dfb, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 29｜openit.ml, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 30｜openit.ml, server: t.usa3.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 31｜openit.ml, server: t.usa2.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 32｜openit.ml, server: t.usa1.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 33｜openit.ml, server: t.usa4.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 34｜openit.ml, server: t.uk4.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 35｜openit.ml, server: t.uk2.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 36｜openit.ml, server: t.jap5.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 37｜openit.ml, server: t.jap7.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 38｜openit.ml, server: t.jap8.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 39｜openit.ml, server: t.jap6.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3｜openit.ml, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 40｜openit.ml, server: t.hkg6.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 41｜openit.ml, server: t.kor2.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 42｜openit.ml, server: t.kor1.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4｜openit.ml, server: us1.crunode.top, port: 443, type: trojan, password: ba2cc258-cd36-3b32-917d-49169b6380d1, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5｜openit.ml, server: mc.vpshax.ml, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7e01146, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6｜openit.ml, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7｜openit.ml, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8｜openit.ml, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9｜openit.ml, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US B 001, server: jpaz1.xmrth-node.xyz, port: 15547, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US B 002, server: jpaz2.xmrth-node.xyz, port: 10141, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US B 003, server: jpaz3.xmrth-node.xyz, port: 15946, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US B 004, server: jpaz4.xmrth-node.xyz, port: 13868, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US-BGP-HE, server: cdn2.myuuusss.com, port: 32882, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 🇺🇸 美国01, server: cm1.awslcn.cc, port: 25239, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
-  - {name: 🇺🇸 美国02, server: cu.awslcn.cc, port: 25239, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇺🇸 美国03, server: cm1.awslcn.cc, port: 25238, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
-  - {name: 🇺🇸 美国04, server: cu.awslcn.cc, port: 25238, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇺🇸 美国游戏专线-超高倍率X5, server: us-c1.myuuusss.com, port: 23223, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-c1.myuuusss.com}}, udp: true}
+  - {name: 🇯🇵 JP 4｜openit.ml, server: jp59.jafiyun.life, port: 22059, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: jp59.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 5｜openit.ml, server: 615hk.fans8.xyz, port: 443, type: trojan, password: eea69c69-9989-4576-8b60-f6476e694bd7, sni: 615hk.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本01, server: 137.220.244.204, port: 1443, type: ss, cipher: aes-256-gcm, password: d11f468ac5ca, udp: true}
+  - {name: 🇷🇺 RU 1｜openit.ml, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 1｜openit.ml, server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 2｜openit.ml, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 3｜openit.ml, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 4｜openit.ml, server: w13.udpgw.com, port: 443, type: trojan, password: 16877c70-e7b8-11ec-99f2-1239d0255272, sni: w13.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 5｜openit.ml, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, sni: w12.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 6｜openit.ml, server: t.sin4.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 7｜openit.ml, server: t.sin3.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 10｜openit.ml, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 11｜openit.ml, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 12｜openit.ml, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 13｜openit.ml, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 14｜openit.ml, server: 198.200.51.219, port: 26969, type: trojan, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 15｜openit.ml, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 16｜openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 17｜openit.ml, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 18｜openit.ml, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 19｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1｜openit.ml, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 20｜openit.ml, server: t.usa3.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 21｜openit.ml, server: t.usa2.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 22｜openit.ml, server: t.usa1.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 23｜openit.ml, server: t.usa4.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 24｜openit.ml, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 25｜openit.ml, server: t.jap7.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 26｜openit.ml, server: t.jap5.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 27｜openit.ml, server: t.jap8.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 28｜openit.ml, server: t.jap6.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 29｜openit.ml, server: t.uk2.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, sni: wireless.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 30｜openit.ml, server: t.uk4.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 31｜openit.ml, server: t.hkg6.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 32｜openit.ml, server: t.kor2.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 33｜openit.ml, server: t.kor1.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 34｜openit.ml, server: zf.i809.ml, port: 25565, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 35｜openit.ml, server: zf.i809.ml, port: 45687, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 36｜openit.ml, server: zf.i809.ml, port: 32196, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 37｜openit.ml, server: pf.i809.ml, port: 12087, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 38｜openit.ml, server: bai-piao-wang-zhe10.98848.xyz, port: 43184, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 39｜openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3｜openit.ml, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, sni: silicon.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4｜openit.ml, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5｜openit.ml, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6｜openit.ml, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 7｜openit.ml, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 8｜openit.ml, server: mc.vpshax.ml, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7e01146, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 9｜openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国01, server: 107.167.2.186, port: 443, type: ss, cipher: aes-256-gcm, password: 93310e8db124, udp: true}
 proxy-groups:
   - name: 🌐 Proxy
     type: select
     proxies:
       - DIRECT
-      - 1游戏加速-超高倍率-非游戏勿选X15
-      - 2游戏加速-超高倍率-非游戏勿选X15
-      - 3游戏加速-超高倍率-非游戏勿选X15
-      - 4游戏加速-超高倍率-非游戏勿选X15
       - BG 1｜openit.ml
       - CZ 1｜openit.ml
       - CZ 2｜openit.ml
-      - TW2-BGP-HiNit-观影推荐线路
       - UA 1｜openit.ml
       - UA 2｜openit.ml
       - UA 3｜openit.ml
       - UA 4｜openit.ml
       - UA 5｜openit.ml
-      - US1-BGP-独享G口
-      - unknown 1｜openit.ml
-      - unknown 2｜openit.ml
-      - unknown 3｜openit.ml
-      - unknown 4｜openit.ml
-      - 备用|防止失联线路
-      - 🇦🇷 阿根廷-BGP-steam加速
-      - 🇦🇺 AU 001
       - 🇦🇺 AU 1｜openit.ml
-      - 🇦🇺 AU 2｜openit.ml
-      - 🇨🇦 CA 001
-      - 🇨🇦 CA 1｜openit.ml
-      - 🇨🇦 CA 2｜openit.ml
       - 🇨🇳 CN 10｜openit.ml
       - 🇨🇳 CN 11｜openit.ml
       - 🇨🇳 CN 12｜openit.ml
@@ -352,172 +205,71 @@ proxy-groups:
       - 🇨🇳 CN 43｜openit.ml
       - 🇨🇳 CN 44｜openit.ml
       - 🇨🇳 CN 45｜openit.ml
+      - 🇨🇳 CN 46｜openit.ml
+      - 🇨🇳 CN 47｜openit.ml
+      - 🇨🇳 CN 48｜openit.ml
+      - 🇨🇳 CN 49｜openit.ml
       - 🇨🇳 CN 4｜openit.ml
+      - 🇨🇳 CN 50｜openit.ml
+      - 🇨🇳 CN 51｜openit.ml
+      - 🇨🇳 CN 52｜openit.ml
+      - 🇨🇳 CN 53｜openit.ml
+      - 🇨🇳 CN 54｜openit.ml
+      - 🇨🇳 CN 55｜openit.ml
+      - 🇨🇳 CN 56｜openit.ml
+      - 🇨🇳 CN 57｜openit.ml
+      - 🇨🇳 CN 58｜openit.ml
+      - 🇨🇳 CN 59｜openit.ml
       - 🇨🇳 CN 5｜openit.ml
+      - 🇨🇳 CN 60｜openit.ml
+      - 🇨🇳 CN 61｜openit.ml
       - 🇨🇳 CN 6｜openit.ml
       - 🇨🇳 CN 7｜openit.ml
       - 🇨🇳 CN 8｜openit.ml
       - 🇨🇳 CN 9｜openit.ml
-      - 🇨🇳 TW 1
       - 🇨🇳 TW 1｜openit.ml
-      - 🇨🇳 TW 2
-      - 🇨🇳 TW 2｜openit.ml
-      - 🇨🇳 TW A 1
-      - 🇨🇳 TW A 2
-      - 🇨🇳 TW B 1
-      - 🇨🇳 TW B 2
-      - 🇨🇳 TW-BGP-HiNit-观影推荐线路
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 09
       - 🇨🇳 台湾01
       - 🇨🇳 台湾02
       - 🇨🇳 台湾03
-      - 🇨🇳 台湾①
-      - 🇨🇳 台湾②
-      - 🇨🇳 台湾③
-      - 🇩🇪 DE 001
+      - 🇨🇳 台湾04
+      - 🇨🇳 台湾05
+      - 🇨🇳 台湾06
+      - 🇨🇳 台湾07
+      - 🇨🇳 台湾08
+      - 🇨🇳 台湾10
+      - 🇨🇳 台湾11
+      - 🇨🇳 台湾12
       - 🇩🇪 DE 1｜openit.ml
       - 🇩🇪 DE 2｜openit.ml
-      - 🇩🇪 德国
-      - 🇩🇪 德国01
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
       - 🇬🇧 GB 3｜openit.ml
       - 🇬🇧 GB 4｜openit.ml
       - 🇬🇧 GB 5｜openit.ml
-      - 🇬🇧 UK 001
-      - 🇬🇧 UK 002
-      - 🇬🇧 英国
-      - 🇭🇰 H5-IEPL-HGC-X2
-      - 🇭🇰 HK 001
-      - 🇭🇰 HK 002
-      - 🇭🇰 HK 003
-      - 🇭🇰 HK 004
-      - 🇭🇰 HK 005
-      - 🇭🇰 HK 006
-      - 🇭🇰 HK 007
-      - 🇭🇰 HK 008
-      - 🇭🇰 HK 009
-      - 🇭🇰 HK 010
-      - 🇭🇰 HK 101
-      - 🇭🇰 HK 102
-      - 🇭🇰 HK 103
-      - 🇭🇰 HK 104
-      - 🇭🇰 HK 105
-      - 🇭🇰 HK 106
-      - 🇭🇰 HK 107
       - 🇭🇰 HK 1｜openit.ml
-      - 🇭🇰 HK 201
       - 🇭🇰 HK 2｜openit.ml
       - 🇭🇰 HK 3｜openit.ml
       - 🇭🇰 HK 4｜openit.ml
-      - 🇭🇰 HK 5｜openit.ml
-      - 🇭🇰 HK1-BGP-HKT-禁google
-      - 🇭🇰 HK1-IEPL-HKT-禁google-X2
-      - 🇭🇰 HK2-IEPL-HGC-X2
-      - 🇭🇰 HK3-BGP-HGC
-      - 🇭🇰 HK3-IEPL-HGC-X2
-      - 🇭🇰 HK4-BGP-HGC
-      - 🇭🇰 HK4-IEPL-HGC-X2
-      - 🇭🇰 HK5-BGP-HGC
-      - 🇭🇰 HK6-IEPL-HKT-X2
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港04
-      - 🇭🇰 香港①
-      - 🇭🇰 香港②
-      - 🇮🇳 IN A 001
-      - 🇮🇳 IN A 002
-      - 🇮🇳 IN A 003
-      - 🇮🇳 IN B 001
-      - 🇮🇳 IN B 002
-      - 🇮🇳 IN B 003
-      - 🇮🇳 印度01
-      - 🇮🇳 印度02
-      - 🇯🇵 JP 001
-      - 🇯🇵 JP 002
-      - 🇯🇵 JP 003
-      - 🇯🇵 JP 004
-      - 🇯🇵 JP 005
-      - 🇯🇵 JP 006
-      - 🇯🇵 JP 101
-      - 🇯🇵 JP 102
-      - 🇯🇵 JP 103
-      - 🇯🇵 JP 104
-      - 🇯🇵 JP 105
-      - 🇯🇵 JP 106
       - 🇯🇵 JP 1｜openit.ml
       - 🇯🇵 JP 2｜openit.ml
       - 🇯🇵 JP 3｜openit.ml
-      - 🇯🇵 JP B 001
-      - 🇯🇵 JP B 002
-      - 🇯🇵 JP B 003
-      - 🇯🇵 JP B 004
-      - 🇯🇵 JP B 005
-      - 🇯🇵 JP B 006
-      - 🇯🇵 JP-BGP
-      - 🇯🇵 日本05
-      - 🇯🇵 日本06
-      - 🇯🇵 日本07
-      - 🇯🇵 日本08
-      - 🇯🇵 日本①
-      - 🇯🇵 日本②
-      - 🇰🇷 KR 001
-      - 🇰🇷 KR 002
-      - 🇰🇷 KR 003
-      - 🇰🇷 KR 004
-      - 🇰🇷 KR 005
-      - 🇰🇷 KR 006
-      - 🇰🇷 KR 007
-      - 🇰🇷 KR A 001
-      - 🇰🇷 KR A 002
-      - 🇰🇷 KR A 003
-      - 🇰🇷 KR A 004
-      - 🇰🇷 KR A 005
-      - 🇰🇷 KR A 006
-      - 🇰🇷 KR A 007
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国03
-      - 🇲🇾 马来01
-      - 🇲🇾 马来02
-      - 🇳🇱 NL 1｜openit.ml
-      - 🇳🇱 NL(荷兰)-BGP
+      - 🇯🇵 JP 4｜openit.ml
+      - 🇯🇵 JP 5｜openit.ml
+      - 🇯🇵 日本01
       - 🇷🇺 RU 1｜openit.ml
-      - 🇷🇺 RU 2｜openit.ml
-      - 🇷🇺 RU 3｜openit.ml
-      - 🇷🇺 RUS-BGP
-      - 🇷🇺 俄罗斯①
-      - 🇸🇬 *请开启自动更新订阅* *无法使用请更新订阅*
-      - 🇸🇬 SG 001
-      - 🇸🇬 SG 002
-      - 🇸🇬 SG 003
-      - 🇸🇬 SG 004
-      - 🇸🇬 SG 005
-      - 🇸🇬 SG 006
-      - 🇸🇬 SG 007
       - 🇸🇬 SG 1｜openit.ml
       - 🇸🇬 SG 2｜openit.ml
       - 🇸🇬 SG 3｜openit.ml
       - 🇸🇬 SG 4｜openit.ml
       - 🇸🇬 SG 5｜openit.ml
       - 🇸🇬 SG 6｜openit.ml
-      - 🇸🇬 SG A 001
-      - 🇸🇬 SG A 002
-      - 🇸🇬 SG A 003
-      - 🇸🇬 SG A 004
-      - 🇸🇬 SG A 005
-      - 🇸🇬 SG A 006
-      - 🇸🇬 SG A 007
-      - 🇸🇬 SG(新加坡)-BGP-流媒体解锁
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇺🇸 US 001
-      - 🇺🇸 US 002
-      - 🇺🇸 US 003
-      - 🇺🇸 US 004
-      - 🇺🇸 US 005
-      - 🇺🇸 US 006
-      - 🇺🇸 US 007
-      - 🇺🇸 US 008
+      - 🇸🇬 SG 7｜openit.ml
       - 🇺🇸 US 10｜openit.ml
       - 🇺🇸 US 11｜openit.ml
       - 🇺🇸 US 12｜openit.ml
@@ -551,24 +303,12 @@ proxy-groups:
       - 🇺🇸 US 38｜openit.ml
       - 🇺🇸 US 39｜openit.ml
       - 🇺🇸 US 3｜openit.ml
-      - 🇺🇸 US 40｜openit.ml
-      - 🇺🇸 US 41｜openit.ml
-      - 🇺🇸 US 42｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
       - 🇺🇸 US 6｜openit.ml
       - 🇺🇸 US 7｜openit.ml
       - 🇺🇸 US 8｜openit.ml
       - 🇺🇸 US 9｜openit.ml
-      - 🇺🇸 US B 001
-      - 🇺🇸 US B 002
-      - 🇺🇸 US B 003
-      - 🇺🇸 US B 004
-      - 🇺🇸 US-BGP-HE
       - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国游戏专线-超高倍率X5
 rules:
  - MATCH,🌐 Proxy
