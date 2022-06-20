@@ -2,7 +2,6 @@ name: Nodes
 on: 
   schedule:
     - cron: '*/32 0-8 * * *'
-    - cron: '*/22 8-14 * * *'
     - cron: '*/52 14-24 * * *'
   workflow_dispatch:
 
