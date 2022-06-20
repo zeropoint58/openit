@@ -12,20 +12,20 @@ jobs:
     name: Collecting & Speedtest
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-python@v4
+    - uses: actions/checkout@v3     #git clone
+    - uses: actions/setup-python@v4 #python环境
       with:
         python-version: '3.x'
         cache: 'pip'
-    - name: Timezone
+    - name: Timezone #UTC+0 → UTC+8
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: init
-      run: | 
+      run: | #配置git上传用户名和邮箱
          git config pull.rebase false
          git config --local user.name "GitHub Actions"
          git config --local user.email "actions@github.com"
     - name: requirements.txt
-      run: | 
+      run: | #安装python包
          pip install -r ./utils/pool/requirements.txt
          pip install -r ./utils/clashcheck/requirements.txt
     - name: pool #input./utils/pool/config.yaml
@@ -41,14 +41,14 @@ jobs:
     needs: cs-job
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
+    - uses: actions/checkout@v3   #git clone
+    - uses: actions/setup-node@v3 #python环境
       with:
         node-version: 16
-    - name: Timezone
+    - name: Timezone #UTC+0 → UTC+8
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: init
-      run: | 
+      run: | #配置git上传用户名和邮箱
          git config pull.rebase false
          git config --local user.name "GitHub Actions"
          git config --local user.email "actions@github.com"
@@ -85,8 +85,8 @@ jobs:
     needs: rr-job
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Timezone
+    - uses: actions/checkout@v3 #git clone
+    - name: Timezone #UTC+0 → UTC+8
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: init
       run: | 
