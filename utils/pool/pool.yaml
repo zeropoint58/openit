@@ -1,16 +1,24 @@
 proxies:
+  - {name: 1游戏加速-超高倍率-非游戏勿选X15, server: iplc.myuuusss.com, port: 20847, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 2游戏加速-超高倍率-非游戏勿选X15, server: iplc2.myuuusss.com, port: 15900, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 3游戏加速-超高倍率-非游戏勿选X15, server: iplc.myuuusss.com, port: 11221, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 4游戏加速-超高倍率-非游戏勿选X15, server: iplc.myuuusss.com, port: 11006, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
   - {name: BG 1｜openit.ml, server: fr.n.optage.moe, port: 44612, type: trojan, password: 3ece2cd7-076d-4e9f-8a23-e7d9b4e3f62e, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: CZ 1｜openit.ml, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
   - {name: CZ 2｜openit.ml, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: true, udp: true}
+  - {name: TW2-BGP-HiNit-观影推荐线路, server: cdn2.myuuusss.com, port: 20111, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
   - {name: UA 1｜openit.ml, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
   - {name: UA 2｜openit.ml, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
   - {name: UA 3｜openit.ml, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
   - {name: UA 4｜openit.ml, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
   - {name: UA 5｜openit.ml, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
+  - {name: US1-BGP-独享G口, server: cdn2.myuuusss.com, port: 32001, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn2.myuuusss.com}}, udp: true}
   - {name: unknown 1｜openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
   - {name: unknown 2｜openit.ml, server: 5.44.249.43, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
   - {name: unknown 3｜openit.ml, server: zf.i809.ml, port: 25565, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
   - {name: unknown 4｜openit.ml, server: hungjintang.ml, port: 443, type: trojan, password: 214fa552-218f-48c8-aa13-3274588fc131, sni: hungjintang.ml, skip-cert-verify: true, udp: true}
+  - {name: 备用|防止失联线路, server: back.myuuusss.com, port: 443, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: back.myuuusss.com}}, udp: true}
+  - {name: 🇦🇷 阿根廷-BGP-steam加速, server: cdn2.myuuusss.com, port: 30093, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
   - {name: 🇦🇺 AU 001, server: aulin001.xmrth-node.xyz, port: 15647, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇦🇺 AU 1｜openit.ml, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 2｜openit.ml, server: kk.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, sni: kk.2046.gq, skip-cert-verify: true, udp: true}
@@ -70,6 +78,7 @@ proxies:
   - {name: 🇨🇳 TW A 2, server: hkaz2.xmrth-node.xyz, port: 14017, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇨🇳 TW B 1, server: jpaz1.xmrth-node.xyz, port: 14065, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇨🇳 TW B 2, server: jpaz2.xmrth-node.xyz, port: 13240, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: 🇨🇳 TW-BGP-HiNit-观影推荐线路, server: cdn2.myuuusss.com, port: 20011, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
   - {name: 🇨🇳 台湾01, server: cm.awslcn.cc, port: 25233, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
   - {name: 🇨🇳 台湾02, server: cm1.awslcn.cc, port: 25233, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
   - {name: 🇨🇳 台湾03, server: cu.awslcn.cc, port: 25233, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
@@ -89,6 +98,7 @@ proxies:
   - {name: 🇬🇧 UK 001, server: uklin001.xmrth-node.xyz, port: 15856, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇬🇧 UK 002, server: ukaws002.xmrth-node.xyz, port: 10292, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇬🇧 英国, server: cu.awslcn.cc, port: 25240, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
+  - {name: 🇭🇰 H5-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 30042, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn1.myuuusss.com}}, udp: true}
   - {name: 🇭🇰 HK 001, server: hkaz001.xmrth-node.xyz, port: 16063, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇭🇰 HK 002, server: hkaz002.xmrth-node.xyz, port: 15909, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇭🇰 HK 003, server: hkaz003.xmrth-node.xyz, port: 15910, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
@@ -112,6 +122,15 @@ proxies:
   - {name: 🇭🇰 HK 3｜openit.ml, server: hk.n.optage.moe, port: 44601, type: trojan, password: 3ece2cd7-076d-4e9f-8a23-e7d9b4e3f62e, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 4｜openit.ml, server: fk.i809.ml, port: 11111, type: trojan, password: 8fe9d7b3-e209-4477-bb2c-7903c33eb54f, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 5｜openit.ml, server: fk.i809.ml, port: 52087, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK1-BGP-HKT-禁google, server: cdn2.myuuusss.com, port: 21111, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 🇭🇰 HK1-IEPL-HKT-禁google-X2, server: cdn1.myuuusss.com, port: 20007, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 🇭🇰 HK2-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 30041, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 🇭🇰 HK3-BGP-HGC, server: cdn2.myuuusss.com, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 🇭🇰 HK3-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 30031, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: 🇭🇰 HK4-BGP-HGC, server: cdn2.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn2.myuuusss.com}}, udp: true}
+  - {name: 🇭🇰 HK4-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn1.myuuusss.com}}, udp: true}
+  - {name: 🇭🇰 HK5-BGP-HGC, server: cdn2.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn2.myuuusss.com}}, udp: true}
+  - {name: 🇭🇰 HK6-IEPL-HKT-X2, server: cdn1.myuuusss.com, port: 20222, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn1.myuuusss.com}}, udp: true}
   - {name: 🇭🇰 香港01, server: cm.awslcn.cc, port: 25242, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
   - {name: 🇭🇰 香港02, server: cm1.awslcn.cc, port: 25242, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
   - {name: 🇭🇰 香港03, server: cu.awslcn.cc, port: 25223, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
@@ -147,6 +166,7 @@ proxies:
   - {name: 🇯🇵 JP B 004, server: jpaz4.xmrth-node.xyz, port: 15421, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇯🇵 JP B 005, server: jpaz5.xmrth-node.xyz, port: 13870, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇯🇵 JP B 006, server: jpaz6.xmrth-node.xyz, port: 13871, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: 🇯🇵 JP-BGP, server: cdn2.myuuusss.com, port: 20021, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
   - {name: 🇯🇵 日本05, server: cu.awslcn.cc, port: 25237, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
   - {name: 🇯🇵 日本06, server: cm.awslcn.cc, port: 25237, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
   - {name: 🇯🇵 日本07, server: cm.awslcn.cc, port: 25220, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
@@ -172,9 +192,11 @@ proxies:
   - {name: 🇲🇾 马来01, server: cm.awslcn.cc, port: 25228, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
   - {name: 🇲🇾 马来02, server: cu.awslcn.cc, port: 25228, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
   - {name: 🇳🇱 NL 1｜openit.ml, server: ch1.nodegz.top, port: 443, type: trojan, password: 1fa8243f-39db-38c3-a1c5-8c582c6857ac, sni: ch1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL(荷兰)-BGP, server: cdn2.myuuusss.com, port: 20098, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
   - {name: 🇷🇺 RU 1｜openit.ml, server: us1.nodegz.top, port: 443, type: trojan, password: 440055a3-7c84-3cb3-9b7a-a974a66e9b98, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 2｜openit.ml, server: hkbgp2.jiantian.xyz, port: 34532, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 3｜openit.ml, server: t03.ssrsub.com, port: 18443, type: trojan, password: 57229afb-d4e4-426e-bfdc-18fc1f3267fd, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 RUS-BGP, server: cdn2.myuuusss.com, port: 30033, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
   - {name: 🇷🇺 俄罗斯①, server: cm.awslcn.cc, port: 25230, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
   - {name: 🇸🇬 *请开启自动更新订阅* *无法使用请更新订阅*, server: 8.8.8.8, port: 443, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 001, server: sgaws001.xmrth-node.xyz, port: 15967, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
@@ -197,6 +219,7 @@ proxies:
   - {name: 🇸🇬 SG A 005, server: hkaz5.xmrth-node.xyz, port: 15839, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇸🇬 SG A 006, server: hkaz6.xmrth-node.xyz, port: 13890, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇸🇬 SG A 007, server: hkaz7.xmrth-node.xyz, port: 15906, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: 🇸🇬 SG(新加坡)-BGP-流媒体解锁, server: cdn2.myuuusss.com, port: 32022, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
   - {name: 🇸🇬 新加坡01, server: cm.awslcn.cc, port: 25225, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
   - {name: 🇸🇬 新加坡02, server: cm1.awslcn.cc, port: 25225, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
   - {name: 🇺🇸 US 001, server: inap001.xmrth-node.xyz, port: 15658, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
@@ -253,27 +276,37 @@ proxies:
   - {name: 🇺🇸 US B 002, server: jpaz2.xmrth-node.xyz, port: 10141, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇺🇸 US B 003, server: jpaz3.xmrth-node.xyz, port: 15946, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
   - {name: 🇺🇸 US B 004, server: jpaz4.xmrth-node.xyz, port: 13868, type: vmess, uuid: cd389c6a-86b8-36cb-bd9e-772d2fad3cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: 🇺🇸 US-BGP-HE, server: cdn2.myuuusss.com, port: 32882, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
   - {name: 🇺🇸 美国01, server: cm1.awslcn.cc, port: 25239, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
   - {name: 🇺🇸 美国02, server: cu.awslcn.cc, port: 25239, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
   - {name: 🇺🇸 美国03, server: cm1.awslcn.cc, port: 25238, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
   - {name: 🇺🇸 美国04, server: cu.awslcn.cc, port: 25238, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
+  - {name: 🇺🇸 美国游戏专线-超高倍率X5, server: us-c1.myuuusss.com, port: 23223, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-c1.myuuusss.com}}, udp: true}
 proxy-groups:
   - name: 🌐 Proxy
     type: select
     proxies:
       - DIRECT
+      - 1游戏加速-超高倍率-非游戏勿选X15
+      - 2游戏加速-超高倍率-非游戏勿选X15
+      - 3游戏加速-超高倍率-非游戏勿选X15
+      - 4游戏加速-超高倍率-非游戏勿选X15
       - BG 1｜openit.ml
       - CZ 1｜openit.ml
       - CZ 2｜openit.ml
+      - TW2-BGP-HiNit-观影推荐线路
       - UA 1｜openit.ml
       - UA 2｜openit.ml
       - UA 3｜openit.ml
       - UA 4｜openit.ml
       - UA 5｜openit.ml
+      - US1-BGP-独享G口
       - unknown 1｜openit.ml
       - unknown 2｜openit.ml
       - unknown 3｜openit.ml
       - unknown 4｜openit.ml
+      - 备用|防止失联线路
+      - 🇦🇷 阿根廷-BGP-steam加速
       - 🇦🇺 AU 001
       - 🇦🇺 AU 1｜openit.ml
       - 🇦🇺 AU 2｜openit.ml
@@ -333,6 +366,7 @@ proxy-groups:
       - 🇨🇳 TW A 2
       - 🇨🇳 TW B 1
       - 🇨🇳 TW B 2
+      - 🇨🇳 TW-BGP-HiNit-观影推荐线路
       - 🇨🇳 台湾01
       - 🇨🇳 台湾02
       - 🇨🇳 台湾03
@@ -352,6 +386,7 @@ proxy-groups:
       - 🇬🇧 UK 001
       - 🇬🇧 UK 002
       - 🇬🇧 英国
+      - 🇭🇰 H5-IEPL-HGC-X2
       - 🇭🇰 HK 001
       - 🇭🇰 HK 002
       - 🇭🇰 HK 003
@@ -375,6 +410,15 @@ proxy-groups:
       - 🇭🇰 HK 3｜openit.ml
       - 🇭🇰 HK 4｜openit.ml
       - 🇭🇰 HK 5｜openit.ml
+      - 🇭🇰 HK1-BGP-HKT-禁google
+      - 🇭🇰 HK1-IEPL-HKT-禁google-X2
+      - 🇭🇰 HK2-IEPL-HGC-X2
+      - 🇭🇰 HK3-BGP-HGC
+      - 🇭🇰 HK3-IEPL-HGC-X2
+      - 🇭🇰 HK4-BGP-HGC
+      - 🇭🇰 HK4-IEPL-HGC-X2
+      - 🇭🇰 HK5-BGP-HGC
+      - 🇭🇰 HK6-IEPL-HKT-X2
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港03
@@ -410,6 +454,7 @@ proxy-groups:
       - 🇯🇵 JP B 004
       - 🇯🇵 JP B 005
       - 🇯🇵 JP B 006
+      - 🇯🇵 JP-BGP
       - 🇯🇵 日本05
       - 🇯🇵 日本06
       - 🇯🇵 日本07
@@ -435,9 +480,11 @@ proxy-groups:
       - 🇲🇾 马来01
       - 🇲🇾 马来02
       - 🇳🇱 NL 1｜openit.ml
+      - 🇳🇱 NL(荷兰)-BGP
       - 🇷🇺 RU 1｜openit.ml
       - 🇷🇺 RU 2｜openit.ml
       - 🇷🇺 RU 3｜openit.ml
+      - 🇷🇺 RUS-BGP
       - 🇷🇺 俄罗斯①
       - 🇸🇬 *请开启自动更新订阅* *无法使用请更新订阅*
       - 🇸🇬 SG 001
@@ -460,6 +507,7 @@ proxy-groups:
       - 🇸🇬 SG A 005
       - 🇸🇬 SG A 006
       - 🇸🇬 SG A 007
+      - 🇸🇬 SG(新加坡)-BGP-流媒体解锁
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
       - 🇺🇸 US 001
@@ -516,9 +564,11 @@ proxy-groups:
       - 🇺🇸 US B 002
       - 🇺🇸 US B 003
       - 🇺🇸 US B 004
+      - 🇺🇸 US-BGP-HE
       - 🇺🇸 美国01
       - 🇺🇸 美国02
       - 🇺🇸 美国03
       - 🇺🇸 美国04
+      - 🇺🇸 美国游戏专线-超高倍率X5
 rules:
  - MATCH,🌐 Proxy
