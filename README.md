@@ -22,19 +22,19 @@
 </div>
 
 **Base64**
-```https://openit.ml/long```
+```https://raw.githubusercontent.com/yu-steven/openit/main/long```
 **通用**
 
 **小火箭**
-```https://openit.ml/https```
+```https://raw.githubusercontent.com/yu-steven/openit/main/https```
 **专用**
 
 **Clash**
-```https://openit.ml/Clash.yaml```
+```https://raw.githubusercontent.com/yu-steven/openit/main/Clash.yaml```
 **专用**
 
 **Quanx**
-```https://openit.ml/Quanx.conf```
+```https://raw.githubusercontent.com/yu-steven/openit/main/Quanx.conf```
 **专用**
 
 <!--**节点备注里**-->
