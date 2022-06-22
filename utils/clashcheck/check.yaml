@@ -7,11 +7,12 @@ proxies:
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 2"
-  server: jgwld1.gaox.ml
+- name: "\U0001F1FA\U0001F1F8 US 2"
+  server: tj-us02.yiyodns.xyz
   port: 443
   type: trojan
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  country: "\U0001F1FA\U0001F1F8 US"
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EC\U0001F1E7 GB 3"
@@ -21,18 +22,18 @@ proxies:
   password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1FF CZ 4"
-  server: cz5.v2ce.com
+- name: "\U0001F1EC\U0001F1E7 GB 4"
+  server: jgwld1.gaox.ml
   port: 443
   type: trojan
-  password: HTrovQkamDxNfaD5
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1FF CZ 5"
-  server: v2cross.com.05.v2ce.com
+  server: ce.rutracker-cn.com
   port: 443
   type: trojan
-  password: kGrwqmB1nEKUsDwE
+  password: 5y8y3CwxRVYhyfSY
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1FF CZ 6"
@@ -43,17 +44,17 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1FF CZ 7"
-  server: v2cross.com.02.v2ce.com
+  server: v2cross.com.01.v2ce.com
   port: 443
   type: trojan
-  password: 3gLlCYBipVwr6Y5F
+  password: mMQ6qJB9xbhiRvgg
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1FF CZ 8"
-  server: ce.rutracker-cn.com
+  server: v2cross.com.05.v2ce.com
   port: 443
   type: trojan
-  password: 5y8y3CwxRVYhyfSY
+  password: kGrwqmB1nEKUsDwE
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1FF CZ 9"
@@ -63,66 +64,15 @@ proxies:
   password: ZD4dLSBXiMrmzdLd
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 10"
-  server: usfree2.jiantian.xyz
-  port: 32453
+- name: "\U0001F1E8\U0001F1FF CZ 10"
+  server: t03.ssrsub.com
+  port: 18443
   type: trojan
-  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
-  sni: usfree2.jiantian.xyz
+  country: "\U0001F1F7\U0001F1FA RU"
+  password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 11"
-  server: tj-us02.yiyodns.xyz
-  port: 443
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 12"
-  server: tj-us01.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 13"
-  server: silicon.starspace.link
-  port: 443
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  password: 4ZPDeqJ6g766UKDJ
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 14"
-  server: 67tw01.fans8.xyz
-  port: 443
-  type: trojan
-  password: 6f5e02bd-9b8f-44bc-b681-55150c102911
-  sni: 67tw01.fans8.xyz
-- name: "\U0001F1FA\U0001F1F8 US 15"
-  server: rooms.starspace.link
-  port: 443
-  type: trojan
-  password: 5HfENR8nt2PR8reH
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 16"
-  server: hkbgp1.jiantian.xyz
-  port: 14326
-  type: trojan
-  country: "\U0001F1F7\U0001F1FA RU"
-  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 17"
-  server: storage.starspace.link
-  port: 443
-  type: trojan
-  password: W8gVbKNAZlFzgGPn
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 18"
   server: wireless.starspace.link
   port: 443
   type: trojan
@@ -130,47 +80,102 @@ proxies:
   password: 5LN8SGTqxk336nFg
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 12"
+  server: tj-hk02.yiyodns.xyz
+  port: 443
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0 HK"
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 13"
+  server: jgwld3.gaox.ml
+  port: 443
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  password: 71b55a84-3fac-4458-abff-eaad79219c91
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 14"
+  server: hkbgp1.jiantian.xyz
+  port: 14326
+  type: trojan
+  country: "\U0001F1F7\U0001F1FA RU"
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1FF CZ 15"
+  server: v2cross.com.02.v2ce.com
+  port: 443
+  type: trojan
+  password: 3gLlCYBipVwr6Y5F
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 16"
+  server: usfree2.jiantian.xyz
+  port: 32453
+  type: trojan
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  sni: usfree2.jiantian.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 17"
+  server: 67tw01.fans8.xyz
+  port: 443
+  type: trojan
+  password: 6f5e02bd-9b8f-44bc-b681-55150c102911
+  sni: 67tw01.fans8.xyz
+- name: "\U0001F1F7\U0001F1FA RU 18"
+  server: us1.nodegz.top
+  port: 443
+  type: trojan
+  password: f95cb9be-5e12-3c17-be05-d4881fed87ae
+  sni: us1.nodegz.top
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 HK 19"
+  server: AZHJ001.xiba1.xyz
+  port: 20727
+  type: trojan
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 20"
   server: tj-hk01.yiyodns.xyz
   port: 443
   type: trojan
   password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 20"
-  server: tj-hk02.yiyodns.xyz
+- name: "\U0001F1E8\U0001F1F3 HK 21"
+  server: AZHJ001.xiba1.xyz
+  port: 20723
+  type: trojan
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 22"
+  server: 14.29.124.168
+  port: 24009
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1FA\U0001F1F8 US 23"
+  server: silicon.starspace.link
   port: 443
   type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  country: "\U0001F1FA\U0001F1F8 US"
+  password: 4ZPDeqJ6g766UKDJ
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 21"
-  server: 211.72.35.153
-  port: 3389
-  type: trojan
-  password: a170b44c2dfac9e6
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E6\U0001F1FA AU 22"
+- name: "\U0001F1E6\U0001F1FA AU 24"
   server: jgwxn2.gaox.ml
   port: 443
   type: trojan
   password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 23"
-  server: hkbgp2.jiantian.xyz
-  port: 34532
-  type: trojan
-  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 24"
-  server: AZHJ001.xiba1.xyz
-  port: 20722
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 HK 25"
@@ -183,7 +188,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 HK 26"
   server: AZHJ001.xiba1.xyz
-  port: 20721
+  port: 20719
   type: trojan
   password: e20f1565-2d2c-37fb-9d39-93d6861a9746
   sni: ssl.ssl12.xyz
@@ -191,7 +196,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 HK 27"
   server: AZHJ001.xiba1.xyz
-  port: 20725
+  port: 20722
   type: trojan
   password: e20f1565-2d2c-37fb-9d39-93d6861a9746
   sni: ssl.ssl12.xyz
@@ -199,18 +204,18 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 HK 28"
   server: AZHJ001.xiba1.xyz
-  port: 20719
+  port: 20721
   type: trojan
   password: e20f1565-2d2c-37fb-9d39-93d6861a9746
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 29"
-  server: AZHJ001.xiba1.xyz
-  port: 20723
+- name: "\U0001F1F8\U0001F1EC SG 29"
+  server: s2.hazz.win
+  port: 12340
   type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
+  country: "\U0001F1F8\U0001F1EC SG"
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 HK 30"
@@ -221,22 +226,29 @@ proxies:
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 31"
-  server: AZHJ001.xiba1.xyz
-  port: 20727
+- name: "\U0001F1EF\U0001F1F5 JP 31"
+  server: jgwdb1.gaox.ml
+  port: 443
   type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 32"
-  server: lsj02.wangxd.life
-  port: 3052
+- name: "\U0001F1EF\U0001F1F5 JP 32"
+  server: s1.hazz.win
+  port: 12340
   type: trojan
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  country: "\U0001F1FA\U0001F1F8 US"
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 33"
+- name: "\U0001F1F0\U0001F1F7 KR 33"
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 34"
   server: AZHJ001.xiba1.xyz
   port: 20724
   type: trojan
@@ -244,7 +256,15 @@ proxies:
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 34"
+- name: "\U0001F1E8\U0001F1F3 HK 35"
+  server: AZHJ001.xiba1.xyz
+  port: 20725
+  type: trojan
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 36"
   server: AZHJ001.xiba1.xyz
   port: 20720
   type: trojan
@@ -252,117 +272,103 @@ proxies:
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 35"
+- name: "\U0001F1FA\U0001F1F8 US 37"
+  server: rooms.starspace.link
+  port: 443
+  type: trojan
+  password: 5HfENR8nt2PR8reH
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 38"
+  server: storage.starspace.link
+  port: 443
+  type: trojan
+  password: W8gVbKNAZlFzgGPn
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 39"
+  server: lsj02.wangxd.life
+  port: 3052
+  type: trojan
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 40"
+  server: hkbgp2.jiantian.xyz
+  port: 34532
+  type: trojan
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 41"
   server: sg.sharecentrepro.tk
   port: 443
   type: trojan
   password: sharecentre
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 36"
-  server: 198.200.51.219
-  port: 26969
+- name: "\U0001F1FA\U0001F1F8 US 42"
+  server: tj-us01.yiyodns.xyz
+  port: 443
   type: trojan
-  password: 151dada5-c12e-4eb3-940e-d93f365f8a4a
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 37"
+- name: "\U0001F1FA\U0001F1F8 US 43"
   server: fhcarm2.gaox.ml
   port: 443
   type: trojan
   password: f39bd244-f5fe-415c-8b98-a1e5250bf178
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 38"
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 39"
+- name: "\U0001F1FA\U0001F1F8 US 44"
   server: fhcarm1.gaox.ml
   port: 443
   type: trojan
   password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 40"
+- name: "\U0001F1E8\U0001F1F3 CN 45"
+  server: cu-cs.okvpn.xyz
+  port: 20000
+  type: trojan
+  password: b2683eab-1572-43fd-976a-fe48543bf1f3
+  sni: cu-cs.okvpn.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 46"
+  server: fhcamd2.gaox.ml
+  port: 443
+  type: trojan
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 47"
+  server: us2.nodegz.top
+  port: 443
+  type: trojan
+  password: f95cb9be-5e12-3c17-be05-d4881fed87ae
+  sni: us2.nodegz.top
+- name: "\U0001F1FA\U0001F1F8 US 48"
+  server: cd.rutracker-cn.com
+  port: 443
+  type: trojan
+  password: ukMzuFSmIXDvgW0h
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 49"
   server: trojan1.udpgw.com
   port: 443
   type: trojan
   password: affae2e0-e84b-11ec-b09f-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 41"
-  server: jgwdb3.gaox.ml
+- name: "\U0001F1F8\U0001F1EC SG 50"
+  server: w11.udpgw.com
   port: 443
   type: trojan
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 42"
-  server: tj-sg02.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 43"
-  server: 103.56.62.145
-  port: 3383
-  type: trojan
-  password: d66013c645b93c5c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 44"
-  server: 120.233.186.250
-  port: 3383
-  type: trojan
-  password: d66013c645b93c5c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 45"
-  server: jgwhdlb1.gaox.ml
-  port: 443
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 46"
-  server: 116.129.253.177
-  port: 3389
-  type: trojan
-  password: ca911d30af65ef1b
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 47"
-  server: 116.129.253.177
-  port: 3389
-  type: trojan
-  password: e37c6d7efa845d60
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 48"
-  server: 116.129.253.177
-  port: 3389
-  type: trojan
-  password: f6f2072a2e4cfc91
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 49"
-  server: 116.129.253.177
-  port: 3389
-  type: trojan
-  password: ca4596fb9bc63cf2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 50"
-  server: cd.rutracker-cn.com
-  port: 443
-  type: trojan
-  password: ukMzuFSmIXDvgW0h
+  country: "\U0001F1F8\U0001F1EC SG"
+  password: f64e69c0-e7b7-11ec-ab81-1239d0255272
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E9\U0001F1EA DE 51"
@@ -372,59 +378,36 @@ proxies:
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 52"
-  server: AZQT001.xiba1.xyz
-  port: 20729
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 53"
-  server: AZQT001.xiba1.xyz
-  port: 20731
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 54"
-  server: w13.udpgw.com
-  port: 443
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  password: 16877c70-e7b8-11ec-99f2-1239d0255272
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 55"
-  server: 116.129.253.177
-  port: 3389
-  type: trojan
-  password: a170b44c2dfac9e6
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 56"
-  server: us2.nodegz.top
-  port: 443
-  type: trojan
-  password: f95cb9be-5e12-3c17-be05-d4881fed87ae
-  sni: us2.nodegz.top
-- name: "\U0001F1F0\U0001F1F7 KR 57"
+- name: "\U0001F1F0\U0001F1F7 KR 52"
   server: kr05.wangxd.life
   port: 3052
   type: trojan
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 58"
-  server: AZQT001.xiba1.xyz
-  port: 20732
+- name: "\U0001F1FA\U0001F1F8 US 53"
+  server: 198.200.51.219
+  port: 26969
   type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
+  password: 151dada5-c12e-4eb3-940e-d93f365f8a4a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 59"
+- name: "\U0001F1FA\U0001F1F8 US 54"
+  server: 193.178.210.29
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7FR"
+  port: 443
+  password: iKR3Ft
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 55"
+  server: tj-sg02.yiyodns.xyz
+  port: 443
+  type: trojan
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 56"
   server: AZQT001.xiba1.xyz
   port: 20739
   type: trojan
@@ -432,66 +415,30 @@ proxies:
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 57"
+  server: cm.spacez.cloud
+  port: 30003
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 58"
+  server: jgwdj4.gaox.ml
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1E9 ID 59"
+  server: 41.216.177.41
+  port: 443
+  type: trojan
+  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 HK 60"
-  server: AZQT001.xiba1.xyz
-  port: 20742
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 61"
-  server: AZQT001.xiba1.xyz
-  port: 20728
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 62"
-  server: AZQT001.xiba1.xyz
-  port: 20734
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 63"
-  server: 116.129.253.177
-  port: 3389
-  type: trojan
-  password: 9029864a78d29a43
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 64"
-  server: 16us.pronetworklink.net
-  port: 443
-  type: trojan
-  password: 0e1160dd-3271-48c2-a8c3-6532eabd3e9e
-  sni: 16us.pronetworklink.net
-- name: "\U0001F1E8\U0001F1F3 HK 65"
-  server: AZHJ001.xiba1.xyz
-  port: 20715
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 66"
-  server: AZQT001.xiba1.xyz
-  port: 20740
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 67"
-  server: 613hk.fans8.xyz
-  port: 443
-  type: trojan
-  password: 6f5e02bd-9b8f-44bc-b681-55150c102911
-  sni: 613hk.fans8.xyz
-- name: "\U0001F1E8\U0001F1F3 HK 68"
   server: AZQT001.xiba1.xyz
   port: 20736
   type: trojan
@@ -499,30 +446,14 @@ proxies:
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 69"
-  server: 103.56.60.235
-  port: 3383
+- name: "\U0001F1EF\U0001F1F5 JP 61"
+  server: jgwdb3.gaox.ml
+  port: 443
   type: trojan
-  password: d66013c645b93c5c
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 70"
-  server: AZQT001.xiba1.xyz
-  port: 20741
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 71"
-  server: AZQT001.xiba1.xyz
-  port: 20733
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 72"
+- name: "\U0001F1E8\U0001F1F3 HK 62"
   server: AZQT001.xiba1.xyz
   port: 20735
   type: trojan
@@ -530,21 +461,94 @@ proxies:
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1E9 ID 73"
-  server: 41.216.177.41
-  port: 443
+- name: "\U0001F1E8\U0001F1F3 HK 63"
+  server: AZQT001.xiba1.xyz
+  port: 20734
   type: trojan
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E6\U0001F1FA AU 74"
-  server: jgwxn4.gaox.ml
-  port: 443
+- name: "\U0001F1E8\U0001F1F3 HK 64"
+  server: AZQT001.xiba1.xyz
+  port: 20740
   type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 75"
+- name: "\U0001F1E8\U0001F1F3 HK 65"
+  server: AZQT001.xiba1.xyz
+  port: 20729
+  type: trojan
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 66"
+  server: cm.spacez.cloud
+  port: 30003
+  type: trojan
+  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 67"
+  server: AZQT001.xiba1.xyz
+  port: 20728
+  type: trojan
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 68"
+  server: AZQT001.xiba1.xyz
+  port: 20733
+  type: trojan
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 69"
+  server: AZQT001.xiba1.xyz
+  port: 20731
+  type: trojan
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 70"
+  server: AZHJ001.xiba1.xyz
+  port: 20715
+  type: trojan
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 71"
+  server: AZQT001.xiba1.xyz
+  port: 20732
+  type: trojan
+  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 72"
+  server: 613hk.fans8.xyz
+  port: 443
+  type: trojan
+  password: 6f5e02bd-9b8f-44bc-b681-55150c102911
+  sni: 613hk.fans8.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 73"
+  server: ga.gnailiad.ga
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 23578
+  password: aBfOmU3irR
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 74"
   server: AZQT001.xiba1.xyz
   port: 20730
   type: trojan
@@ -552,35 +556,21 @@ proxies:
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1F8\U0001F1EC SG 75"
+  server: sg1.nodegz.top
+  port: 443
+  type: trojan
+  password: f95cb9be-5e12-3c17-be05-d4881fed87ae
+  sni: sg1.nodegz.top
 - name: "\U0001F1F8\U0001F1EC SG 76"
-  server: w11.udpgw.com
+  server: w13.udpgw.com
   port: 443
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
-  password: f64e69c0-e7b7-11ec-ab81-1239d0255272
+  password: 16877c70-e7b8-11ec-99f2-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 77"
-  server: w12.udpgw.com
-  port: 443
-  type: trojan
-  country: "\U0001F1F8\U0001F1EC SG"
-  password: 08964210-e7b8-11ec-95aa-1239d0255272
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 78"
-  server: 618hk.fans8.xyz
-  port: 443
-  type: trojan
-  password: 6f5e02bd-9b8f-44bc-b681-55150c102911
-  sni: 618hk.fans8.xyz
-- name: "\U0001F1F8\U0001F1EC SG 79"
-  server: gnailiad.ga
-  port: 39208
-  type: trojan
-  password: swXgcgRW7p
-  sni: gnailiad.ga
-- name: "\U0001F1E8\U0001F1F3 HK 80"
+- name: "\U0001F1E8\U0001F1F3 HK 77"
   server: AZQT001.xiba1.xyz
   port: 20743
   type: trojan
@@ -588,27 +578,7 @@ proxies:
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 81"
-  server: trojan.linkdns.xyz
-  port: 40208
-  type: trojan
-  password: 379105df-ad74-3c8a-ace3-5832de8f973a
-  sni: trojan.linkdns.xyz
-- name: "\U0001F1F0\U0001F1F7 KR 82"
-  server: 8kr.pronetworklink.net
-  port: 443
-  type: trojan
-  password: 0e1160dd-3271-48c2-a8c3-6532eabd3e9e
-  sni: 8kr.pronetworklink.net
-- name: "\U0001F1EE\U0001F1F3 IN 83"
-  server: jgwhdlb2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 84"
+- name: "\U0001F1E8\U0001F1F3 HK 78"
   server: AZQT001.xiba1.xyz
   port: 20748
   type: trojan
@@ -616,21 +586,7 @@ proxies:
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 85"
-  server: sg1.nodegz.top
-  port: 443
-  type: trojan
-  password: f95cb9be-5e12-3c17-be05-d4881fed87ae
-  sni: sg1.nodegz.top
-- name: "\U0001F1E8\U0001F1F3 HK 86"
-  server: AZQT001.xiba1.xyz
-  port: 20746
-  type: trojan
-  password: e20f1565-2d2c-37fb-9d39-93d6861a9746
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 87"
+- name: "\U0001F1E8\U0001F1F3 HK 79"
   server: AZQT001.xiba1.xyz
   port: 20747
   type: trojan
@@ -638,7 +594,7 @@ proxies:
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 88"
+- name: "\U0001F1EE\U0001F1F3 IN 80"
   server: jgwhdlb3.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -646,89 +602,37 @@ proxies:
   password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 89"
-  server: HJ001.xiba1.xyz
-  port: 20762
+- name: "\U0001F1E8\U0001F1F3 HK 81"
+  server: AZQT001.xiba1.xyz
+  port: 20746
   type: trojan
   password: e20f1565-2d2c-37fb-9d39-93d6861a9746
   sni: ssl.ssl12.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 90"
-  server: jgwcc2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 91"
-  server: jgwcc3.gaox.ml
-  port: 443
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 92"
-  server: 103.56.62.145
-  port: 3383
+- name: "\U0001F1E8\U0001F1F3 CN 82"
+  server: 120.233.186.204
   type: trojan
   country: "\U0001F1E8\U0001F1F3 CN"
+  port: 3383
+  password: d66013c645b93c5c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 83"
+  server: gnailiad.ga
+  port: 39208
+  type: trojan
+  password: swXgcgRW7p
+  sni: gnailiad.ga
+- name: "\U0001F1E8\U0001F1F3 CN 84"
+  server: 120.233.186.204
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 3383
   password: 9a27800ca7b52ee0
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 93"
-  server: 120.233.185.113
-  port: 13000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 94"
-  server: 120.233.185.116
-  port: 14000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 95"
-  server: 120.233.185.116
-  port: 11000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 96"
-  server: 120.233.185.118
-  port: 16000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 97"
-  server: 120.233.185.116
-  port: 12000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 98"
+- name: "\U0001F1E8\U0001F1F3 CN 85"
   server: 120.233.185.115
   port: 21000
   type: ssr
@@ -738,7 +642,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 99"
+- name: "\U0001F1E8\U0001F1F3 CN 86"
   server: 116.129.253.103
   port: 37000
   type: ssr
@@ -748,7 +652,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 100"
+- name: "\U0001F1E8\U0001F1F3 CN 87"
   server: 116.129.253.103
   port: 38000
   type: ssr
@@ -758,27 +662,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 101"
-  server: 120.233.185.118
-  port: 11000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 102"
-  server: 116.129.253.103
-  port: 35000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 103"
+- name: "\U0001F1E8\U0001F1F3 CN 88"
   server: 116.129.253.103
   port: 36000
   type: ssr
@@ -788,7 +672,37 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 104"
+- name: "\U0001F1E8\U0001F1F3 CN 89"
+  server: 116.129.253.103
+  port: 39500
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 90"
+  server: 116.129.253.103
+  port: 35000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 91"
+  server: 116.129.253.103
+  port: 39800
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 92"
   server: 116.129.253.103
   port: 34000
   type: ssr
@@ -798,47 +712,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 105"
-  server: 120.233.185.116
-  port: 17000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 106"
-  server: 116.129.253.102
-  port: 21000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 107"
-  server: 116.129.253.103
-  port: 33000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 108"
-  server: 120.233.185.116
-  port: 13000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 109"
+- name: "\U0001F1E8\U0001F1F3 CN 93"
   server: 116.129.253.103
   port: 39900
   type: ssr
@@ -848,9 +722,169 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 110"
+- name: "\U0001F1E8\U0001F1F3 CN 94"
+  server: 116.129.253.103
+  port: 39400
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 95"
+  server: 116.129.253.103
+  port: 32000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 96"
   server: 120.233.185.115
-  port: 28000
+  port: 15000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 97"
+  server: 116.129.253.103
+  port: 33000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 98"
+  server: 116.129.253.103
+  port: 39600
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 99"
+  server: 116.129.253.103
+  port: 39100
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 100"
+  server: 120.233.185.113
+  port: 13000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 101"
+  server: 116.129.253.103
+  port: 31000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 102"
+  server: 116.129.253.103
+  port: 39300
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 103"
+  server: 120.233.185.116
+  port: 17000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 104"
+  server: 116.129.253.103
+  port: 39200
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 105"
+  server: 116.129.253.103
+  port: 39700
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 106"
+  server: 116.129.253.103
+  port: 38100
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 107"
+  server: 116.129.253.102
+  port: 20000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 108"
+  server: 116.129.253.102
+  port: 21000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 109"
+  server: 116.129.253.102
+  port: 15000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 110"
+  server: 116.129.253.103
+  port: 39000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -859,8 +893,8 @@ proxies:
   protocol-param: 307823:6G0Pay
   obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 111"
-  server: 116.129.253.103
-  port: 32000
+  server: 120.233.185.116
+  port: 14000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -879,8 +913,8 @@ proxies:
   protocol-param: 307823:6G0Pay
   obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 113"
-  server: 116.129.253.103
-  port: 39800
+  server: 120.233.185.115
+  port: 28000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -889,8 +923,8 @@ proxies:
   protocol-param: 307823:6G0Pay
   obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 114"
-  server: 116.129.253.102
-  port: 15000
+  server: 120.233.185.112
+  port: 21000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -900,7 +934,7 @@ proxies:
   obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 115"
   server: 116.129.253.103
-  port: 31000
+  port: 30000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -910,26 +944,6 @@ proxies:
   obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 116"
   server: 116.129.253.102
-  port: 20000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 117"
-  server: 116.129.253.103
-  port: 39400
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 118"
-  server: 116.129.253.102
   port: 18000
   type: ssr
   cipher: aes-256-cfb
@@ -938,9 +952,29 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 117"
+  server: 120.233.185.115
+  port: 22000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 118"
+  server: 120.233.185.112
+  port: 23000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 119"
-  server: 116.129.253.103
-  port: 39700
+  server: 120.233.185.112
+  port: 25000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -949,86 +983,6 @@ proxies:
   protocol-param: 307823:6G0Pay
   obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 120"
-  server: 116.129.253.103
-  port: 39200
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 121"
-  server: 116.129.253.103
-  port: 39500
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 122"
-  server: 116.129.253.103
-  port: 39300
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 123"
-  server: 116.129.253.103
-  port: 39600
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 124"
-  server: 116.129.253.103
-  port: 39000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 125"
-  server: 116.129.253.103
-  port: 30000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 126"
-  server: 116.129.253.103
-  port: 38100
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 127"
-  server: 116.129.253.103
-  port: 39100
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 128"
   server: 120.233.185.115
   port: 11000
   type: ssr
@@ -1038,7 +992,27 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 129"
+- name: "\U0001F1E8\U0001F1F3 CN 121"
+  server: 120.233.185.114
+  port: 14000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 122"
+  server: 120.233.185.116
+  port: 24000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 123"
   server: 120.233.185.114
   port: 22000
   type: ssr
@@ -1048,59 +1022,9 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 130"
-  server: 120.233.185.114
-  port: 14000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 131"
-  server: 120.233.185.117
-  port: 11000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 132"
-  server: 116.129.253.104
-  port: 17000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 133"
-  server: 120.233.185.112
-  port: 20000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 134"
-  server: 120.233.185.118
-  port: 15000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 135"
+- name: "\U0001F1E8\U0001F1F3 CN 124"
   server: 120.233.185.116
-  port: 15000
+  port: 16000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -1108,7 +1032,17 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 136"
+- name: "\U0001F1E8\U0001F1F3 CN 125"
+  server: 120.233.185.113
+  port: 10000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 126"
   server: 120.233.185.112
   port: 19000
   type: ssr
@@ -1118,9 +1052,9 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 137"
-  server: 116.129.253.102
-  port: 32000
+- name: "\U0001F1E8\U0001F1F3 CN 127"
+  server: 116.129.253.104
+  port: 17000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -1128,7 +1062,17 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 138"
+- name: "\U0001F1E8\U0001F1F3 CN 128"
+  server: 120.233.185.114
+  port: 11000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 129"
   server: 120.233.185.115
   port: 12000
   type: ssr
@@ -1138,28 +1082,8 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 139"
-  server: 120.233.185.115
-  port: 17000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 140"
-  server: 120.233.185.114
-  port: 13000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 141"
-  server: 120.233.185.114
+- name: "\U0001F1E8\U0001F1F3 CN 130"
+  server: 116.129.253.104
   port: 18000
   type: ssr
   cipher: aes-256-cfb
@@ -1168,7 +1092,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 142"
+- name: "\U0001F1E8\U0001F1F3 CN 131"
   server: 120.233.185.114
   port: 19000
   type: ssr
@@ -1178,17 +1102,9 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 143"
-  server: 103.56.62.145
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 3381
-  password: d66013c645b93c5c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 144"
+- name: "\U0001F1E8\U0001F1F3 CN 132"
   server: 120.233.185.114
-  port: 21000
+  port: 18000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -1196,7 +1112,17 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 145"
+- name: "\U0001F1E8\U0001F1F3 CN 133"
+  server: 120.233.185.116
+  port: 15000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 134"
   server: 120.233.185.114
   port: 15000
   type: ssr
@@ -1206,9 +1132,9 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 146"
-  server: 116.129.253.101
-  port: 48000
+- name: "\U0001F1E8\U0001F1F3 CN 135"
+  server: 116.129.253.102
+  port: 32000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -1216,7 +1142,27 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 147"
+- name: "\U0001F1E8\U0001F1F3 CN 136"
+  server: 120.233.185.114
+  port: 21000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 137"
+  server: 116.129.253.104
+  port: 19000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 138"
   server: 116.129.253.103
   port: 21000
   type: ssr
@@ -1226,7 +1172,25 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 148"
+- name: "\U0001F1E8\U0001F1F3 CN 139"
+  server: 120.233.185.115
+  port: 14000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 140"
+  server: 103.56.62.145
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 3381
+  password: d66013c645b93c5c
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 141"
   server: 116.129.253.101
   port: 46000
   type: ssr
@@ -1236,47 +1200,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 149"
-  server: 116.129.253.101
-  port: 47000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 150"
-  server: 120.233.185.114
-  port: 11000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 151"
-  server: 116.129.253.101
-  port: 44001
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 152"
-  server: 116.129.253.103
-  port: 49000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 153"
+- name: "\U0001F1E8\U0001F1F3 CN 142"
   server: 116.129.253.101
   port: 42001
   type: ssr
@@ -1286,9 +1210,9 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 154"
+- name: "\U0001F1E8\U0001F1F3 CN 143"
   server: 116.129.253.101
-  port: 41000
+  port: 47000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -1296,9 +1220,9 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 155"
-  server: 120.233.185.119
-  port: 26000
+- name: "\U0001F1E8\U0001F1F3 CN 144"
+  server: 116.129.253.101
+  port: 44001
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -1306,7 +1230,17 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 156"
+- name: "\U0001F1E8\U0001F1F3 CN 145"
+  server: 116.129.253.103
+  port: 49000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 146"
   server: 116.129.253.103
   port: 48000
   type: ssr
@@ -1316,7 +1250,57 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 157"
+- name: "\U0001F1E8\U0001F1F3 CN 147"
+  server: 120.233.185.112
+  port: 20000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 148"
+  server: 116.129.253.101
+  port: 48000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 149"
+  server: 116.129.253.101
+  port: 41000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 150"
+  server: 120.233.185.118
+  port: 11000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 151"
+  server: 120.233.185.119
+  port: 26000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 152"
   server: 120.233.185.113
   port: 24000
   type: ssr
@@ -1326,37 +1310,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 158"
-  server: 120.233.185.115
-  port: 14000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 159"
-  server: 120.233.185.113
-  port: 20000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 160"
-  server: 120.233.185.114
-  port: 20000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 161"
+- name: "\U0001F1E8\U0001F1F3 CN 153"
   server: 116.129.253.103
   port: 47000
   type: ssr
@@ -1366,267 +1320,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 162"
-  server: 116.129.253.103
-  port: 42000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 163"
-  server: 120.233.185.116
-  port: 37000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 164"
-  server: 116.129.253.103
-  port: 41000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 165"
-  server: 120.233.185.115
-  port: 20000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 166"
-  server: 120.233.185.113
-  port: 15000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 167"
-  server: 116.129.253.102
-  port: 19000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 168"
-  server: 120.233.185.119
-  port: 19000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 169"
-  server: 116.129.253.102
-  port: 17000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 170"
-  server: 120.233.185.119
-  port: 16000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 171"
-  server: 120.233.185.113
-  port: 11000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 172"
-  server: 120.233.185.119
-  port: 31000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 173"
-  server: 120.233.185.119
-  port: 35000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 174"
-  server: 120.233.185.119
-  port: 20000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 175"
-  server: 116.129.253.102
-  port: 16000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 176"
-  server: 120.233.185.117
-  port: 13000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 177"
-  server: 120.233.185.119
-  port: 13000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 178"
-  server: 120.233.185.119
-  port: 15000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 179"
-  server: 116.129.253.104
-  port: 18000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 180"
-  server: 120.233.185.119
-  port: 18000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 181"
-  server: 120.233.185.115
-  port: 19000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 182"
-  server: 120.233.185.113
-  port: 14000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 183"
-  server: 120.233.185.115
-  port: 18000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 184"
-  server: 116.129.253.102
-  port: 14000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 185"
-  server: 120.233.185.119
-  port: 30000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 186"
-  server: 120.233.185.115
-  port: 30000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 187"
-  server: 116.129.253.102
-  port: 13000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 188"
+- name: "\U0001F1E8\U0001F1F3 CN 154"
   server: 120.233.185.119
   port: 25000
   type: ssr
@@ -1636,7 +1330,297 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 189"
+- name: "\U0001F1E8\U0001F1F3 CN 155"
+  server: 120.233.185.113
+  port: 16000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 156"
+  server: 120.233.185.115
+  port: 30000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 157"
+  server: 120.233.185.118
+  port: 15000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 158"
+  server: 116.129.253.103
+  port: 42000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 159"
+  server: 120.233.185.113
+  port: 15000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 160"
+  server: 120.233.185.114
+  port: 24000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 161"
+  server: 120.233.185.115
+  port: 20000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 162"
+  server: 120.233.185.113
+  port: 14000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 163"
+  server: 116.129.253.103
+  port: 41000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 164"
+  server: 120.233.185.119
+  port: 15000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 165"
+  server: 120.233.185.119
+  port: 21000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 166"
+  server: 120.233.185.113
+  port: 11000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 167"
+  server: 120.233.185.119
+  port: 16000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 168"
+  server: 120.233.185.116
+  port: 37000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 169"
+  server: 116.129.253.102
+  port: 19000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 170"
+  server: 120.233.185.119
+  port: 36000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 171"
+  server: 116.129.253.102
+  port: 17000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 172"
+  server: 120.233.185.115
+  port: 19000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 173"
+  server: 120.233.185.117
+  port: 15000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 174"
+  server: 120.233.185.115
+  port: 24000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 175"
+  server: 120.233.185.117
+  port: 16000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 176"
+  server: 120.233.185.119
+  port: 32000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 177"
+  server: 120.233.185.119
+  port: 22000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 178"
+  server: 120.233.185.119
+  port: 19000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 179"
+  server: 116.129.253.102
+  port: 16000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 180"
+  server: 120.233.185.115
+  port: 18000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 181"
+  server: 120.233.185.119
+  port: 20000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 182"
+  server: 120.233.185.119
+  port: 18000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 183"
+  server: 120.233.185.119
+  port: 29000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 184"
   server: 120.233.185.113
   port: 18000
   type: ssr
@@ -1646,7 +1630,37 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 190"
+- name: "\U0001F1E8\U0001F1F3 CN 185"
+  server: 120.233.185.115
+  port: 26000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 186"
+  server: 116.129.253.102
+  port: 13000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 187"
+  server: 116.129.253.102
+  port: 14000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 188"
   server: 120.233.185.115
   port: 23000
   type: ssr
@@ -1656,7 +1670,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 191"
+- name: "\U0001F1E8\U0001F1F3 CN 189"
   server: 116.129.253.102
   port: 11000
   type: ssr
@@ -1666,27 +1680,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 192"
-  server: 116.129.253.103
-  port: 44000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 193"
-  server: 116.129.253.103
-  port: 43000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 194"
+- name: "\U0001F1E8\U0001F1F3 CN 190"
   server: 116.129.253.103
   port: 45000
   type: ssr
@@ -1696,7 +1690,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 195"
+- name: "\U0001F1E8\U0001F1F3 CN 191"
   server: 116.129.253.103
   port: 46000
   type: ssr
@@ -1706,7 +1700,27 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 196"
+- name: "\U0001F1E8\U0001F1F3 CN 192"
+  server: 116.129.253.103
+  port: 43000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 193"
+  server: 116.129.253.103
+  port: 44000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 194"
   server: 116.129.253.101
   port: 32200
   type: ssr
@@ -1716,8 +1730,26 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
+- name: "\U0001F1FA\U0001F1F8 US 195"
+  server: fhcamd1.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 196"
+  server: 116.129.253.107
+  port: 21000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 197"
-  server: 116.129.253.104
+  server: 116.129.253.106
   port: 19000
   type: ssr
   cipher: aes-256-cfb
@@ -1727,8 +1759,8 @@ proxies:
   protocol-param: 307823:6G0Pay
   obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 198"
-  server: 120.233.185.119
-  port: 36000
+  server: 116.129.253.106
+  port: 25000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -1747,66 +1779,6 @@ proxies:
   protocol-param: 307823:6G0Pay
   obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 200"
-  server: 116.129.253.103
-  port: 53000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 201"
-  server: 116.129.253.101
-  port: 33200
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 202"
-  server: 116.129.253.103
-  port: 40000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 203"
-  server: 116.129.253.107
-  port: 21000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 204"
-  server: 116.129.253.106
-  port: 18000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 205"
-  server: 116.129.253.106
-  port: 25000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 206"
   server: 116.129.253.106
   port: 20000
   type: ssr
@@ -1816,9 +1788,9 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 207"
-  server: 116.129.253.101
-  port: 33300
+- name: "\U0001F1E8\U0001F1F3 CN 201"
+  server: 116.129.253.103
+  port: 40000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -1826,7 +1798,27 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 208"
+- name: "\U0001F1E8\U0001F1F3 CN 202"
+  server: 116.129.253.106
+  port: 18000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 203"
+  server: 116.129.253.101
+  port: 33200
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 204"
   server: 116.129.253.103
   port: 52000
   type: ssr
@@ -1836,9 +1828,49 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 205"
+  server: 116.129.253.101
+  port: 33300
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 206"
+  server: 116.129.253.102
+  port: 29000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 207"
+  server: 116.129.253.102
+  port: 28000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 208"
+  server: 116.129.253.107
+  port: 24000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 209"
-  server: 120.233.185.115
-  port: 26000
+  server: 116.129.253.102
+  port: 30000
   type: ssr
   cipher: aes-256-cfb
   password: Uk92CS
@@ -1847,12 +1879,15 @@ proxies:
   protocol-param: 307823:6G0Pay
   obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 210"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 24026
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
+  server: 116.129.253.102
+  port: 26000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 211"
   server: 116.129.253.107
   port: 23000
@@ -1865,43 +1900,6 @@ proxies:
   obfs-param: ''
 - name: "\U0001F1E8\U0001F1F3 CN 212"
   server: 116.129.253.107
-  port: 24000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 213"
-  server: 116.129.253.107
-  port: 20000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 214"
-  server: 116.129.253.102
-  port: 27000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1E6 CA 215"
-  server: t03.tgfaka.com
-  port: 18443
-  type: trojan
-  password: 77b1781d-9998-4457-bec3-6362e0537afa
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 216"
-  server: 116.129.253.107
   port: 22000
   type: ssr
   cipher: aes-256-cfb
@@ -1910,61 +1908,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 217"
-  server: 116.129.253.102
-  port: 30000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 218"
-  server: 116.129.253.102
-  port: 26000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 219"
-  server: 116.129.253.102
-  port: 28000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 220"
-  server: 116.129.253.107
-  port: 18000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1E6 CA 221"
-  server: t05.tgfaka.com
-  port: 18443
-  type: trojan
-  password: 77b1781d-9998-4457-bec3-6362e0537afa
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 222"
-  server: t01.tgfaka.com
-  port: 18443
-  type: trojan
-  password: 77b1781d-9998-4457-bec3-6362e0537afa
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 223"
+- name: "\U0001F1E8\U0001F1F3 CN 213"
   server: 116.129.253.102
   port: 25000
   type: ssr
@@ -1974,101 +1918,7 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 224"
-  server: 116.129.253.102
-  port: 29000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 225"
-  server: 116.129.253.107
-  port: 19000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1E6 CA 226"
-  server: t02.tgfaka.com
-  port: 18443
-  type: trojan
-  password: 77b1781d-9998-4457-bec3-6362e0537afa
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 227"
-  server: 116.129.253.101
-  port: 36000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1E6 CA 228"
-  server: t04.tgfaka.com
-  port: 18443
-  type: trojan
-  password: 77b1781d-9998-4457-bec3-6362e0537afa
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 229"
-  server: 116.129.253.102
-  port: 23000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 230"
-  server: 116.129.253.102
-  port: 31000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 231"
-  server: 116.129.253.106
-  port: 22000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 232"
-  server: 116.129.253.106
-  port: 19000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 233"
-  server: 116.129.253.102
-  port: 22000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: ''
-- name: "\U0001F1E8\U0001F1F3 CN 234"
+- name: "\U0001F1E8\U0001F1F3 CN 214"
   server: 116.129.253.102
   port: 24000
   type: ssr
@@ -2078,21 +1928,97 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1E8\U0001F1E6 CA 235"
-  server: t07.tgfaka.com
-  port: 18443
-  type: trojan
-  password: 77b1781d-9998-4457-bec3-6362e0537afa
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 236"
-  server: gnailiad.gq
-  type: trojan
-  port: 11823
-  password: eVH5bAf8mx
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 237"
+- name: "\U0001F1E8\U0001F1F3 CN 215"
+  server: 116.129.253.107
+  port: 20000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 216"
+  server: 116.129.253.107
+  port: 19000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 217"
+  server: 116.129.253.102
+  port: 23000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 218"
+  server: 116.129.253.107
+  port: 18000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 219"
+  server: 116.129.253.106
+  port: 22000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 220"
+  server: 116.129.253.102
+  port: 22000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 221"
+  server: 116.129.253.102
+  port: 31000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 222"
+  server: 116.129.253.102
+  port: 27000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 223"
+  server: 116.129.253.101
+  port: 36000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 307823:6G0Pay
+  obfs-param: ''
+- name: "\U0001F1E8\U0001F1F3 CN 224"
   server: 116.129.253.101
   port: 31100
   type: ssr
@@ -2102,34 +2028,22 @@ proxies:
   obfs: http_simple
   protocol-param: 307823:6G0Pay
   obfs-param: ''
-- name: "\U0001F1F8\U0001F1EC SG 238"
-  server: sg1.crunode.top
+- name: "\U0001F1E8\U0001F1F3 CN 225"
+  server: cu-cs.okvpn.xyz
   type: trojan
-  port: 443
-  password: f95cb9be-5e12-3c17-be05-d4881fed87ae
-  sni: sg1.crunode.top
+  port: 20000
+  password: b2683eab-1572-43fd-976a-fe48543bf1f3
+  sni: cu-cs.okvpn.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 239"
-  server: 120.233.185.112
-  port: 22000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 307823:6G0Pay
-  obfs-param: DanHuang.Jiang
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 240"
-  server: 116.129.253.177
+- name: "\U0001F1F8\U0001F1EC SG 226"
+  server: gy01.20220512.cyou
+  port: 56655
   type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 3389
-  password: 9029864a78d29a43
+  password: 5d07c2f7-830b-4e29-aeb1-67cd98293ec6
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 241"
+- name: "\U0001F1E8\U0001F1F3 CN 227"
   server: 116.129.253.102
   port: 13000
   type: ssr
@@ -2140,23 +2054,31 @@ proxies:
   protocol-param: 307823:6G0Pay
   obfs-param: DanHuang.Jiang
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 242"
-  server: scloud57.jafiyun.life
+- name: "\U0001F1F7\U0001F1FA RU 228"
+  server: ru1.nodegz.top
   type: trojan
-  port: 22057
-  password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0
-  sni: scloud57.jafiyun.life
+  port: 443
+  password: f95cb9be-5e12-3c17-be05-d4881fed87ae
+  sni: ru1.nodegz.top
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 243"
-  server: 116.129.253.134
+- name: "\U0001F1E8\U0001F1F3 CN 229"
+  server: cm.spacez.cloud
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
-  port: 3383
-  password: 9a27800ca7b52ee0
+  port: 30002
+  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 244"
+- name: "\U0001F1E8\U0001F1F3 CN 230"
+  server: cm-gz.okvpn.xyz
+  type: trojan
+  port: 20009
+  password: b2683eab-1572-43fd-976a-fe48543bf1f3
+  sni: cm-gz.okvpn.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 231"
   server: 116.129.253.101
   port: 40000
   type: ssr
@@ -2167,23 +2089,15 @@ proxies:
   protocol-param: 307823:6G0Pay
   obfs-param: DanHuang.Jiang
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 245"
-  server: cm.spacez.cloud
+- name: "\U0001F1E8\U0001F1F3 CN 232"
+  server: cu-cs.okvpn.xyz
   type: trojan
-  port: 30002
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
-  sni: cm.spacez.cloud
+  port: 20006
+  password: b2683eab-1572-43fd-976a-fe48543bf1f3
+  sni: cu-cs.okvpn.xyz
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 246"
-  server: 103.56.62.145
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 3381
-  password: ffec9f6ea19e1dd1
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 247"
+- name: "\U0001F1E8\U0001F1F3 CN 233"
   server: 103.56.62.145
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -2191,154 +2105,125 @@ proxies:
   password: 711aabc21e45ae31
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 248"
-  server: cu-cs.okvpn.xyz
+- name: "\U0001F1E8\U0001F1F3 CN 234"
+  server: 103.56.62.145
   type: trojan
-  port: 20000
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 3381
+  password: ffec9f6ea19e1dd1
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 235"
+  server: cm-gz.okvpn.xyz
+  type: trojan
+  port: 20003
   password: b2683eab-1572-43fd-976a-fe48543bf1f3
+  sni: cm-gz.okvpn.xyz
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: "\U0001F1E8\U0001F1F3 CN 236"
+  server: cu-cs.okvpn.xyz
+  port: 20004
+  password: b2683eab-1572-43fd-976a-fe48543bf1f3
+  udp: true
+  skip-cert-verify: true
   sni: cu-cs.okvpn.xyz
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 249"
-  server: gz-cm-kl.hinetwork.tw
-  port: 11225
-  type: trojan
-  password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73
-  sni: gz-cm-kl.hinetwork.tw
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 250"
-  server: gz-cm-kl.hinetwork.tw
-  port: 11127
-  type: trojan
-  password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73
-  sni: gz-cm-kl.hinetwork.tw
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 251"
-  server: gz-cm-kl.hinetwork.tw
-  port: 11177
-  type: trojan
-  password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73
-  sni: gz-cm-kl.hinetwork.tw
-  skip-cert-verify: true
-- type: trojan
-  name: "\U0001F1E8\U0001F1F3 CN 252"
-  server: gz-cm1-kl.hinetwork.tw
-  port: 11178
-  password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73
-  udp: true
-  skip-cert-verify: true
-  sni: gz-cm1-kl.hinetwork.tw
-- type: trojan
-  name: "\U0001F1E8\U0001F1F3 CN 253"
-  server: gz-cm-kl.hinetwork.tw
-  port: 11266
-  password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73
-  udp: true
-  skip-cert-verify: true
-  sni: gz-cm-kl.hinetwork.tw
-- type: trojan
-  name: "\U0001F1E8\U0001F1F3 CN 254"
-  server: gz-cm-kl.hinetwork.tw
-  port: 11125
-  password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73
-  udp: true
-  skip-cert-verify: true
-  sni: gz-cm-kl.hinetwork.tw
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1"
-  - "\U0001F1EC\U0001F1E7 GB 2"
+  - "\U0001F1FA\U0001F1F8 US 2"
   - "\U0001F1EC\U0001F1E7 GB 3"
-  - "\U0001F1E8\U0001F1FF CZ 4"
+  - "\U0001F1EC\U0001F1E7 GB 4"
   - "\U0001F1E8\U0001F1FF CZ 5"
   - "\U0001F1E8\U0001F1FF CZ 6"
   - "\U0001F1E8\U0001F1FF CZ 7"
   - "\U0001F1E8\U0001F1FF CZ 8"
   - "\U0001F1E8\U0001F1FF CZ 9"
-  - "\U0001F1FA\U0001F1F8 US 10"
+  - "\U0001F1E8\U0001F1FF CZ 10"
   - "\U0001F1FA\U0001F1F8 US 11"
-  - "\U0001F1FA\U0001F1F8 US 12"
-  - "\U0001F1FA\U0001F1F8 US 13"
-  - "\U0001F1E8\U0001F1F3 TW 14"
-  - "\U0001F1FA\U0001F1F8 US 15"
-  - "\U0001F1E8\U0001F1F3 HK 16"
-  - "\U0001F1FA\U0001F1F8 US 17"
-  - "\U0001F1FA\U0001F1F8 US 18"
+  - "\U0001F1E8\U0001F1F3 HK 12"
+  - "\U0001F1EC\U0001F1E7 GB 13"
+  - "\U0001F1E8\U0001F1F3 HK 14"
+  - "\U0001F1E8\U0001F1FF CZ 15"
+  - "\U0001F1FA\U0001F1F8 US 16"
+  - "\U0001F1E8\U0001F1F3 TW 17"
+  - "\U0001F1F7\U0001F1FA RU 18"
   - "\U0001F1E8\U0001F1F3 HK 19"
   - "\U0001F1E8\U0001F1F3 HK 20"
-  - "\U0001F1E8\U0001F1F3 TW 21"
-  - "\U0001F1E6\U0001F1FA AU 22"
-  - "\U0001F1E8\U0001F1F3 HK 23"
-  - "\U0001F1E8\U0001F1F3 HK 24"
+  - "\U0001F1E8\U0001F1F3 HK 21"
+  - "\U0001F1E8\U0001F1F3 CN 22"
+  - "\U0001F1FA\U0001F1F8 US 23"
+  - "\U0001F1E6\U0001F1FA AU 24"
   - "\U0001F1E8\U0001F1F3 HK 25"
   - "\U0001F1E8\U0001F1F3 HK 26"
   - "\U0001F1E8\U0001F1F3 HK 27"
   - "\U0001F1E8\U0001F1F3 HK 28"
-  - "\U0001F1E8\U0001F1F3 HK 29"
+  - "\U0001F1F8\U0001F1EC SG 29"
   - "\U0001F1E8\U0001F1F3 HK 30"
-  - "\U0001F1E8\U0001F1F3 HK 31"
-  - "\U0001F1FA\U0001F1F8 US 32"
-  - "\U0001F1E8\U0001F1F3 HK 33"
+  - "\U0001F1EF\U0001F1F5 JP 31"
+  - "\U0001F1EF\U0001F1F5 JP 32"
+  - "\U0001F1F0\U0001F1F7 KR 33"
   - "\U0001F1E8\U0001F1F3 HK 34"
-  - "\U0001F1F8\U0001F1EC SG 35"
-  - "\U0001F1FA\U0001F1F8 US 36"
+  - "\U0001F1E8\U0001F1F3 HK 35"
+  - "\U0001F1E8\U0001F1F3 HK 36"
   - "\U0001F1FA\U0001F1F8 US 37"
-  - "\U0001F1F0\U0001F1F7 KR 38"
+  - "\U0001F1FA\U0001F1F8 US 38"
   - "\U0001F1FA\U0001F1F8 US 39"
-  - "\U0001F1F8\U0001F1EC SG 40"
-  - "\U0001F1EF\U0001F1F5 JP 41"
-  - "\U0001F1F8\U0001F1EC SG 42"
-  - "\U0001F1E8\U0001F1F3 CN 43"
-  - "\U0001F1E8\U0001F1F3 CN 44"
-  - "\U0001F1EE\U0001F1F3 IN 45"
-  - "\U0001F1E8\U0001F1F3 CN 46"
-  - "\U0001F1E8\U0001F1F3 CN 47"
-  - "\U0001F1E8\U0001F1F3 CN 48"
-  - "\U0001F1E8\U0001F1F3 CN 49"
-  - "\U0001F1FA\U0001F1F8 US 50"
+  - "\U0001F1E8\U0001F1F3 HK 40"
+  - "\U0001F1F8\U0001F1EC SG 41"
+  - "\U0001F1FA\U0001F1F8 US 42"
+  - "\U0001F1FA\U0001F1F8 US 43"
+  - "\U0001F1FA\U0001F1F8 US 44"
+  - "\U0001F1E8\U0001F1F3 CN 45"
+  - "\U0001F1FA\U0001F1F8 US 46"
+  - "\U0001F1FA\U0001F1F8 US 47"
+  - "\U0001F1FA\U0001F1F8 US 48"
+  - "\U0001F1F8\U0001F1EC SG 49"
+  - "\U0001F1F8\U0001F1EC SG 50"
   - "\U0001F1E9\U0001F1EA DE 51"
-  - "\U0001F1E8\U0001F1F3 HK 52"
-  - "\U0001F1E8\U0001F1F3 HK 53"
-  - "\U0001F1F8\U0001F1EC SG 54"
-  - "\U0001F1E8\U0001F1F3 CN 55"
-  - "\U0001F1FA\U0001F1F8 US 56"
-  - "\U0001F1F0\U0001F1F7 KR 57"
-  - "\U0001F1E8\U0001F1F3 HK 58"
-  - "\U0001F1E8\U0001F1F3 HK 59"
+  - "\U0001F1F0\U0001F1F7 KR 52"
+  - "\U0001F1FA\U0001F1F8 US 53"
+  - "\U0001F1FA\U0001F1F8 US 54"
+  - "\U0001F1F8\U0001F1EC SG 55"
+  - "\U0001F1E8\U0001F1F3 HK 56"
+  - "\U0001F1E8\U0001F1F3 CN 57"
+  - "\U0001F1EF\U0001F1F5 JP 58"
+  - "\U0001F1EE\U0001F1E9 ID 59"
   - "\U0001F1E8\U0001F1F3 HK 60"
-  - "\U0001F1E8\U0001F1F3 HK 61"
+  - "\U0001F1EF\U0001F1F5 JP 61"
   - "\U0001F1E8\U0001F1F3 HK 62"
-  - "\U0001F1E8\U0001F1F3 CN 63"
-  - "\U0001F1FA\U0001F1F8 US 64"
+  - "\U0001F1E8\U0001F1F3 HK 63"
+  - "\U0001F1E8\U0001F1F3 HK 64"
   - "\U0001F1E8\U0001F1F3 HK 65"
-  - "\U0001F1E8\U0001F1F3 HK 66"
-  - "\U0001F1F8\U0001F1EC SG 67"
+  - "\U0001F1E8\U0001F1F3 CN 66"
+  - "\U0001F1E8\U0001F1F3 HK 67"
   - "\U0001F1E8\U0001F1F3 HK 68"
-  - "\U0001F1E8\U0001F1F3 CN 69"
+  - "\U0001F1E8\U0001F1F3 HK 69"
   - "\U0001F1E8\U0001F1F3 HK 70"
   - "\U0001F1E8\U0001F1F3 HK 71"
-  - "\U0001F1E8\U0001F1F3 HK 72"
-  - "\U0001F1EE\U0001F1E9 ID 73"
-  - "\U0001F1E6\U0001F1FA AU 74"
-  - "\U0001F1E8\U0001F1F3 HK 75"
+  - "\U0001F1F8\U0001F1EC SG 72"
+  - "\U0001F1F8\U0001F1EC SG 73"
+  - "\U0001F1E8\U0001F1F3 HK 74"
+  - "\U0001F1F8\U0001F1EC SG 75"
   - "\U0001F1F8\U0001F1EC SG 76"
-  - "\U0001F1F8\U0001F1EC SG 77"
+  - "\U0001F1E8\U0001F1F3 HK 77"
   - "\U0001F1E8\U0001F1F3 HK 78"
-  - "\U0001F1F8\U0001F1EC SG 79"
-  - "\U0001F1E8\U0001F1F3 HK 80"
-  - "\U0001F1E8\U0001F1F3 CN 81"
-  - "\U0001F1F0\U0001F1F7 KR 82"
-  - "\U0001F1EE\U0001F1F3 IN 83"
-  - "\U0001F1E8\U0001F1F3 HK 84"
-  - "\U0001F1F8\U0001F1EC SG 85"
-  - "\U0001F1E8\U0001F1F3 HK 86"
-  - "\U0001F1E8\U0001F1F3 HK 87"
-  - "\U0001F1EE\U0001F1F3 IN 88"
-  - "\U0001F1E8\U0001F1F3 HK 89"
-  - "\U0001F1F0\U0001F1F7 KR 90"
-  - "\U0001F1F0\U0001F1F7 KR 91"
+  - "\U0001F1E8\U0001F1F3 HK 79"
+  - "\U0001F1EE\U0001F1F3 IN 80"
+  - "\U0001F1E8\U0001F1F3 HK 81"
+  - "\U0001F1E8\U0001F1F3 CN 82"
+  - "\U0001F1F8\U0001F1EC SG 83"
+  - "\U0001F1E8\U0001F1F3 CN 84"
+  - "\U0001F1E8\U0001F1F3 CN 85"
+  - "\U0001F1E8\U0001F1F3 CN 86"
+  - "\U0001F1E8\U0001F1F3 CN 87"
+  - "\U0001F1E8\U0001F1F3 CN 88"
+  - "\U0001F1E8\U0001F1F3 CN 89"
+  - "\U0001F1E8\U0001F1F3 CN 90"
+  - "\U0001F1E8\U0001F1F3 CN 91"
   - "\U0001F1E8\U0001F1F3 CN 92"
   - "\U0001F1E8\U0001F1F3 CN 93"
   - "\U0001F1E8\U0001F1F3 CN 94"
@@ -2442,7 +2327,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 192"
   - "\U0001F1E8\U0001F1F3 CN 193"
   - "\U0001F1E8\U0001F1F3 CN 194"
-  - "\U0001F1E8\U0001F1F3 CN 195"
+  - "\U0001F1FA\U0001F1F8 US 195"
   - "\U0001F1E8\U0001F1F3 CN 196"
   - "\U0001F1E8\U0001F1F3 CN 197"
   - "\U0001F1E8\U0001F1F3 CN 198"
@@ -2462,46 +2347,28 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 212"
   - "\U0001F1E8\U0001F1F3 CN 213"
   - "\U0001F1E8\U0001F1F3 CN 214"
-  - "\U0001F1E8\U0001F1E6 CA 215"
+  - "\U0001F1E8\U0001F1F3 CN 215"
   - "\U0001F1E8\U0001F1F3 CN 216"
   - "\U0001F1E8\U0001F1F3 CN 217"
   - "\U0001F1E8\U0001F1F3 CN 218"
   - "\U0001F1E8\U0001F1F3 CN 219"
   - "\U0001F1E8\U0001F1F3 CN 220"
-  - "\U0001F1E8\U0001F1E6 CA 221"
-  - "\U0001F1E8\U0001F1E6 CA 222"
+  - "\U0001F1E8\U0001F1F3 CN 221"
+  - "\U0001F1E8\U0001F1F3 CN 222"
   - "\U0001F1E8\U0001F1F3 CN 223"
   - "\U0001F1E8\U0001F1F3 CN 224"
   - "\U0001F1E8\U0001F1F3 CN 225"
-  - "\U0001F1E8\U0001F1E6 CA 226"
+  - "\U0001F1F8\U0001F1EC SG 226"
   - "\U0001F1E8\U0001F1F3 CN 227"
-  - "\U0001F1E8\U0001F1E6 CA 228"
+  - "\U0001F1F7\U0001F1FA RU 228"
   - "\U0001F1E8\U0001F1F3 CN 229"
   - "\U0001F1E8\U0001F1F3 CN 230"
   - "\U0001F1E8\U0001F1F3 CN 231"
   - "\U0001F1E8\U0001F1F3 CN 232"
   - "\U0001F1E8\U0001F1F3 CN 233"
   - "\U0001F1E8\U0001F1F3 CN 234"
-  - "\U0001F1E8\U0001F1E6 CA 235"
-  - "\U0001F1F8\U0001F1EC SG 236"
-  - "\U0001F1E8\U0001F1F3 CN 237"
-  - "\U0001F1F8\U0001F1EC SG 238"
-  - "\U0001F1E8\U0001F1F3 CN 239"
-  - "\U0001F1E8\U0001F1F3 CN 240"
-  - "\U0001F1E8\U0001F1F3 CN 241"
-  - "\U0001F1E8\U0001F1F3 HK 242"
-  - "\U0001F1E8\U0001F1F3 CN 243"
-  - "\U0001F1E8\U0001F1F3 CN 244"
-  - "\U0001F1E8\U0001F1F3 CN 245"
-  - "\U0001F1E8\U0001F1F3 CN 246"
-  - "\U0001F1E8\U0001F1F3 CN 247"
-  - "\U0001F1E8\U0001F1F3 CN 248"
-  - "\U0001F1E8\U0001F1F3 CN 249"
-  - "\U0001F1E8\U0001F1F3 CN 250"
-  - "\U0001F1E8\U0001F1F3 CN 251"
-  - "\U0001F1E8\U0001F1F3 CN 252"
-  - "\U0001F1E8\U0001F1F3 CN 253"
-  - "\U0001F1E8\U0001F1F3 CN 254"
+  - "\U0001F1E8\U0001F1F3 CN 235"
+  - "\U0001F1E8\U0001F1F3 CN 236"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -2509,96 +2376,96 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1"
-  - "\U0001F1EC\U0001F1E7 GB 2"
+  - "\U0001F1FA\U0001F1F8 US 2"
   - "\U0001F1EC\U0001F1E7 GB 3"
-  - "\U0001F1E8\U0001F1FF CZ 4"
+  - "\U0001F1EC\U0001F1E7 GB 4"
   - "\U0001F1E8\U0001F1FF CZ 5"
   - "\U0001F1E8\U0001F1FF CZ 6"
   - "\U0001F1E8\U0001F1FF CZ 7"
   - "\U0001F1E8\U0001F1FF CZ 8"
   - "\U0001F1E8\U0001F1FF CZ 9"
-  - "\U0001F1FA\U0001F1F8 US 10"
+  - "\U0001F1E8\U0001F1FF CZ 10"
   - "\U0001F1FA\U0001F1F8 US 11"
-  - "\U0001F1FA\U0001F1F8 US 12"
-  - "\U0001F1FA\U0001F1F8 US 13"
-  - "\U0001F1E8\U0001F1F3 TW 14"
-  - "\U0001F1FA\U0001F1F8 US 15"
-  - "\U0001F1E8\U0001F1F3 HK 16"
-  - "\U0001F1FA\U0001F1F8 US 17"
-  - "\U0001F1FA\U0001F1F8 US 18"
+  - "\U0001F1E8\U0001F1F3 HK 12"
+  - "\U0001F1EC\U0001F1E7 GB 13"
+  - "\U0001F1E8\U0001F1F3 HK 14"
+  - "\U0001F1E8\U0001F1FF CZ 15"
+  - "\U0001F1FA\U0001F1F8 US 16"
+  - "\U0001F1E8\U0001F1F3 TW 17"
+  - "\U0001F1F7\U0001F1FA RU 18"
   - "\U0001F1E8\U0001F1F3 HK 19"
   - "\U0001F1E8\U0001F1F3 HK 20"
-  - "\U0001F1E8\U0001F1F3 TW 21"
-  - "\U0001F1E6\U0001F1FA AU 22"
-  - "\U0001F1E8\U0001F1F3 HK 23"
-  - "\U0001F1E8\U0001F1F3 HK 24"
+  - "\U0001F1E8\U0001F1F3 HK 21"
+  - "\U0001F1E8\U0001F1F3 CN 22"
+  - "\U0001F1FA\U0001F1F8 US 23"
+  - "\U0001F1E6\U0001F1FA AU 24"
   - "\U0001F1E8\U0001F1F3 HK 25"
   - "\U0001F1E8\U0001F1F3 HK 26"
   - "\U0001F1E8\U0001F1F3 HK 27"
   - "\U0001F1E8\U0001F1F3 HK 28"
-  - "\U0001F1E8\U0001F1F3 HK 29"
+  - "\U0001F1F8\U0001F1EC SG 29"
   - "\U0001F1E8\U0001F1F3 HK 30"
-  - "\U0001F1E8\U0001F1F3 HK 31"
-  - "\U0001F1FA\U0001F1F8 US 32"
-  - "\U0001F1E8\U0001F1F3 HK 33"
+  - "\U0001F1EF\U0001F1F5 JP 31"
+  - "\U0001F1EF\U0001F1F5 JP 32"
+  - "\U0001F1F0\U0001F1F7 KR 33"
   - "\U0001F1E8\U0001F1F3 HK 34"
-  - "\U0001F1F8\U0001F1EC SG 35"
-  - "\U0001F1FA\U0001F1F8 US 36"
+  - "\U0001F1E8\U0001F1F3 HK 35"
+  - "\U0001F1E8\U0001F1F3 HK 36"
   - "\U0001F1FA\U0001F1F8 US 37"
-  - "\U0001F1F0\U0001F1F7 KR 38"
+  - "\U0001F1FA\U0001F1F8 US 38"
   - "\U0001F1FA\U0001F1F8 US 39"
-  - "\U0001F1F8\U0001F1EC SG 40"
-  - "\U0001F1EF\U0001F1F5 JP 41"
-  - "\U0001F1F8\U0001F1EC SG 42"
-  - "\U0001F1E8\U0001F1F3 CN 43"
-  - "\U0001F1E8\U0001F1F3 CN 44"
-  - "\U0001F1EE\U0001F1F3 IN 45"
-  - "\U0001F1E8\U0001F1F3 CN 46"
-  - "\U0001F1E8\U0001F1F3 CN 47"
-  - "\U0001F1E8\U0001F1F3 CN 48"
-  - "\U0001F1E8\U0001F1F3 CN 49"
-  - "\U0001F1FA\U0001F1F8 US 50"
+  - "\U0001F1E8\U0001F1F3 HK 40"
+  - "\U0001F1F8\U0001F1EC SG 41"
+  - "\U0001F1FA\U0001F1F8 US 42"
+  - "\U0001F1FA\U0001F1F8 US 43"
+  - "\U0001F1FA\U0001F1F8 US 44"
+  - "\U0001F1E8\U0001F1F3 CN 45"
+  - "\U0001F1FA\U0001F1F8 US 46"
+  - "\U0001F1FA\U0001F1F8 US 47"
+  - "\U0001F1FA\U0001F1F8 US 48"
+  - "\U0001F1F8\U0001F1EC SG 49"
+  - "\U0001F1F8\U0001F1EC SG 50"
   - "\U0001F1E9\U0001F1EA DE 51"
-  - "\U0001F1E8\U0001F1F3 HK 52"
-  - "\U0001F1E8\U0001F1F3 HK 53"
-  - "\U0001F1F8\U0001F1EC SG 54"
-  - "\U0001F1E8\U0001F1F3 CN 55"
-  - "\U0001F1FA\U0001F1F8 US 56"
-  - "\U0001F1F0\U0001F1F7 KR 57"
-  - "\U0001F1E8\U0001F1F3 HK 58"
-  - "\U0001F1E8\U0001F1F3 HK 59"
+  - "\U0001F1F0\U0001F1F7 KR 52"
+  - "\U0001F1FA\U0001F1F8 US 53"
+  - "\U0001F1FA\U0001F1F8 US 54"
+  - "\U0001F1F8\U0001F1EC SG 55"
+  - "\U0001F1E8\U0001F1F3 HK 56"
+  - "\U0001F1E8\U0001F1F3 CN 57"
+  - "\U0001F1EF\U0001F1F5 JP 58"
+  - "\U0001F1EE\U0001F1E9 ID 59"
   - "\U0001F1E8\U0001F1F3 HK 60"
-  - "\U0001F1E8\U0001F1F3 HK 61"
+  - "\U0001F1EF\U0001F1F5 JP 61"
   - "\U0001F1E8\U0001F1F3 HK 62"
-  - "\U0001F1E8\U0001F1F3 CN 63"
-  - "\U0001F1FA\U0001F1F8 US 64"
+  - "\U0001F1E8\U0001F1F3 HK 63"
+  - "\U0001F1E8\U0001F1F3 HK 64"
   - "\U0001F1E8\U0001F1F3 HK 65"
-  - "\U0001F1E8\U0001F1F3 HK 66"
-  - "\U0001F1F8\U0001F1EC SG 67"
+  - "\U0001F1E8\U0001F1F3 CN 66"
+  - "\U0001F1E8\U0001F1F3 HK 67"
   - "\U0001F1E8\U0001F1F3 HK 68"
-  - "\U0001F1E8\U0001F1F3 CN 69"
+  - "\U0001F1E8\U0001F1F3 HK 69"
   - "\U0001F1E8\U0001F1F3 HK 70"
   - "\U0001F1E8\U0001F1F3 HK 71"
-  - "\U0001F1E8\U0001F1F3 HK 72"
-  - "\U0001F1EE\U0001F1E9 ID 73"
-  - "\U0001F1E6\U0001F1FA AU 74"
-  - "\U0001F1E8\U0001F1F3 HK 75"
+  - "\U0001F1F8\U0001F1EC SG 72"
+  - "\U0001F1F8\U0001F1EC SG 73"
+  - "\U0001F1E8\U0001F1F3 HK 74"
+  - "\U0001F1F8\U0001F1EC SG 75"
   - "\U0001F1F8\U0001F1EC SG 76"
-  - "\U0001F1F8\U0001F1EC SG 77"
+  - "\U0001F1E8\U0001F1F3 HK 77"
   - "\U0001F1E8\U0001F1F3 HK 78"
-  - "\U0001F1F8\U0001F1EC SG 79"
-  - "\U0001F1E8\U0001F1F3 HK 80"
-  - "\U0001F1E8\U0001F1F3 CN 81"
-  - "\U0001F1F0\U0001F1F7 KR 82"
-  - "\U0001F1EE\U0001F1F3 IN 83"
-  - "\U0001F1E8\U0001F1F3 HK 84"
-  - "\U0001F1F8\U0001F1EC SG 85"
-  - "\U0001F1E8\U0001F1F3 HK 86"
-  - "\U0001F1E8\U0001F1F3 HK 87"
-  - "\U0001F1EE\U0001F1F3 IN 88"
-  - "\U0001F1E8\U0001F1F3 HK 89"
-  - "\U0001F1F0\U0001F1F7 KR 90"
-  - "\U0001F1F0\U0001F1F7 KR 91"
+  - "\U0001F1E8\U0001F1F3 HK 79"
+  - "\U0001F1EE\U0001F1F3 IN 80"
+  - "\U0001F1E8\U0001F1F3 HK 81"
+  - "\U0001F1E8\U0001F1F3 CN 82"
+  - "\U0001F1F8\U0001F1EC SG 83"
+  - "\U0001F1E8\U0001F1F3 CN 84"
+  - "\U0001F1E8\U0001F1F3 CN 85"
+  - "\U0001F1E8\U0001F1F3 CN 86"
+  - "\U0001F1E8\U0001F1F3 CN 87"
+  - "\U0001F1E8\U0001F1F3 CN 88"
+  - "\U0001F1E8\U0001F1F3 CN 89"
+  - "\U0001F1E8\U0001F1F3 CN 90"
+  - "\U0001F1E8\U0001F1F3 CN 91"
   - "\U0001F1E8\U0001F1F3 CN 92"
   - "\U0001F1E8\U0001F1F3 CN 93"
   - "\U0001F1E8\U0001F1F3 CN 94"
@@ -2702,7 +2569,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 192"
   - "\U0001F1E8\U0001F1F3 CN 193"
   - "\U0001F1E8\U0001F1F3 CN 194"
-  - "\U0001F1E8\U0001F1F3 CN 195"
+  - "\U0001F1FA\U0001F1F8 US 195"
   - "\U0001F1E8\U0001F1F3 CN 196"
   - "\U0001F1E8\U0001F1F3 CN 197"
   - "\U0001F1E8\U0001F1F3 CN 198"
@@ -2722,45 +2589,27 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 212"
   - "\U0001F1E8\U0001F1F3 CN 213"
   - "\U0001F1E8\U0001F1F3 CN 214"
-  - "\U0001F1E8\U0001F1E6 CA 215"
+  - "\U0001F1E8\U0001F1F3 CN 215"
   - "\U0001F1E8\U0001F1F3 CN 216"
   - "\U0001F1E8\U0001F1F3 CN 217"
   - "\U0001F1E8\U0001F1F3 CN 218"
   - "\U0001F1E8\U0001F1F3 CN 219"
   - "\U0001F1E8\U0001F1F3 CN 220"
-  - "\U0001F1E8\U0001F1E6 CA 221"
-  - "\U0001F1E8\U0001F1E6 CA 222"
+  - "\U0001F1E8\U0001F1F3 CN 221"
+  - "\U0001F1E8\U0001F1F3 CN 222"
   - "\U0001F1E8\U0001F1F3 CN 223"
   - "\U0001F1E8\U0001F1F3 CN 224"
   - "\U0001F1E8\U0001F1F3 CN 225"
-  - "\U0001F1E8\U0001F1E6 CA 226"
+  - "\U0001F1F8\U0001F1EC SG 226"
   - "\U0001F1E8\U0001F1F3 CN 227"
-  - "\U0001F1E8\U0001F1E6 CA 228"
+  - "\U0001F1F7\U0001F1FA RU 228"
   - "\U0001F1E8\U0001F1F3 CN 229"
   - "\U0001F1E8\U0001F1F3 CN 230"
   - "\U0001F1E8\U0001F1F3 CN 231"
   - "\U0001F1E8\U0001F1F3 CN 232"
   - "\U0001F1E8\U0001F1F3 CN 233"
   - "\U0001F1E8\U0001F1F3 CN 234"
-  - "\U0001F1E8\U0001F1E6 CA 235"
-  - "\U0001F1F8\U0001F1EC SG 236"
-  - "\U0001F1E8\U0001F1F3 CN 237"
-  - "\U0001F1F8\U0001F1EC SG 238"
-  - "\U0001F1E8\U0001F1F3 CN 239"
-  - "\U0001F1E8\U0001F1F3 CN 240"
-  - "\U0001F1E8\U0001F1F3 CN 241"
-  - "\U0001F1E8\U0001F1F3 HK 242"
-  - "\U0001F1E8\U0001F1F3 CN 243"
-  - "\U0001F1E8\U0001F1F3 CN 244"
-  - "\U0001F1E8\U0001F1F3 CN 245"
-  - "\U0001F1E8\U0001F1F3 CN 246"
-  - "\U0001F1E8\U0001F1F3 CN 247"
-  - "\U0001F1E8\U0001F1F3 CN 248"
-  - "\U0001F1E8\U0001F1F3 CN 249"
-  - "\U0001F1E8\U0001F1F3 CN 250"
-  - "\U0001F1E8\U0001F1F3 CN 251"
-  - "\U0001F1E8\U0001F1F3 CN 252"
-  - "\U0001F1E8\U0001F1F3 CN 253"
-  - "\U0001F1E8\U0001F1F3 CN 254"
+  - "\U0001F1E8\U0001F1F3 CN 235"
+  - "\U0001F1E8\U0001F1F3 CN 236"
 rules:
 - "MATCH,\U0001F310 Proxy"
