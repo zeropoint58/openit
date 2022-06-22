@@ -83,7 +83,7 @@ jobs:
 
   et-job: #input./utils/pool/check ./utils/pool/pool
     name: Encode & Translate
-    # needs: rr-job
+    needs: rr-job
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3 #git clone
