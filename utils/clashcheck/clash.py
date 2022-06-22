@@ -99,6 +99,7 @@ def filter(config):
             try:
                 x = list[i]
                 authentication = ''
+                x['port'] = int(x['port'])
                 try:
                     ip = str(socket.gethostbyname(x["server"]))
                 except:
