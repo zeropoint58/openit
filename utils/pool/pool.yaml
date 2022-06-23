@@ -44,9 +44,20 @@ proxies:
   - {name: 🇨🇳 CN 7｜openit.ml, server: zhuanfabj1.yooo.me, port: 44174, type: trojan, password: 1973d939-d6fc-3ead-9a46-fcd771c71dd0, sni: yingduhdhc1.susuyun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 8｜openit.ml, server: c68b799.gc.gladns.com, port: 3386, type: trojan, password: 8d105878309ac3ef, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 9｜openit.ml, server: c68b799.gb.gladns.com, port: 3386, type: trojan, password: 8d105878309ac3ef, sni: n2.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾-1号 | 解锁流媒体, server: 165.154.243.208, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾-2号 | 解锁流媒体, server: 165.154.253.34, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾-3号 | 解锁流媒体, server: 165.154.253.49, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30170, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾-广州移动负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30170, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾-河南移动负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30170, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: hinet.xxcv.cc, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾Hinet～广州移动 | 解锁流媒体, server: 183.232.230.214, port: 49871, type: ss, cipher: chacha20-ietf-poly1305, password: d84fd904-268c-4b42-93cc-39a710042377, udp: true}
   - {name: 🇨🇳 江苏BGP, server: 43.248.79.72, port: 80, type: vmess, uuid: 01981120-6a45-4e7a-9dc6-18f7f1cee658, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
   - {name: 🇨🇳 江苏移动, server: 221.181.168.11, port: 80, type: vmess, uuid: 01981120-6a45-4e7a-9dc6-18f7f1cee658, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
   - {name: 🇩🇪 DE 1｜openit.ml, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-广移2双线负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30080, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30080, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-河移双线负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30080, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 1｜openit.ml, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 2｜openit.ml, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 3｜openit.ml, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
@@ -92,6 +103,11 @@ proxies:
   - {name: 🇯🇵 Opc日本3, server: 138.2.59.97, port: 80, type: vmess, uuid: 01981120-6a45-4e7a-9dc6-18f7f1cee658, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 opc日本1, server: 138.2.35.172, port: 80, type: vmess, uuid: 01981120-6a45-4e7a-9dc6-18f7f1cee658, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 opc日本2, server: 152.69.199.111, port: 80, type: vmess, uuid: 01981120-6a45-4e7a-9dc6-18f7f1cee658, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.youku.com}}, udp: true}
+  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本NTT-2号 | 解锁流媒体, server: 164.70.68.67, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30130, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30130, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本NTT-河南移动负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30130, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 NL 1｜openit.ml, server: ch1.nodegz.top, port: 443, type: trojan, password: 5e5f8e9c-36b3-3b3c-9e6c-c0e7635621b1, sni: ch1.nodegz.top, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 NL 2｜openit.ml, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 1｜openit.ml, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, skip-cert-verify: true, udp: true}
@@ -156,6 +172,13 @@ proxies:
   - {name: 🇺🇸 US 7｜openit.ml, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 8｜openit.ml, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 9｜openit.ml, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 | 广州移动, server: gzyd1.52147.top, port: 30120, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 | 广州移动2, server: gzyd2.52147.top, port: 30120, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 | 河南移动, server: hnyd.52147.top, port: 30120, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🏳️‍🌈 只用于游戏加速，禁止用于非法用途，禁止刷流量，谢谢大家配合, server: 127.0.0.1, port: 1, type: vmess, uuid: 01981120-6a45-4e7a-9dc6-18f7f1cee658, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 Proxy
@@ -207,9 +230,20 @@ proxy-groups:
       - 🇨🇳 CN 7｜openit.ml
       - 🇨🇳 CN 8｜openit.ml
       - 🇨🇳 CN 9｜openit.ml
+      - 🇨🇳 台湾-1号 | 解锁流媒体
+      - 🇨🇳 台湾-2号 | 解锁流媒体
+      - 🇨🇳 台湾-3号 | 解锁流媒体
+      - 🇨🇳 台湾-广州移动2负载均衡 | 解锁流媒体
+      - 🇨🇳 台湾-广州移动负载均衡 | 解锁流媒体
+      - 🇨🇳 台湾-河南移动负载均衡 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇨🇳 台湾Hinet～广州移动 | 解锁流媒体
       - 🇨🇳 江苏BGP
       - 🇨🇳 江苏移动
       - 🇩🇪 DE 1｜openit.ml
+      - 🇩🇪 德国-广移2双线负载均衡 | 解锁流媒体
+      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
+      - 🇩🇪 德国-河移双线负载均衡 | 解锁流媒体
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
       - 🇬🇧 GB 3｜openit.ml
@@ -255,6 +289,11 @@ proxy-groups:
       - 🇯🇵 Opc日本3
       - 🇯🇵 opc日本1
       - 🇯🇵 opc日本2
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 🇯🇵 日本NTT-河南移动负载均衡 | 解锁流媒体
       - 🇳🇱 NL 1｜openit.ml
       - 🇳🇱 NL 2｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
@@ -319,6 +358,13 @@ proxy-groups:
       - 🇺🇸 US 7｜openit.ml
       - 🇺🇸 US 8｜openit.ml
       - 🇺🇸 US 9｜openit.ml
+      - 🇻🇳 越南 | 广州移动
+      - 🇻🇳 越南 | 广州移动2
+      - 🇻🇳 越南 | 河南移动
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
       - 🏳️‍🌈 只用于游戏加速，禁止用于非法用途，禁止刷流量，谢谢大家配合
 rules:
  - MATCH,🌐 Proxy
