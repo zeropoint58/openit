@@ -23,7 +23,7 @@ jobs:
          ./utils/subconverter/subconverter -g --artifact "pool"
          mv ./utils/subconverter/pool.yaml ./utils/pool/pool.yaml
          sed -i '1,6d' ./utils/pool/pool.yaml #删除pool.yaml开头1-6行
-    - run: ./.github/update-repo.sh || true #output./utils/pool/pool.yaml
+    - run: ./.github/update-repo.sh || true   #output./utils/pool/pool.yaml
 
   cs-job: #input./utils/pool/config.yaml ./utils/clashcheck/config.yaml
     name: Collecting & Speedtest
