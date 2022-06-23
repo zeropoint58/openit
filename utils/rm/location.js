@@ -15,7 +15,11 @@ module.exports={
             if(geo == null){
                         return 'unknown'
                     }else{
-                        return geo.country
+                if(geo.country == null){
+                    return "unknown"
+                }else{
+                    return geo.country
+                }
                     }
         }else if(domainReg.test(name)){
             try{
@@ -25,7 +29,11 @@ module.exports={
                     if(geo == null){
                         return 'unknown'
                     }else{
-                        return geo.country
+                        if(geo.country == null){
+                            return "unknown"
+                        }else{
+                            return geo.country
+                        }
                     }
                 }else{
                     return 'unknown'
