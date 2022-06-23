@@ -1,4 +1,5 @@
 name: Nodes
+
 on: 
   schedule: #これは UTC+0         #これは UTC+8
     - cron: '*/34 0-8 * * 1-5'   #工作日 上午8:00 - 下午4:00
@@ -8,9 +9,25 @@ on:
     - cron: '*/24 * * * 0,6'     #休息日 全天候
   workflow_dispatch: #手动调试按钮
 
-jobs:
+
+
+jobs: 
+
+  re-job: 
+    name: Reuse
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3     #git clone
+    - name: pool.yaml
+      run: | input./utils/pool/pool
+         ./utils/subconverter/subconverter -g --artifact "pool"
+         mv ./utils/subconverter/pool.yaml ./utils/pool/pool.yaml
+         sed -i '1,6d' ./utils/pool/pool.yaml #删除pool.yaml开头1-6行
+    - run: ./.github/update-repo.sh || true
+
   cs-job: #input./utils/pool/config.yaml ./utils/clashcheck/config.yaml
     name: Collecting & Speedtest
+    needs: re-job
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3     #git clone
