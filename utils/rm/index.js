@@ -93,6 +93,9 @@ async function run(){
                 urlCountryList[finalList[i].country].push('vmess://'+Buffer.from(JSON.stringify(item.data),'utf8').toString('base64'));
                 break
             case 'trojan':
+                console.log(JSON.stringify(urlCountryList));
+                console.log(finalList[i].country);
+                console.log(urlCountryList[finalList[i].country])
                 urlCountryList[finalList[i].country].push('trojan://'+item.data+'#'+(name).toString())
                 break
             case 'ss':
