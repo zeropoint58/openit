@@ -43,6 +43,7 @@ if __name__ == '__main__':
             print("Error: changfengoos/pub库里没有Clash配置文件可以嫖")
         else:
             print(str(tfiles) + "Success: changfengoos/pub库里有Clash配置文件可以嫖")
+
         processes=[]
         filenames = list()
         filenames = data[current_date]
