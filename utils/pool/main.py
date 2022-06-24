@@ -63,10 +63,10 @@ if __name__ == '__main__':
             for p in processes:
                 p.join()
             end = time.time()
-            print("Crawl succeeded in " + "{:.2f}".format(end-start) + " seconds")
+            print("爬到了节点 in " + "{:.2f}".format(end-start) + " seconds")
         except:
             end = time.time()
-            print("Crawl failed in " + "{:.2f}".format(end-start) + " seconds")
+            print("没有爬到节点 in " + "{:.2f}".format(end-start) + " seconds")
 
         proxy_list=list(proxy_list)
         proxies = makeclash(proxy_list)
