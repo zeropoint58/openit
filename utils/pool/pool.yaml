@@ -5,402 +5,108 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: UA 1｜openit.ml, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
-  - {name: UA 2｜openit.ml, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
-  - {name: UA 3｜openit.ml, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
-  - {name: UA 4｜openit.ml, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU 001, server: aulin001.xmrth-node.xyz, port: 15647, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇦🇺 AU 001 2, server: aulin001.xmrth-node.xyz, port: 15647, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇦🇺 AU 1｜openit.ml, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU 2｜openit.ml, server: kk.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, sni: kk.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 001, server: calin001.xmrth-node.xyz, port: 15572, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇦 CA 001 2, server: calin001.xmrth-node.xyz, port: 15572, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇦 CA 1｜openit.ml, server: 67us01.fans8.xyz, port: 443, type: trojan, password: f5362b9a-812f-4d77-89a3-09f7d0851bfb, sni: 67us01.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 1｜openit.ml, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇨🇳 CN 2｜openit.ml, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 3｜openit.ml, server: ffbf920.gc.gladns.com, port: 3381, type: trojan, password: e0208b1222027607, sni: DanHuang.Jiang, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 4｜openit.ml, server: ffbf920.gc.gladns.com, port: 3386, type: trojan, password: e0208b1222027607, sni: DanHuang.Jiang, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW 1, server: tw1.xmrth-node.xyz, port: 15660, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 TW 2, server: tw2.xmrth-node.xyz, port: 16018, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 TW A 1, server: hkaz1.xmrth-node.xyz, port: 16074, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 TW A 2, server: hkaz2.xmrth-node.xyz, port: 14017, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 TW B 1, server: jpaz1.xmrth-node.xyz, port: 14065, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 TW B 2, server: jpaz2.xmrth-node.xyz, port: 13240, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇩🇪 DE 001, server: delin001.xmrth-node.xyz, port: 15560, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇩🇪 DE 001 2, server: delin001.xmrth-node.xyz, port: 15560, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇬🇧 GB 1｜openit.ml, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 2｜openit.ml, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 3｜openit.ml, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 UK 001, server: uklin001.xmrth-node.xyz, port: 15856, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇬🇧 UK 001 2, server: uklin001.xmrth-node.xyz, port: 15856, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇬🇧 UK 002, server: ukaws002.xmrth-node.xyz, port: 10292, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇬🇧 UK 002 2, server: ukaws002.xmrth-node.xyz, port: 10292, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 001, server: hkaz001.xmrth-node.xyz, port: 16063, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 001 2, server: hkaz001.xmrth-node.xyz, port: 16063, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 002, server: hkaz002.xmrth-node.xyz, port: 15909, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 002 2, server: hkaz002.xmrth-node.xyz, port: 15909, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 003, server: hkaz003.xmrth-node.xyz, port: 15910, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 003 2, server: hkaz003.xmrth-node.xyz, port: 15910, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 004, server: hkaz004.xmrth-node.xyz, port: 15911, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 004 2, server: hkaz004.xmrth-node.xyz, port: 15911, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 005, server: hkaz005.xmrth-node.xyz, port: 15891, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 005 2, server: hkaz005.xmrth-node.xyz, port: 15891, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 006, server: hkaz006.xmrth-node.xyz, port: 15886, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 006 2, server: hkaz006.xmrth-node.xyz, port: 15886, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 007, server: hkaz007.xmrth-node.xyz, port: 15637, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 007 2, server: hkaz007.xmrth-node.xyz, port: 15637, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 008, server: hkaz008.xmrth-node.xyz, port: 15897, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 008 2, server: hkaz008.xmrth-node.xyz, port: 15897, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 009, server: hkaz009.xmrth-node.xyz, port: 16075, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 009 2, server: hkaz009.xmrth-node.xyz, port: 16075, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 010, server: hkaz010.xmrth-node.xyz, port: 15964, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 010 2, server: hkaz010.xmrth-node.xyz, port: 15964, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 101, server: hkaz1.xmrth-node.xyz, port: 16076, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 101 2, server: hkaz1.xmrth-node.xyz, port: 16076, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 102, server: hkaz2.xmrth-node.xyz, port: 16077, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 102 2, server: hkaz2.xmrth-node.xyz, port: 16077, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 103, server: hkaz3.xmrth-node.xyz, port: 16078, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 103 2, server: hkaz3.xmrth-node.xyz, port: 16078, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 104, server: hkaz4.xmrth-node.xyz, port: 15866, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 105, server: hkaz5.xmrth-node.xyz, port: 15904, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 105 2, server: hkaz5.xmrth-node.xyz, port: 15904, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 106, server: hkaz6.xmrth-node.xyz, port: 15905, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 106 2, server: hkaz6.xmrth-node.xyz, port: 15905, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 107, server: hkaz7.xmrth-node.xyz, port: 15882, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 107 2, server: hkaz7.xmrth-node.xyz, port: 15882, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 1｜openit.ml, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 201, server: hgc1.xmrth-node.xyz, port: 16067, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 201 2, server: hgc1.xmrth-node.xyz, port: 16067, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK 2｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20719, type: trojan, password: 6f98011f-a408-329e-a430-c319056cfeb5, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 3｜openit.ml, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 4｜openit.ml, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: 6f98011f-a408-329e-a430-c319056cfeb5, sni: ssl.ssl12.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 IN A 001, server: hkaz1.xmrth-node.xyz, port: 16066, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 IN A 002, server: hkaz2.xmrth-node.xyz, port: 15912, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 IN A 003, server: hkaz3.xmrth-node.xyz, port: 14390, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 IN B 001, server: jpaz1.xmrth-node.xyz, port: 11032, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 IN B 002, server: jpaz2.xmrth-node.xyz, port: 15933, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 IN B 003, server: jpaz3.xmrth-node.xyz, port: 15943, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 001, server: jpaws001.xmrth-node.xyz, port: 15347, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 001 2, server: jpaws001.xmrth-node.xyz, port: 15347, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 002, server: jpaws002.xmrth-node.xyz, port: 15665, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 002 2, server: jpaws002.xmrth-node.xyz, port: 15665, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 003, server: jplin003.xmrth-node.xyz, port: 15901, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 003 2, server: jplin003.xmrth-node.xyz, port: 15901, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 004, server: jplin004.xmrth-node.xyz, port: 16034, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 004 2, server: jplin004.xmrth-node.xyz, port: 16034, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 005, server: jplin005.xmrth-node.xyz, port: 15698, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 005 2, server: jplin005.xmrth-node.xyz, port: 15698, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 006, server: jpaws006.xmrth-node.xyz, port: 15863, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 006 2, server: jpaws006.xmrth-node.xyz, port: 15863, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 101, server: jpaz1.xmrth-node.xyz, port: 15624, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 101 2, server: jpaz1.xmrth-node.xyz, port: 15624, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 102, server: jpaz2.xmrth-node.xyz, port: 14025, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 102 2, server: jpaz2.xmrth-node.xyz, port: 14025, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 103, server: jpaz3.xmrth-node.xyz, port: 15945, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 103 2, server: jpaz3.xmrth-node.xyz, port: 15945, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 104, server: jpaz4.xmrth-node.xyz, port: 15879, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 105, server: jpaz5.xmrth-node.xyz, port: 15414, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP 106, server: jpaz6.xmrth-node.xyz, port: 15418, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 001, server: jpaz1.xmrth-node.xyz, port: 11178, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 002, server: jpaz2.xmrth-node.xyz, port: 15888, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 003, server: jpaz3.xmrth-node.xyz, port: 15944, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 004, server: jpaz4.xmrth-node.xyz, port: 15421, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 005, server: jpaz5.xmrth-node.xyz, port: 13870, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 JP B 006, server: jpaz6.xmrth-node.xyz, port: 13871, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 001, server: kraws001.xmrth-node.xyz, port: 15859, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 001 2, server: kraws001.xmrth-node.xyz, port: 15859, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 002, server: kraws002.xmrth-node.xyz, port: 15868, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 002 2, server: kraws002.xmrth-node.xyz, port: 15868, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 003, server: kraws003.xmrth-node.xyz, port: 15861, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 003 2, server: kraws003.xmrth-node.xyz, port: 15861, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 004, server: kraws004.xmrth-node.xyz, port: 15975, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 004 2, server: kraws004.xmrth-node.xyz, port: 15975, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 005, server: kraws005.xmrth-node.xyz, port: 16079, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 005 2, server: kraws005.xmrth-node.xyz, port: 16079, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 006, server: kraws006.xmrth-node.xyz, port: 15949, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 006 2, server: kraws006.xmrth-node.xyz, port: 15949, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 007, server: kraws007.xmrth-node.xyz, port: 15659, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR 007 2, server: kraws007.xmrth-node.xyz, port: 15659, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 001, server: hkaz1.xmrth-node.xyz, port: 16072, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 002, server: hkaz2.xmrth-node.xyz, port: 15655, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 003, server: hkaz3.xmrth-node.xyz, port: 13738, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 004, server: hkaz4.xmrth-node.xyz, port: 15379, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 005, server: hkaz5.xmrth-node.xyz, port: 15843, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 006, server: hkaz6.xmrth-node.xyz, port: 15907, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 KR A 007, server: hkaz7.xmrth-node.xyz, port: 15908, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇷🇺 RU 1｜openit.ml, server: t03.ssrsub.com, port: 18443, type: trojan, password: 57229afb-d4e4-426e-bfdc-18fc1f3267fd, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 2｜openit.ml, server: hkbgp2.jiantian.xyz, port: 34532, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 3｜openit.ml, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 4｜openit.ml, server: us1.nodegz.top, port: 443, type: trojan, password: 5b6510ab-0b33-39c9-b3cf-b76548fd41cb, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 5｜openit.ml, server: ru.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, sni: ru.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 *请开启自动更新订阅* *无法使用请更新订阅*, server: 8.8.8.8, port: 443, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 *请开启自动更新订阅* *无法使用请更新订阅* 2, server: 8.8.8.8, port: 443, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 001, server: sgaws001.xmrth-node.xyz, port: 15967, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 001 2, server: sgaws001.xmrth-node.xyz, port: 15967, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 002, server: sgaws002.xmrth-node.xyz, port: 15903, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 002 2, server: sgaws002.xmrth-node.xyz, port: 15903, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 003, server: sgaws003.xmrth-node.xyz, port: 15645, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 003 2, server: sgaws003.xmrth-node.xyz, port: 15645, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 004, server: sgaws004.xmrth-node.xyz, port: 14415, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 004 2, server: sgaws004.xmrth-node.xyz, port: 14415, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 005, server: sgaws005.xmrth-node.xyz, port: 16013, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 005 2, server: sgaws005.xmrth-node.xyz, port: 16013, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 006, server: sgaws006.xmrth-node.xyz, port: 14510, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 006 2, server: sgaws006.xmrth-node.xyz, port: 14510, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 007, server: sgaws007.xmrth-node.xyz, port: 15892, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 007 2, server: sgaws007.xmrth-node.xyz, port: 15892, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG 1｜openit.ml, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 2｜openit.ml, server: w13.udpgw.com, port: 443, type: trojan, password: 16877c70-e7b8-11ec-99f2-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 3｜openit.ml, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 4｜openit.ml, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 5｜openit.ml, server: 67sg01.fans8.xyz, port: 443, type: trojan, password: f5362b9a-812f-4d77-89a3-09f7d0851bfb, sni: 67sg01.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 6｜openit.ml, server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG A 001, server: hkaz1.xmrth-node.xyz, port: 16073, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 002, server: hkaz2.xmrth-node.xyz, port: 15437, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 003, server: hkaz3.xmrth-node.xyz, port: 14389, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 004, server: hkaz4.xmrth-node.xyz, port: 15380, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 005, server: hkaz5.xmrth-node.xyz, port: 15839, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 006, server: hkaz6.xmrth-node.xyz, port: 13890, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 SG A 007, server: hkaz7.xmrth-node.xyz, port: 15906, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 001, server: inap001.xmrth-node.xyz, port: 15658, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 001 2, server: inap001.xmrth-node.xyz, port: 15658, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 002, server: inap002.xmrth-node.xyz, port: 15667, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 002 2, server: inap002.xmrth-node.xyz, port: 15667, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 003, server: inap003.xmrth-node.xyz, port: 11565, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 003 2, server: inap003.xmrth-node.xyz, port: 11565, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 004, server: inap004.xmrth-node.xyz, port: 15671, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 004 2, server: inap004.xmrth-node.xyz, port: 15671, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 005, server: inap005.xmrth-node.xyz, port: 15555, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 005 2, server: inap005.xmrth-node.xyz, port: 15555, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 006, server: inap006.xmrth-node.xyz, port: 11865, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 006 2, server: inap006.xmrth-node.xyz, port: 11865, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 007, server: inap007.xmrth-node.xyz, port: 15567, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 007 2, server: inap007.xmrth-node.xyz, port: 15567, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 008, server: inap008.xmrth-node.xyz, port: 12265, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 008 2, server: inap008.xmrth-node.xyz, port: 12265, type: vmess, uuid: 2774a24c-1406-3e0c-8252-ef9da899b123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US 10｜openit.ml, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11｜openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 12｜openit.ml, server: 198.200.51.219, port: 26969, type: trojan, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 13｜openit.ml, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 14｜openit.ml, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 15｜openit.ml, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 16｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 17｜openit.ml, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 18｜openit.ml, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 19｜openit.ml, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1｜openit.ml, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3｜openit.ml, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4｜openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5｜openit.ml, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6｜openit.ml, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7｜openit.ml, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8｜openit.ml, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9｜openit.ml, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US B 001, server: jpaz1.xmrth-node.xyz, port: 15547, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US B 002, server: jpaz2.xmrth-node.xyz, port: 10141, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US B 003, server: jpaz3.xmrth-node.xyz, port: 15946, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
-  - {name: 🇺🇸 US B 004, server: jpaz4.xmrth-node.xyz, port: 13868, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: "网易云音乐|解锁节点1 - Windows, Android", server: music.desperadoj.com, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: "网易云音乐|解锁节点2 - macOS, iOS, Linux", server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: 🇦🇷 Anycast|阿根廷, server: aflcn.meiquankongjian.com, port: 51529, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇦🇺 Anycast|澳大利亚, server: aflcn.meiquankongjian.com, port: 51521, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇧🇷 Anycast|巴西, server: aflcn.meiquankongjian.com, port: 51530, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇨🇦 Anycast|加拿大, server: aflcn.meiquankongjian.com, port: 51520, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇨🇦 中转|加拿大01, server: aflzz-us.meiquankongjian.com, port: 42171, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 Anycast|台湾, server: aflcn.meiquankongjian.com, port: 51514, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇨🇳 中转|台湾-原生04, server: aflzz-tw.meiquankongjian.com, port: 42124, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中转|台湾-原生05, server: aflzz-tw.meiquankongjian.com, port: 42125, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中转|台湾-原生06, server: aflzz-tw.meiquankongjian.com, port: 42126, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中转|台湾-原生07, server: aflzz-tw.meiquankongjian.com, port: 42127, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中转|台湾-原生08, server: aflzz-tw.meiquankongjian.com, port: 42128, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中转|台湾-原生09, server: aflzz-tw.meiquankongjian.com, port: 42129, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中转|台湾-原生10, server: aflzz-tw.meiquankongjian.com, port: 42130, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 Anycast|德国, server: aflcn.meiquankongjian.com, port: 51519, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇫🇷 Anycast|法国, server: aflcn.meiquankongjian.com, port: 51526, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇬🇧 Anycast|英国, server: aflcn.meiquankongjian.com, port: 51518, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 Anycast|香港, server: aflcn.meiquankongjian.com, port: 51517, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 福利|香港01|0.1x|限速10Mbps, server: aflzzul.meiquankongjian.com, port: 52511, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflzzul.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇮🇳 Anycast|印度, server: aflcn.meiquankongjian.com, port: 51524, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇯🇵 Anycast|日本, server: aflcn.meiquankongjian.com, port: 51512, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇯🇵 中转|日本01, server: aflzz-jp.meiquankongjian.com, port: 42141, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 中转|日本02, server: aflzz-jp.meiquankongjian.com, port: 42142, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 中转|日本03, server: aflzz-jp.meiquankongjian.com, port: 42143, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 中转|日本04, server: aflzz-jp.meiquankongjian.com, port: 42144, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 中转|日本05, server: aflzz-jp.meiquankongjian.com, port: 42145, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 福利|日本|0.1x|限速10Mbps, server: aflzzul.meiquankongjian.com, port: 52512, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflzzul.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇰🇷 Anycast|韩国, server: aflcn.meiquankongjian.com, port: 51522, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇰🇷 中转|韩国01, server: aflzz-kr.meiquankongjian.com, port: 42151, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 中转|韩国02, server: aflzz-kr.meiquankongjian.com, port: 42152, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 中转|韩国03, server: aflzz-kr.meiquankongjian.com, port: 42153, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 Anycast|荷兰, server: aflcn.meiquankongjian.com, port: 51523, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇷🇺 Anycast|俄罗斯, server: aflcn.meiquankongjian.com, port: 51525, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇸🇬 Anycast|新加坡, server: aflcn.meiquankongjian.com, port: 51511, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇸🇬 中转|新加坡01, server: aflzz-sg.meiquankongjian.com, port: 42131, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 中转|新加坡02, server: aflzz-sg.meiquankongjian.com, port: 42132, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 中转|新加坡03, server: aflzz-sg.meiquankongjian.com, port: 42133, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 福利|新加坡|0.1x|限速10Mbps, server: aflzzul.meiquankongjian.com, port: 51515, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflzzul.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇹🇭 Anycast|泰国, server: aflcn.meiquankongjian.com, port: 51527, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇹🇷 Anycast|土耳其, server: aflcn.meiquankongjian.com, port: 51531, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇺🇸 Anycast|美国, server: aflcn.meiquankongjian.com, port: 51513, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflcn.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🇺🇸 中转|美国01, server: aflzz-us.meiquankongjian.com, port: 42161, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 中转|美国02, server: aflzz-us.meiquankongjian.com, port: 42162, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 中转|美国03, server: aflzz-us.meiquankongjian.com, port: 42163, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 中转|美国04, server: aflzz-us.meiquankongjian.com, port: 42164, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 中转|美国05, server: aflzz-us.meiquankongjian.com, port: 42165, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 福利|美国|0.1x|限速10Mbps, server: aflzzul.meiquankongjian.com, port: 52513, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflzzul.meiquankongjian.com%22%7D"}}, udp: true}
+  - {name: 🏳️‍🌈 下载专用|0.8x|支持大流量, server: aflzzdl.meiquankongjian.com, port: 51516, type: vmess, uuid: f8b854a3-c28c-3859-8a00-4b843b3e14a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: "%7B%22Host%22:%22aflzzdl.meiquankongjian.com%22%7D"}}, udp: true}
 proxy-groups:
   - name: 🌐 Proxy
     type: select
     proxies:
       - DIRECT
-      - UA 1｜openit.ml
-      - UA 2｜openit.ml
-      - UA 3｜openit.ml
-      - UA 4｜openit.ml
-      - 🇦🇺 AU 001
-      - 🇦🇺 AU 001 2
-      - 🇦🇺 AU 1｜openit.ml
-      - 🇦🇺 AU 2｜openit.ml
-      - 🇨🇦 CA 001
-      - 🇨🇦 CA 001 2
-      - 🇨🇦 CA 1｜openit.ml
-      - 🇨🇳 CN 1｜openit.ml
-      - 🇨🇳 CN 2｜openit.ml
-      - 🇨🇳 CN 3｜openit.ml
-      - 🇨🇳 CN 4｜openit.ml
-      - 🇨🇳 TW 1
-      - 🇨🇳 TW 2
-      - 🇨🇳 TW A 1
-      - 🇨🇳 TW A 2
-      - 🇨🇳 TW B 1
-      - 🇨🇳 TW B 2
-      - 🇩🇪 DE 001
-      - 🇩🇪 DE 001 2
-      - 🇬🇧 GB 1｜openit.ml
-      - 🇬🇧 GB 2｜openit.ml
-      - 🇬🇧 GB 3｜openit.ml
-      - 🇬🇧 UK 001
-      - 🇬🇧 UK 001 2
-      - 🇬🇧 UK 002
-      - 🇬🇧 UK 002 2
-      - 🇭🇰 HK 001
-      - 🇭🇰 HK 001 2
-      - 🇭🇰 HK 002
-      - 🇭🇰 HK 002 2
-      - 🇭🇰 HK 003
-      - 🇭🇰 HK 003 2
-      - 🇭🇰 HK 004
-      - 🇭🇰 HK 004 2
-      - 🇭🇰 HK 005
-      - 🇭🇰 HK 005 2
-      - 🇭🇰 HK 006
-      - 🇭🇰 HK 006 2
-      - 🇭🇰 HK 007
-      - 🇭🇰 HK 007 2
-      - 🇭🇰 HK 008
-      - 🇭🇰 HK 008 2
-      - 🇭🇰 HK 009
-      - 🇭🇰 HK 009 2
-      - 🇭🇰 HK 010
-      - 🇭🇰 HK 010 2
-      - 🇭🇰 HK 101
-      - 🇭🇰 HK 101 2
-      - 🇭🇰 HK 102
-      - 🇭🇰 HK 102 2
-      - 🇭🇰 HK 103
-      - 🇭🇰 HK 103 2
-      - 🇭🇰 HK 104
-      - 🇭🇰 HK 105
-      - 🇭🇰 HK 105 2
-      - 🇭🇰 HK 106
-      - 🇭🇰 HK 106 2
-      - 🇭🇰 HK 107
-      - 🇭🇰 HK 107 2
-      - 🇭🇰 HK 1｜openit.ml
-      - 🇭🇰 HK 201
-      - 🇭🇰 HK 201 2
-      - 🇭🇰 HK 2｜openit.ml
-      - 🇭🇰 HK 3｜openit.ml
-      - 🇭🇰 HK 4｜openit.ml
-      - 🇮🇳 IN A 001
-      - 🇮🇳 IN A 002
-      - 🇮🇳 IN A 003
-      - 🇮🇳 IN B 001
-      - 🇮🇳 IN B 002
-      - 🇮🇳 IN B 003
-      - 🇯🇵 JP 001
-      - 🇯🇵 JP 001 2
-      - 🇯🇵 JP 002
-      - 🇯🇵 JP 002 2
-      - 🇯🇵 JP 003
-      - 🇯🇵 JP 003 2
-      - 🇯🇵 JP 004
-      - 🇯🇵 JP 004 2
-      - 🇯🇵 JP 005
-      - 🇯🇵 JP 005 2
-      - 🇯🇵 JP 006
-      - 🇯🇵 JP 006 2
-      - 🇯🇵 JP 101
-      - 🇯🇵 JP 101 2
-      - 🇯🇵 JP 102
-      - 🇯🇵 JP 102 2
-      - 🇯🇵 JP 103
-      - 🇯🇵 JP 103 2
-      - 🇯🇵 JP 104
-      - 🇯🇵 JP 105
-      - 🇯🇵 JP 106
-      - 🇯🇵 JP B 001
-      - 🇯🇵 JP B 002
-      - 🇯🇵 JP B 003
-      - 🇯🇵 JP B 004
-      - 🇯🇵 JP B 005
-      - 🇯🇵 JP B 006
-      - 🇰🇷 KR 001
-      - 🇰🇷 KR 001 2
-      - 🇰🇷 KR 002
-      - 🇰🇷 KR 002 2
-      - 🇰🇷 KR 003
-      - 🇰🇷 KR 003 2
-      - 🇰🇷 KR 004
-      - 🇰🇷 KR 004 2
-      - 🇰🇷 KR 005
-      - 🇰🇷 KR 005 2
-      - 🇰🇷 KR 006
-      - 🇰🇷 KR 006 2
-      - 🇰🇷 KR 007
-      - 🇰🇷 KR 007 2
-      - 🇰🇷 KR A 001
-      - 🇰🇷 KR A 002
-      - 🇰🇷 KR A 003
-      - 🇰🇷 KR A 004
-      - 🇰🇷 KR A 005
-      - 🇰🇷 KR A 006
-      - 🇰🇷 KR A 007
-      - 🇷🇺 RU 1｜openit.ml
-      - 🇷🇺 RU 2｜openit.ml
-      - 🇷🇺 RU 3｜openit.ml
-      - 🇷🇺 RU 4｜openit.ml
-      - 🇷🇺 RU 5｜openit.ml
-      - 🇸🇬 *请开启自动更新订阅* *无法使用请更新订阅*
-      - 🇸🇬 *请开启自动更新订阅* *无法使用请更新订阅* 2
-      - 🇸🇬 SG 001
-      - 🇸🇬 SG 001 2
-      - 🇸🇬 SG 002
-      - 🇸🇬 SG 002 2
-      - 🇸🇬 SG 003
-      - 🇸🇬 SG 003 2
-      - 🇸🇬 SG 004
-      - 🇸🇬 SG 004 2
-      - 🇸🇬 SG 005
-      - 🇸🇬 SG 005 2
-      - 🇸🇬 SG 006
-      - 🇸🇬 SG 006 2
-      - 🇸🇬 SG 007
-      - 🇸🇬 SG 007 2
-      - 🇸🇬 SG 1｜openit.ml
-      - 🇸🇬 SG 2｜openit.ml
-      - 🇸🇬 SG 3｜openit.ml
-      - 🇸🇬 SG 4｜openit.ml
-      - 🇸🇬 SG 5｜openit.ml
-      - 🇸🇬 SG 6｜openit.ml
-      - 🇸🇬 SG A 001
-      - 🇸🇬 SG A 002
-      - 🇸🇬 SG A 003
-      - 🇸🇬 SG A 004
-      - 🇸🇬 SG A 005
-      - 🇸🇬 SG A 006
-      - 🇸🇬 SG A 007
-      - 🇺🇸 US 001
-      - 🇺🇸 US 001 2
-      - 🇺🇸 US 002
-      - 🇺🇸 US 002 2
-      - 🇺🇸 US 003
-      - 🇺🇸 US 003 2
-      - 🇺🇸 US 004
-      - 🇺🇸 US 004 2
-      - 🇺🇸 US 005
-      - 🇺🇸 US 005 2
-      - 🇺🇸 US 006
-      - 🇺🇸 US 006 2
-      - 🇺🇸 US 007
-      - 🇺🇸 US 007 2
-      - 🇺🇸 US 008
-      - 🇺🇸 US 008 2
-      - 🇺🇸 US 10｜openit.ml
-      - 🇺🇸 US 11｜openit.ml
-      - 🇺🇸 US 12｜openit.ml
-      - 🇺🇸 US 13｜openit.ml
-      - 🇺🇸 US 14｜openit.ml
-      - 🇺🇸 US 15｜openit.ml
-      - 🇺🇸 US 16｜openit.ml
-      - 🇺🇸 US 17｜openit.ml
-      - 🇺🇸 US 18｜openit.ml
-      - 🇺🇸 US 19｜openit.ml
-      - 🇺🇸 US 1｜openit.ml
-      - 🇺🇸 US 2｜openit.ml
-      - 🇺🇸 US 3｜openit.ml
-      - 🇺🇸 US 4｜openit.ml
-      - 🇺🇸 US 5｜openit.ml
-      - 🇺🇸 US 6｜openit.ml
-      - 🇺🇸 US 7｜openit.ml
-      - 🇺🇸 US 8｜openit.ml
-      - 🇺🇸 US 9｜openit.ml
-      - 🇺🇸 US B 001
-      - 🇺🇸 US B 002
-      - 🇺🇸 US B 003
-      - 🇺🇸 US B 004
+      - 网易云音乐|解锁节点1 - Windows, Android
+      - 网易云音乐|解锁节点2 - macOS, iOS, Linux
+      - 🇦🇷 Anycast|阿根廷
+      - 🇦🇺 Anycast|澳大利亚
+      - 🇧🇷 Anycast|巴西
+      - 🇨🇦 Anycast|加拿大
+      - 🇨🇦 中转|加拿大01
+      - 🇨🇳 Anycast|台湾
+      - 🇨🇳 中转|台湾-原生04
+      - 🇨🇳 中转|台湾-原生05
+      - 🇨🇳 中转|台湾-原生06
+      - 🇨🇳 中转|台湾-原生07
+      - 🇨🇳 中转|台湾-原生08
+      - 🇨🇳 中转|台湾-原生09
+      - 🇨🇳 中转|台湾-原生10
+      - 🇩🇪 Anycast|德国
+      - 🇫🇷 Anycast|法国
+      - 🇬🇧 Anycast|英国
+      - 🇭🇰 Anycast|香港
+      - 🇭🇰 福利|香港01|0.1x|限速10Mbps
+      - 🇮🇳 Anycast|印度
+      - 🇯🇵 Anycast|日本
+      - 🇯🇵 中转|日本01
+      - 🇯🇵 中转|日本02
+      - 🇯🇵 中转|日本03
+      - 🇯🇵 中转|日本04
+      - 🇯🇵 中转|日本05
+      - 🇯🇵 福利|日本|0.1x|限速10Mbps
+      - 🇰🇷 Anycast|韩国
+      - 🇰🇷 中转|韩国01
+      - 🇰🇷 中转|韩国02
+      - 🇰🇷 中转|韩国03
+      - 🇳🇱 Anycast|荷兰
+      - 🇷🇺 Anycast|俄罗斯
+      - 🇸🇬 Anycast|新加坡
+      - 🇸🇬 中转|新加坡01
+      - 🇸🇬 中转|新加坡02
+      - 🇸🇬 中转|新加坡03
+      - 🇸🇬 福利|新加坡|0.1x|限速10Mbps
+      - 🇹🇭 Anycast|泰国
+      - 🇹🇷 Anycast|土耳其
+      - 🇺🇸 Anycast|美国
+      - 🇺🇸 中转|美国01
+      - 🇺🇸 中转|美国02
+      - 🇺🇸 中转|美国03
+      - 🇺🇸 中转|美国04
+      - 🇺🇸 中转|美国05
+      - 🇺🇸 福利|美国|0.1x|限速10Mbps
+      - 🏳️‍🌈 下载专用|0.8x|支持大流量
 rules:
  - MATCH,🌐 Proxy
