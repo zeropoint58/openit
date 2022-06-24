@@ -14,9 +14,6 @@ sub: # 注有#的是失效的订阅链接
 # GitLab托管clash订阅链接
   - https://gitlab.com/api/v4/projects/35506148/repository/files/data%2Fclash%2Fgeneral.yaml/raw?ref=main&private_token=glpat-JmxhQF1Pta__KamyyKqV #https://t.me/univstar
 # 机场clash订阅链接
-  - https://service-5yrac0fi-1305172221.gz.apigw.tencentcs.com/link/LlrZc0Pbhe5FCSok?clash=1&extend=1
-  - http://api.lipulai.com/api_version2/5xuww2pq3hulqw5n?clash=1
-  - https://api.originconfig.com/link/cvZyWD0RIxkGx0DO?list=clash
 # subconverter订阅转换b642clash订阅链接
  # 自有域名b64订阅链接
 # - https://api.sublink.dev/sub?target=clash&url=https://nullnode.top/nullnode-base64 #nullnode(原moonfree365)
@@ -30,11 +27,6 @@ sub: # 注有#的是失效的订阅链接
  # GitLab托管b64订阅链接
   - https://api.sublink.dev/sub?target=clash&url=https://gitlab.com/xlzlucky/bpjd/-/raw/main/freejd #北葵分享TG@beikui_bot 
  # 机场b64订阅链接
-  - https://api.sublink.dev/sub?target=clash&url=https://sub.sstyle.cc/link/Fik9FJ3Ho8bhyJp4?sub=3
-  - https://api.sublink.dev/sub?target=clash&url=https://renzhesub.com/link/yLmL9JabaIDdP7dJ?sub=1
-  - https://api.sublink.dev/sub?target=clash&url=https://xn--9kqr4k774a.xyz/api/v1/client/subscribe?token=28f744e933c3732b0fe637f9df6ef1ab
-  - https://api.sublink.dev/sub?target=clash&url=https://rss.mugua-sub2.xyz/link/CZKAKgMIQsVbF0iW?sub=3
-  - https://api.sublink.dev/sub?target=clash&url=https://www.992266.xyz/api/v1/client/subscribe?token=ab825616355b0973e4cdfb659665965f
 # proxypool节点池
  # http开头
   - http://wxshi.top:9090/clash/proxies
