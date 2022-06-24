@@ -37,8 +37,12 @@ if __name__ == '__main__':
         subscribe_links = config['sub']
         directories, total = get_file_list()
         data = parse(directories)
-        tfiles = len(data[current_date]) + len(subscribe_links)
-        print(str(tfiles) + " clash configs found")
+        try:
+            tfiles = len(data[current_date]) + len(subscribe_links)
+        except KeyError:
+            print "Error: changfengoos/pub库里没有Clash配置文件可以嫖"
+        else:
+            print(str(tfiles) + "Success: changfengoos/pub库里有Clash配置文件可以嫖")
         processes=[]
         filenames = list()
         filenames = data[current_date]
