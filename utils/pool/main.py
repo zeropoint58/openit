@@ -40,7 +40,7 @@ if __name__ == '__main__':
         try:
             tfiles = len(data[current_date]) + len(subscribe_links)
         except KeyError:
-            print "Error: changfengoos/pub库里没有Clash配置文件可以嫖"
+            print("Error: changfengoos/pub库里没有Clash配置文件可以嫖")
         else:
             print(str(tfiles) + "Success: changfengoos/pub库里有Clash配置文件可以嫖")
         processes=[]
